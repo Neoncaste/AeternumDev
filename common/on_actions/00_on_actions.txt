@@ -31,8 +31,46 @@ on_startup = {
 
 # country
 on_heir_death = {
-	events = {
+		events = {
 		flavor_aet.0006
+	}
+	if = {
+		limit = { has_country_flag = heir_dip_education }
+		clr_country_flag = heir_dip_education
+	}
+	if = {
+		limit = { has_country_flag = heir_mil_education }
+		clr_country_flag = heir_mil_education
+	}
+	if = {
+		limit = { has_country_flag = heir_adm_education }
+		clr_country_flag = heir_adm_education
+	}
+	if = {
+		limit = { has_ruler_flag = well_advised_tutored_heir }
+		clr_ruler_flag = well_advised_tutored_heir
+	}
+	if = {
+		limit = { has_ruler_flag = heir_went_on_grand_tour }
+		clr_ruler_flag = heir_went_on_grand_tour
+	}
+	if = {
+		limit = { has_country_flag = albrecht_achilles_flag }
+		clr_country_flag = albrecht_achilles_flag #Death of original Albrecht Achilles
+	}
+	if = {
+		limit = { has_ruler_flag = sancaga_cikma }
+		clr_ruler_flag = sancaga_cikma
+		every_owned_province = {
+			limit = {
+				has_province_modifier = heir_in_training
+			}
+			remove_province_modifier = heir_in_training
+		}
+	}
+	if = {
+		limit = { has_ruler_flag = returned_from_sancaga_sikma_province }
+		clr_ruler_flag = returned_from_sancaga_sikma_province
 	}
 }
 
@@ -630,48 +668,6 @@ on_bankruptcy = {
 on_diplomatic_annex = {
 	events = {
 		610
-	}
-}
-
-# country
-on_heir_death = {
-	if = {
-		limit = { has_country_flag = heir_dip_education }
-		clr_country_flag = heir_dip_education
-	}
-	if = {
-		limit = { has_country_flag = heir_mil_education }
-		clr_country_flag = heir_mil_education
-	}
-	if = {
-		limit = { has_country_flag = heir_adm_education }
-		clr_country_flag = heir_adm_education
-	}
-	if = {
-		limit = { has_ruler_flag = well_advised_tutored_heir }
-		clr_ruler_flag = well_advised_tutored_heir
-	}
-	if = {
-		limit = { has_ruler_flag = heir_went_on_grand_tour }
-		clr_ruler_flag = heir_went_on_grand_tour
-	}
-	if = {
-		limit = { has_country_flag = albrecht_achilles_flag }
-		clr_country_flag = albrecht_achilles_flag #Death of original Albrecht Achilles
-	}
-	if = {
-		limit = { has_ruler_flag = sancaga_cikma }
-		clr_ruler_flag = sancaga_cikma
-		every_owned_province = {
-			limit = {
-				has_province_modifier = heir_in_training
-			}
-			remove_province_modifier = heir_in_training
-		}
-	}
-	if = {
-		limit = { has_ruler_flag = returned_from_sancaga_sikma_province }
-		clr_ruler_flag = returned_from_sancaga_sikma_province
 	}
 }
 
