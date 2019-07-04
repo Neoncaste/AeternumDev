@@ -1,0 +1,134 @@
+############################################################
+VERSION 1.0
+
+Gameplay changes: 
+
+• 12 new full idea groups added.
+• 21 new advisor types added for both western and asian cultures.
+• Additional generic triggered modifiers.
+
+Government changes:
+
+• Maximum monarch points per monarch increased from 6/6/6 to 8/8/8.
+• Minimum age to abdicate reduced from 60 to 40.
+• Minimum length of rule to enable abdication reduced from 20 to 10.
+• Legitimacy hit for abdication increased from -20 to -50.
+• Prestige hit for abdication decreased from -50 to -20.
+• Parliament debate duration decreased from 5 to 3.
+• Prestige loss if parliament debate fails decreased from -20 to -10.
+
+Diplomatic changes:
+
+• Improve Relation speed decreased from 1 to 0.7.
+• Abandon Union prestige hit increased from -25 to -40.
+• Number of great powers decreased from 8 to 5.
+• Development contribution from subjects to great power rank increased from 0.5 to 0.8.
+• Maximum gold able to be taken in peace deal increased from 5 loans to 8.
+• Share Map Prestige Cost reduced from -15 to -10.
+• Number of possible rivals reduced from 3 to 2.
+• Foreign province control penalty for IA reduced from -0.005 to -0.0025.
+• Months before you can be challenged for Defender of the Faith set increased to 120 from 24.
+• Monthly IA per month per free city increased to 0.008 from 0.005.
+• Lack of electors IA penalty reduced from -0.1 to -0.05.
+• HRE Heretics Penalty reduced from -0.01 to -0.008.
+
+AI changes:
+
+• AI development cap base increased from 10 to 20. 
+• AI development cap multiplier increased from  to 3.
+• AI scoring to give subsidies to nations opposing their rivals increased from 40 to 80.
+• AI scoring for calling crusade on opposing nations increased from 40 to 80.
+• AI scoring for excommunicating opposing nations increased from 40 to 50.
+• AI scoring for taking on foreign debt increased from 0 to 20.
+• Additonal AI scoring for taking on foreign debt for allies increased from 30 to 40.
+• AI base aggressiveness increased from 200 to 300.
+• AI aggressiveness when their enemy is perceived to be weak increased from 300 to 500.
+• AI will want to send 60% of their military into enemy territory when in wars. Increased from 45%.
+• AI army composition improved. 
+• Artillery fraction in AI armies increased from 0.35 to 0.50.
+• AI will more aggressively avoid going over their force limit.
+• Pursue distance for AI armies chasing defeated enemies increased from 100 to 150.
+• The AI will want to buy 1 general per 30 regiments. Increased from 15.
+• The AI will want to buy 1 admiral per 25 ships. Increased from 10.
+• AI desire for releasing a nation in a peace deal if they are the same culture group multiplied by 0.85. Increased from 0.65.
+• AI desire for releasing a nation in a peace deal if they are the same culture group (not same culture) multiplied by 0.85. Increased from 0.65.
+• AI desire for releasing a nation if they are both HRE members increased from 2.0 to 4.0.
+• AI desire for demanding war reparations in a peace deal increased from 0.1 to 0.2.
+• AI desire to declare a crusade against a rival increased from 10 to 20.
+• AI desire to declare a crusade against a rival neighbour increased from 25 to 30.
+• AI reluctance to fire advisors decreased from advisors level 3 to level 2.
+• AI cap on saving ducats increased from 60 months of income to 100.
+• Monthly chance of AI picking a new mission increased from 33 to 66.
+
+Combat changes:
+
+• Maximum war exhaustion increased from 20 to 30.
+• Conquistador cost decreased from 50 to 30.
+• Explorer cost decreased from 50 to 30.
+• Artillery barrage cost decreased from 50 to 30.
+• Naval barrage cost decreased from 50 to 25.
+• Replace rival cost decreased from 100 to 50.
+• Loot devastation impact increased from 10 to 15.
+• Scorched earth devastation impact increased from 5 to 15.
+• Rebel leader base power increased from 20 to 25.
+• Sea landing penalty increased from -2 to -3.
+• Base siege attrition reduced from 1.00 to 0.95.
+
+Graphical changes: 
+
+• Minor replacements to key flags.
+• Border width reduced.
+• Maximum flags displayed beneath a trade node increased from 5 to 10.
+• Trade routes on political map displayed more clearly.
+• Maximum zoom out display for trade routes increased from 400 to 800.
+
+Development Changes:
+
+• Upon reaching certain levels of development provinces will gain certain bonuses displated as a province modifier.
+
+National Mechanics changes:
+
+• Move capital cost recreased from 200 to 150.
+• Duration of unrest after removing an accepted culture increased from 5 years to 20.
+• Overextension potency reduced from 1.0 to 0.8.
+• Overseas overextension potency decreased from 0.5 to 0.4.
+
+Unrest changes:
+
+• Revolt base size increased from 4 to 5.
+
+Estate changes:
+
+• Minimum base decay of estate loyalty decreased from 1.0 to 0.5 per year.
+• Maximum base decay of estate loyalty decreased from 2.0 to 1.0 per year.
+
+Espionage Changes:
+
+• Infiltrate Administration cost reduced from 40 Spy Network size to 25.
+• Sabotage Reputation cost reduced from 60 Spy Network size to 50.
+• Steal Maps cost reduced from 50 to 35.
+• Support Rebels cost reduced from 60 to 45.
+• Sow Discontent cost reduced from 80 to 70.
+• Agitate For Liberty cost reduced from 90 to 70.
+• Sabotage Recruitment cost increased from 80 to 90.
+• Slander Merchants cost decreased from 70 to 65.
+
+Peace Deal Changes:
+
+• Concede Province cost reduced from 1.0 to 0.8
+• Cost to demand capital multiplier increased from 1.2 to 1.5.
+• Cost to take land from non co-belligerants increased from 2 to 3.
+
+############################################################
+
+VERSION 1.1
+
+Improved code efficiency & initialisation systems.
+Added 172 new policies.
+Added dynamic systems for military events.
+Added a new disaster type.
+Added bonuses for gaining great power status.
+Added debuffs for losing great power status.
+Added dynamic systems for government & internal stability events. E.G Government Resigns
+Doubled number of years it takes to lose great power status. #TEMPORARILY DISABLED DUE TO TESTING
+Increased graphical resolution of the trade routes.

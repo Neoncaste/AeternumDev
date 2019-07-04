@@ -1,0 +1,16 @@
+stability system, goes up over time
+Fix ai leader bug
+Proper colonial independence wars
+trade route arrow provinces have modifier that increases prosperity and movement speed
+wise council - add 1+ to each mana for the ruler for 60 months
+leader personality additions 
+
+mkae culture punishing
+stop ai vassals giving rome back to pope
+more trade goods
+army mutiny
+colonial mutiny chance on tarrif increase
+bump up re-election cost to stop 8/8/8 abuse
+increase election cycles
+lower artillery army comp from .50 to .40
+republic nerfs
