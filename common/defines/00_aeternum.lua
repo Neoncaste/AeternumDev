@@ -32,7 +32,7 @@ NDefines.NDiplomacy.ALLY_PEACE_COST_MULT = 3 --The cost of taking land from non 
 NDefines.NDiplomacy.IMPROVE_RELATION_SPEED = 0.7 --Decreased from 1.
 NDefines.NDiplomacy.ABANDON_UNION_PRESTIGE = -40 --Presige loss from abandoning a PU. Increased from -25
 NDefines.NDiplomacy.NUM_OF_GREAT_POWERS = 5 --Decreased from 8
-NDefines.NDiplomacy.LEAVING_GREAT_POWER_YEARS = 0.1 --Increased from 5
+NDefines.NDiplomacy.LEAVING_GREAT_POWER_YEARS = 10 --Increased from 5
 NDefines.NDiplomacy.GREAT_POWER_SUBJECT_CONTRIBUTION = 0.8 --Amount your subjects contribute to your great power rank. Increased from 0.5.
 NDefines.NDiplomacy.PEACE_COST_GOLD_MAX = 8 --Increased from 5
 --NCountry

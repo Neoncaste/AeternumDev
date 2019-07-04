@@ -210,7 +210,10 @@ AI changes:
 • AI ideal artillery fraction decreased from 0.50 to 0.40 to reduce issues in the early game.
 
 Graphical changes:
-• Removed the minor graphical changes in Aeternum to increase compatibility.
+• Removed all custom flags to allow users to use any flag mod of their choice.
+• Removed province border edit to remove very minor incompatabilities.
+• Removed trade wind arrow resolution increase to ensure stable compatibility.
+
 
 
 
