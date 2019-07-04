@@ -1,0 +1,13 @@
+﻿l_english:
+ tiny_settlement:0 "Tiny Settlement"
+ tiny_settlement_desc:0 "The capital of this province can, at best, be described as tiny."
+ minor_settlement:0 "Minor Settlement"
+ minor_settlement_desc:0 "The capital of this province shows promise of growing into something larger, but is currently lackluster."
+ average_settlement:0 "Average Settlement"
+ average_settlement_desc:0 "The capital of this province is unremarkable, but well established. There is significant potential for growth."
+ large_settlement:0 "Large Settlement"
+ large_settlement_desc:0 "The capital of this province is a well connected, large and prosperous settlement."
+ major_settlement:0 "Major Settlement"
+ major_settlement_desc:0 "The capital of this province is a significant, well known settlement with nationwide connections, strong economic assets and a large population."
+ enormous_settlement:0 "Enormous Settlement"
+ enormous_settlement_desc:0 "The capital of this province is a sprawling, prosperous, highly populated city with international renown and connections. This settlement is truly a jewel of the nation."

@@ -1,0 +1,11 @@
+﻿l_english:
+ military_collapse:0 "Military Collapse"
+ military_collapse_desc:0 "Our military capabilities have been almost totally destroyed."
+ disasters_aet.EVTNAME0001:0 "Military Collapse"
+ disasters_aet.EVTDESC0001:0 "The vast majority of our armed forces are now totally ineffective. While we still have some operational forces in the field, our ability to maintain them or recruit additional reinforcements is severely impededed. Our generals are reporting that our garrisons are suffering from desertion en-masse, and regimental commanders are ignoring orders, standing down or retreating across the nation."
+ disasters_aet.EVTOPTA0001:0 "Defeat is almost certain"
+ ###################################################
+ disasters_aet.EVTNAME0002:0 "Recovery Of The Military"
+ disasters_aet.EVTDESC0002:0 "Our forces have recovered from the brink against all odds. We must now use our improving situation to press on and snatch victory from the jaws of defeat. "
+ disasters_aet.EVTOPTA0002:0 "We go forwards. Only forwards."
+ ###################################################

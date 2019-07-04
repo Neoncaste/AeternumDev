@@ -1,0 +1,25 @@
+﻿l_english:
+ aet_paid_off_deserters:0 "Paid Off Deserters"
+ military_aet.EVTNAME0001:0 "Minor Desertions"
+ military_aet.EVTDESC0001:0 "Reports have begun to trickle in of a small percentage of our soldiers abandoning their regiments and disappearing. Although this is concerning, the vast majority of our soldiers remain loyal for now. We must be careful to not inadvertently cause further desertion."
+ military_aet.EVTOPTA0001:0 "Nothing to worry about"
+ military_aet.EVTOPTB0001:0 "Give the troops a small payrise"
+ aet_minor_troop_desertion:0 "Minor Troop Desertion"
+ ###################################################
+ military_aet.EVTNAME0002:0 "Desertions"
+ military_aet.EVTDESC0002:0 "Reports have begun to trickle in of a worrying amount of our soldiers abandoning their regiments and disappearing. Although this is concerning, the majority of our soldiers remain loyal for now. We must be careful to not inadvertently cause further desertion."
+ military_aet.EVTOPTA0002:0 "This cannot be allowed to escalate"
+ military_aet.EVTOPTB0002:0 "Give the troops a payrise"
+ aet_troop_desertion:0 "Desertions"
+ ###################################################
+ military_aet.EVTNAME0003:0 "Large-scale Desertions"
+ military_aet.EVTDESC0003:0 "Reports have begun to trickle in of a significant amount of our soldiers abandoning their regiments and disappearing. Although most of our soldiers remain loyal for now, we cannot afford further setbacks."
+ military_aet.EVTOPTA0003:0 "Our situation is concerning"
+ military_aet.EVTOPTB0003:0 "Give the troops a big payrise"
+ aet_large_troop_desertion:0 "Large-scale Desertions"
+ ###################################################
+ military_aet.EVTNAME0004:0 "Massive Desertions"
+ military_aet.EVTDESC0004:0 "Our troops are abandoning their units en-masse and most regiment strength reports can no longer be considered reliable. We have to reverse this situation immediately or face severe consequences."
+ military_aet.EVTOPTA0004:0 "Alarming"
+ military_aet.EVTOPTB0004:0 "Give the troops a massive payrise"
+ aet_massive_troop_desertion:0 "Massive Desertions"
