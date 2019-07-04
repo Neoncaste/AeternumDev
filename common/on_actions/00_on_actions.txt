@@ -4,6 +4,8 @@
 on_startup = {
 	events = {
 		muslim_school_events.20 #Pick School
+		flavor_aet.0004
+		flavor_aet.0001
 	}
 	if = {
 		limit = {
@@ -13,20 +15,6 @@ on_startup = {
 		remove_country_modifier = tur_janissary
 	}
 	initialize_schools_effect = yes #This is only used here but is used for readability of on_action file.
-}
-
-# country
-on_startup = {
-	events = {
-		flavor_aet.0001
-	}
-}
-
-# country
-on_startup = {
-	events = {
-		flavor_aet.0004
-	}
 }
 
 # country
