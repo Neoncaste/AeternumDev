@@ -391,16 +391,16 @@ competitiveness_ideas = {
 	}
 
 	undercutting = {
-		trade_steering = 0.1
+		trade_steering = 0.33
 	}
 	targeted_boycotting = {
 		embargo_efficiency = 0.25
 	}
 	nationalised_trade_corporation = {
-		center_of_trade_upgrade_cost = -0.50
+		center_of_trade_upgrade_cost = -0.33
 	}
 	pax_commercium = {
-		justify_trade_conflict_cost = -0.50
+		justify_trade_conflict_cost = -0.75
 	}
 	maritime_patrols = {
 		own_coast_naval_combat_bonus = 1.0
@@ -409,7 +409,7 @@ competitiveness_ideas = {
 		diplomatic_reputation = 1
 	}
 	nation_of_opportunity = {
-		global_colonial_growth = 10 
+		global_colonial_growth = 15 
 	}
 
 	ai_will_do = {
@@ -541,11 +541,11 @@ development_ideas = {
 		innovativeness_gain = 0.5
 	}
 	non_discriminatory_trade_practices = {
-		trade_company_investment_cost = -0.33
+		trade_company_investment_cost = -0.25
 		native_assimilation = 0.25
 	}
 	bailouts = {
-		max_absolutism = 10 
+		max_absolutism = 15
 	}
 	ministries = {
 		global_institution_spread = 0.05
@@ -564,13 +564,13 @@ internationalism_ideas = {
 	}
 
 	socialites = {
-		diplomats = 1
+		diplomats = 2
 	}
 	national_archives = {
-		claim_duration = 0.2
+		claim_duration = 0.33
 	}
 	adaptive_foreign_policy = {
-		rival_change_cost = -0.50
+		rival_change_cost = -0.75
 	}
 	deliberate_leaks = {
 		power_projection_from_insults = 0.15
@@ -582,7 +582,7 @@ internationalism_ideas = {
 		spy_offence = 0.25
 	}
 	expanded_court = {
-		diplomatic_upkeep = 1
+		diplomatic_upkeep = 4
 	}
 
 	ai_will_do = {
@@ -620,16 +620,16 @@ strategic_ideas = {
 		artillery_bonus_vs_fort = 1
 	}
 	storehouses = {
-		defensiveness = 0.20
+		defensiveness = 0.33
 	}
 	doubled_watch = {
 		siege_blockade_progress = 1
 	}
 	line_of_battle = {
-		global_naval_engagement_modifier = 0.1
+		global_naval_engagement_modifier = 0.25
 	}
 	field_hospitals = {
-		shock_damage_received = -0.1
+		shock_damage_received = -0.20
 	}
 
 	ai_will_do = {
@@ -645,7 +645,7 @@ raiding_ideas = {
 	}
 
 	impressment = {
-		capture_ship_chance = 0.10
+		capture_ship_chance = 0.25
 	}
 	scourge_of_the_coast = {
 		may_perform_slave_raid = yes
@@ -654,7 +654,7 @@ raiding_ideas = {
 		naval_attrition = -0.15
 	}
 	patrol_ships = {
-		blockade_efficiency = 0.15
+		blockade_efficiency = 0.20
 	}
 	dedicated_drydocks = {
 		global_ship_cost = -0.15

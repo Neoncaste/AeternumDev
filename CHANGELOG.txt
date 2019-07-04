@@ -176,11 +176,30 @@ Cultural ideas: Number of accepted cultures bonus increased from 3 to 5.
 Cultural ideas: Nationalism years reduction increased from -3 to -5.
 Cultural ideas: Promote culture cost bonus increased from -25% to -33%.
 
+Competitive ideas: Trade steering bonus increased from 10% to 33%.
+Competitive ideas: Centre of trade upgrade cost bonus reduced from -50% to -33%.
+Competitive ideas: Justify trade conflict cost bonus increased from -50% to -75%.
+Competitive ideas: Global settler increase bonus increased from 10 to 15.
 
-Raiding ideas: Movement speed on and off boats reduced from +75% to +40%.
+Development ideas: State maintenance modifier bonus increased from -10% to -15%.
+Development ideas: Trade company investment cost bonus decreased from 33% to 25%.
+Development ideas: Max absolutism bonus increased from 10 to 15.
+Development ideas: Institution spread bonus increased from 5% to 10%.
+
+Internationalism ideas: Number of diplomats increased from 1 to 2.
+Internationalism ideas: Claim duration bonus increased from 20% to 33%.
+Internationalism ideas: Rival change cost bonus increased from -50% to -75%.
+Internationalism ideas: Diplomatic slot bonus increased from 1 to 4.
+
 Strategic ideas: Cavalry flanking bonus increased from 10% to 75%.
 Strategic ideas: Reinforcement cost bonus increased from -15% to -50%.
+Strategic ideas: Defensiveness bonus increased from 20% to 33%.
+Strategic ideas: Global naval engagement bonus increased from 10% to 25%.
+Strategic ideas: Shock damage received bonus increased from -10% to -20%.
 
+Raiding ideas: Capture ship chance increased from 10% to 25%
+Raiding ideas: Blockade efficiency bonus increased from 15% to 20%.
+Raiding ideas: Movement speed on and off boats reduced from +75% to +40%.
 
 AI changes:
 AI ideal artillery fraction decreased from 0.50 to 0.40 to reduce issues in the early game.
