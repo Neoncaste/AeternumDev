@@ -127,7 +127,7 @@ country_event = {
 	}
 }
 
-# Aeternum On Heir Death Event CURRENTLY BROKEN 
+# Aeternum On Heir Death Event
 country_event = {
 	id = flavor_aet.0006
 	title = "flavor_aet.EVTNAME0006"

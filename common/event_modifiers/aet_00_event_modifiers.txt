@@ -81,7 +81,6 @@ aet_lose_great_power = {
 	add_unrest = 2
 }
 
-#unused modifiers for v1.2
 aet_heir_death = {
 	add_legitimacy = -10
 	land_morale = -0.05
