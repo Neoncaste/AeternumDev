@@ -1,0 +1,536 @@
+song = {
+	name = "maintheme"
+	
+	chance = {
+		modifier = {
+			factor = 0			#only played in mainscreen.
+		}		
+	}
+}
+
+
+song = {
+	name = "amongthepoor"
+	
+	chance = {
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}		
+	}
+}
+
+
+song = {
+	name = "battleoflepanto"
+
+	chance = {
+		modifier = {
+			factor = 1.25
+			is_at_war = yes
+		}		
+	}
+}
+
+song = {
+	name = "commerceinthepeninsula"
+	
+	chance = {
+		modifier = {
+			factor = 0.75
+			is_at_war = yes
+		}		
+	}
+}
+
+song = {
+	name = "dehominisdignitate"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+song = {
+	name = "eire"
+	
+	chance = {
+		modifier = {
+			factor = 1.5
+			is_at_war = no
+		}		
+	}
+}
+
+
+song = {
+	name = "event_war_battleofbreitenfeld"
+	
+	chance = {
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
+		}			
+	}
+}
+
+song = {
+	name = "inthestreets"
+	
+	chance = {
+		modifier = {
+			factor = 1.5
+			is_at_war = no
+		}		
+	}
+}
+
+song = {
+	name = "kingscourt"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+song = {
+	name = "kingsinthenorth"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+song = {
+	name = "machiavelli"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+song = {
+	name = "mood_discovery"
+	
+	chance = {
+		modifier = {
+			factor = 1.5
+			num_of_colonists = 1
+		}		
+	}
+}
+
+song = {
+	name = "mood_landinsight"
+	
+	chance = {
+		modifier = {
+			factor = 1.25
+			is_at_war = no
+		}		
+	}
+}
+
+song = {
+	name = "moodevent_thesnowiscoming"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+song = {
+	name = "mykingdom"
+	
+	chance = {
+		modifier = {
+			factor = 1.25
+			is_at_war = yes
+		}		
+	}
+}
+
+
+song = {
+	name = "nighttime"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+
+song = {
+	name = "openseas"
+	
+	chance = {
+		modifier = {
+			factor = 1.25
+			is_at_war = no
+		}			
+	}
+}
+
+song = {
+	name = "rideforthvictoriously"
+	
+	chance = {
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}		
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
+		}		
+	}
+}
+
+song = {
+	name = "theageofdiscovery"
+	
+	chance = {
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}	
+		modifier = {
+			factor = 1.5
+			num_of_colonists = 1
+		}			
+	}
+}
+
+
+song = {
+	name = "theendofanera_endcredits"
+	
+	chance = {
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}				
+	}
+}
+
+
+song = {
+	name = "thesoundofsummer"
+	
+	chance = {
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}			
+	}
+}
+
+song = {
+	name = "thestageisset"
+	
+	chance = {
+		modifier = {
+			factor = 1.25
+			is_at_war = yes
+		}		
+	}
+}
+
+song = {
+	name = "thestonemasons"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+
+song = {
+	name = "war_offtowar"
+	
+	chance = {
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}		
+	}
+}
+
+song = {
+	name = "maintheme"
+	
+	chance = {
+		modifier = {
+			factor = 1			
+		}		
+	}
+}
+
+
+song = {
+	name = "Choose Your Path"
+	
+	chance = {
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}		
+	}
+}
+
+
+song = {
+	name = "Battle of Damascus"
+	
+	chance = {
+		modifier = {
+			factor = 1.25
+			is_at_war = yes
+		}		
+	}
+}
+
+song = {
+	name = "City of Jerusalem"
+	
+	chance = {
+		modifier = {
+			factor = 0.75
+			is_at_war = yes
+		}		
+	}
+}
+
+song = {
+	name = "Eine Kleine Court Musik"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+song = {
+	name = "Emperor of These Lands"
+	
+	chance = {
+		modifier = {
+			factor = 1.5
+			is_at_war = no
+		}		
+	}
+}
+
+
+song = {
+	name = "Mare Antlaticum"
+	
+	chance = {
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
+		}			
+	}
+}
+
+song = {
+	name = "Highland Wanderer"
+	
+	chance = {
+		modifier = {
+			factor = 1.5
+			is_at_war = no
+		}		
+	}
+}
+
+song = {
+	name = "A Song for Merchants"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+song = {
+	name = "Land of Glory"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+song = {
+	name = "Night Over Our Empire"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+song = {
+	name = "Discover New Lands"
+	
+	chance = {
+		modifier = {
+			factor = 1.5
+			num_of_colonists = 1
+		}		
+	}
+}
+
+song = {
+	name = "Para Bellum"
+	
+	chance = {
+		modifier = {
+			factor = 1.25
+			is_at_war = no
+		}		
+	}
+}
+
+song = {
+	name = "prologue_europauniversalis"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+
+song = {
+	name = "Somewhere"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+
+song = {
+	name = "Travel South"
+	
+	chance = {
+		modifier = {
+			factor = 1.25
+			is_at_war = no
+		}			
+	}
+}
+
+song = {
+	name = "To Constantinople"
+	
+	chance = {
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}		
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
+		}		
+	}
+}
+
+
+song = {
+	name = "Dies Irae Intro"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+			is_at_war = yes
+		}				
+	}
+}
+
+
+song = {
+	name = "East vs West"
+	
+	chance = {
+		modifier = {
+			factor = 1.25
+			is_at_war = yes
+		}		
+	}
+}
+
+
+song = {
+	name = "A Cruce Victoria"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			is_at_war = yes
+		}		
+	}
+}
+
+
+
+song = {
+	name = "Swashbuckling Privateers"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			is_at_war = yes
+		}				
+	}
+}
+
+
+
+song = {
+	name = "Rome Goes To War"
+	
+	chance = {
+		modifier = {
+			factor = 1
+			is_at_war = yes
+		}				
+	}
+}
+
+
+
+song = {
+	name = "The Senate"
+	
+	chance = {
+		modifier = {
+			factor = 0
+			NOT = { culture_group = levantine } 
+		}
+	}
+}
+############

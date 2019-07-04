@@ -1,0 +1,188 @@
+music = {
+	name = "A Cruce Victoria"
+	file = "A Cruce Victoria.ogg"
+}
+music = {
+	name = "A Song for Merchants"
+	file = "A Song for Merchants.ogg"
+}
+music = {
+	name = "Battle of Damascus"
+	file = "Battle of Damascus.ogg"
+}
+music = {
+	name = "Choose Your Path"
+	file = "Choose Your Path.ogg"
+}
+music = {
+	name = "City of Jerusalem"
+	file = "City of Jerusalem.ogg"
+}
+music = {
+	name = "Dies Irae Intro"
+	file = "Dies Irae Intro.ogg"
+}
+music = {
+	name = "Discover New Lands"
+	file = "Discover New Lands.ogg"
+}
+music = {
+	name = "East vs West"
+	file = "East vs West.ogg"
+}
+music = {
+	name = "Eine Kleine Court Musik"
+	file = "Eine Kleine Court Musik.ogg"
+}
+music = {
+	name = "Emperor of These Lands"
+	file = "Emperor of These Lands.ogg"
+}
+music = {
+	name = "maintheme"
+	file = "maintheme.ogg"
+}
+music = {
+	name = "Highland Wanderer"
+	file = "Highland Wanderer.ogg"
+}
+music = {
+	name = "Land of Glory"
+	file = "Land of Glory.ogg"
+}
+music = {
+	name = "Mare Antlaticum"
+	file = "Mare Antlaticum.ogg"
+}
+music = {
+	name = "Night Over Our Empire"
+	file = "Night Over Our Empire.ogg"
+}
+music = {
+	name = "Para Bellum"
+	file = "Para Bellum.ogg"
+}
+music = {
+	name = "prologue_europauniversalis"
+	file = "prologue_europauniversalis.ogg"
+}
+music = {
+	name = "Somewhere"
+	file = "Somewhere.ogg"
+}
+music = {
+	name = "Swashbuckling Privateers"
+	file = "Swashbuckling Privateers.ogg"
+}
+music = {
+	name = "To Constantinople"
+	file = "To Constantinople.ogg"
+}
+music = {
+	name = "Travel South"
+	file = "Travel South.ogg"
+}
+        music = {
+	name = "amongthepoor"
+	file = "amongthepoor.ogg"
+}
+music = {
+	name = "battleoflepanto"
+	file = "battleoflepanto.ogg"
+}
+music = {
+	name = "commerceinthepeninsula"
+	file = "commerceinthepeninsula.ogg"
+}
+music = {
+	name = "dehominisdignitate"
+	file = "dehominisdignitate.ogg"
+}
+music = {
+	name = "eire"
+	file = "eire.ogg"
+}
+music = {
+	name = "event_war_battleofbreitenfeld"
+	file = "event_war_battleofbreitenfeld.ogg"
+}
+music = {
+	name = "inthestreets"
+	file = "inthestreets.ogg"
+}
+music = {
+	name = "kingscourt"
+	file = "kingscourt.ogg"
+}
+music = {
+	name = "kingsinthenorth"
+	file = "kingsinthenorth.ogg"
+}
+music = {
+	name = "machiavelli"
+	file = "machiavelli.ogg"
+}
+music = {
+	name = "maintheme"
+	file = "maintheme.ogg"
+}
+music = {
+	name = "mood_discovery"
+	file = "mood_discovery.ogg"
+}
+music = {
+	name = "moodevent_thesnowiscoming"
+	file = "moodevent_thesnowiscoming.ogg"
+}
+music = {
+	name = "mood_landinsight"
+	file = "mood_landinsight.ogg"
+}
+music = {
+	name = "mykingdom"
+	file = "mykingdom.ogg"
+}
+music = {
+	name = "nighttime"
+	file = "nighttime.ogg"
+}
+music = {
+	name = "openseas"
+	file = "openseas.ogg"
+}
+music = {
+	name = "rideforthvictoriously"
+	file = "rideforthvictoriously.ogg"
+}
+music = {
+	name = "theageofdiscovery"
+	file = "theageofdiscovery.ogg"
+}
+music = {
+	name = "theendofanera_endcredits"
+	file = "theendofanera_endcredits.ogg"
+}
+music = {
+	name = "thesoundofsummer"
+	file = "thesoundofsummer.ogg"
+}
+music = {
+	name = "thestageisset"
+	file = "thestageisset.ogg"
+}
+music = {
+	name = "thestonemasons"
+	file = "thestonemasons.ogg"
+}
+music = {
+	name = "war_offtowar"
+	file = "war_offtowar.ogg"
+}
+music = {
+	name = "Rome Goes To War"
+	file = "Rome Goes To War.ogg"
+}
+music = {
+	name = "The Senate"
+	file = "The Senate.ogg"
+}
