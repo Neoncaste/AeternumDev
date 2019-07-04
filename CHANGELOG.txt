@@ -132,7 +132,7 @@ Thank you to Arumba for pointing out several flaws in our initial release build.
 
 General changes:
 • Improved code efficiency & initialisation systems.
-• Added 172 new policies.
+• Added 180 new policies.
 
 Gameplay changes:
 • Doubled number of years it takes to lose great power status.
