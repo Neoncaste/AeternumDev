@@ -179,7 +179,7 @@ establish_stock_exchange = {
 	}
 }
 
-permanent_representative = {
+diplomatic_corps = {
 	monarch_power = DIP
 
 	potential = {
