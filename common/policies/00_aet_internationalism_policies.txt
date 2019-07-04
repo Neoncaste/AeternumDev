@@ -81,7 +81,7 @@ global_reach = {
 		full_idea_group = expansion_ideas
 	}
 		
-	global_institution_spread = 0.1
+	global_institution_spread = 0.15
 		
 	ai_will_do = {
 		factor = 1
@@ -89,7 +89,7 @@ global_reach = {
 }
 
 
-placeholder_name = {
+copy_legislation_from_abroad = {
 	monarch_power = ADM
 
 	potential = {
@@ -101,10 +101,8 @@ placeholder_name = {
 		full_idea_group = administrative_ideas
 	}
 		
-	legitimacy = 1
-	devotion = 1
-	horde_unity = 1
-	republican_tradition = 0.5
+	administrative_efficiency = 0.10
+	build_time = -0.10
 		
 	ai_will_do = {
 		factor = 1		
@@ -115,7 +113,7 @@ placeholder_name = {
 	}
 }
 
-placeholder_name = {
+diplomatic_rights = {
 	monarch_power = ADM
 
 	potential = {
@@ -127,18 +125,18 @@ placeholder_name = {
 		full_idea_group = humanist_ideas
 	}
 		
-	missionaries = 1
+	improve_relation_modifier = 0.50
 		
 	ai_will_do = {
 		factor = 1		
 		modifier = {
 			factor = 10
-			num_of_states = 35
+			num_of_diplomatic_relations = 4
 		}
 	}
 }
 
-placeholder_name = {
+stake_our_claims = {
 	monarch_power = ADM
 
 	potential = {
@@ -150,14 +148,14 @@ placeholder_name = {
 		full_idea_group = bureaucratic_ideas
 	}
 		
-	technology_cost = -0.1
+	fabricate_claims_cost= -0.50
 		
 	ai_will_do = {
 		factor = 1
 	}
 }
 
-living_wage = {
+foreign_aid = {
 	monarch_power = ADM
 
 	potential = {
@@ -169,8 +167,7 @@ living_wage = {
 		full_idea_group = industrial_ideas
 	}
 		
-	global_unrest = -1
-	yearly_corruption = -0.1
+	defensiveness = 0.25
 		
 	ai_will_do = {
 		factor = 1.5
@@ -189,14 +186,14 @@ global_culture_shift = {
 		full_idea_group = cultural_ideas
 	}
 		
-	culture_conversion_cost = -.2
+	culture_conversion_cost = -0.2
 		
 	ai_will_do = {
 		factor = 1
 	}
 }
 
-placeholder_name = {
+international_development = {
 	monarch_power = ADM
 
 	potential = {
@@ -208,8 +205,8 @@ placeholder_name = {
 		full_idea_group = development_ideas
 	}
 		
-	yearly_corruption = -0.1
-	prestige = 0.5
+	diplomatic_reputation = 1
+	prestige_decay = -0.01
 		
 	ai_will_do = {
 		factor = 1
