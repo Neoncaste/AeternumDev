@@ -198,7 +198,6 @@ harmonious_society = {
 		factor = 1
 		}
 	}
-}
 
 dismantle_ghettos = {
 	monarch_power = MIL
