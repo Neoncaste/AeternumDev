@@ -13,6 +13,7 @@
  flavor_aet.EVTNAME0006:0 "Nation In Mourning"
  flavor_aet.EVTDESC0006:0 "Our heir has died, and with their passing the whole nation mourns."
  flavor_aet.EVTOPTA0006:0 "May they rest in peace."
+ aet_heir_death:0 "Recent Death Of Heir"
  flavor_AETtur.EVTNAME0001:0 "We are victorious!"
  flavor_AETtur.EVTDESC0001:0 "With the capture of our primary goal, Konstantiyye, we can finally claim our place as the chosen followers of Allah. The false Caliphs to the south currently hold our rightful title of protectors of Islam. We must remedy this."
  flavor_AETtur.EVTOPTA0001:0 "We must turn our attention to the decaying false Caliphate in the south."
