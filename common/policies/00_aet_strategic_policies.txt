@@ -1,5 +1,5 @@
 modern_preservatives = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = strategic_ideas
@@ -27,7 +27,7 @@ modern_preservatives = {
 }
 
 religious_levies = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = strategic_ideas
@@ -82,7 +82,7 @@ assignment_of_war_loot = {
 }
 
 rapid_advancement_policy = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = strategic_ideas
@@ -109,7 +109,7 @@ rapid_advancement_policy = {
 }
 
 foundation_of_occupational_administration = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = strategic_ideas
@@ -163,7 +163,7 @@ autonomous_governments = {
 }
 
 military_governors = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = strategic_ideas
@@ -190,7 +190,7 @@ military_governors = {
 }
 
 artillery_foundries = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = strategic_ideas
@@ -238,7 +238,7 @@ cultural_influence = {
 }
 
 foreign_informers = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = strategic_ideas
@@ -249,7 +249,7 @@ foreign_informers = {
 		full_idea_group = development_ideas
 	}
 		
-	liberty_desire_from_subject_development = -0.05
+	liberty_desire_from_subject_development = -0.10
 		
 	ai_will_do = {
 		factor = 1
@@ -269,7 +269,7 @@ foreign_informers = {
 }
 
 espionage_corps = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = strategic_ideas
@@ -296,7 +296,7 @@ espionage_corps = {
 }
 
 continuity_of_military_council = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = strategic_ideas
@@ -377,7 +377,7 @@ exploration_corps = {
 }
 
 trade_escorts = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = strategic_ideas
@@ -409,7 +409,7 @@ trade_escorts = {
 }
 
 recruitment_from_international_ports = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = strategic_ideas
@@ -471,7 +471,7 @@ state_sponsored_piracy = {
 }
 
 hearts_and_minds = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = strategic_ideas
@@ -498,7 +498,7 @@ hearts_and_minds = {
 }
 
 trade_grants = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = strategic_ideas
@@ -525,7 +525,7 @@ trade_grants = {
 }
 
 seize_foreign_capital = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = strategic_ideas

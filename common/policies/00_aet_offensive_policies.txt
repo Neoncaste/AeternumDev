@@ -19,7 +19,7 @@ church_grants = {
 }
 
 seize_resource_stockpiles = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = offensive_ideas
@@ -39,7 +39,7 @@ seize_resource_stockpiles = {
 }
 
 standardise_communication = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = offensive_ideas
@@ -67,7 +67,7 @@ standardise_communication = {
 }
 
 recruitment_drive = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = offensive_ideas
@@ -108,7 +108,7 @@ foreign_legion = {
 }
 
 declare_free_trade = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = offensive_ideas
@@ -147,7 +147,7 @@ blackmail_foreign_scientists = {
 }
 
 diversify_sphere_of_influence_economy = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = offensive_ideas

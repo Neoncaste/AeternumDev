@@ -1,5 +1,5 @@
 chain_of_command = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = defensive_ideas
@@ -19,7 +19,7 @@ chain_of_command = {
 }
 
 weapon_stockpiles = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = defensive_ideas
@@ -39,7 +39,7 @@ weapon_stockpiles = {
 }
 
 encourage_patriotism = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = defensive_ideas
@@ -63,7 +63,7 @@ encourage_patriotism = {
 }
 
 secret_technologies = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = defensive_ideas
@@ -83,7 +83,7 @@ secret_technologies = {
 }
 
 defence_of_the_empire = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = defensive_ideas
@@ -115,7 +115,7 @@ defence_of_the_empire = {
 }
 
 sell_titles = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = defensive_ideas
@@ -159,7 +159,7 @@ trade_protection = {
 }
 
 precautionary_expansion = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = defensive_ideas

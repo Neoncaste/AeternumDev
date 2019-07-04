@@ -27,7 +27,7 @@ protectionist_policy = {
 }
 
 employ_foreign_troops = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = plutocracy_ideas
@@ -66,7 +66,7 @@ empower_influential_families = {
 		full_idea_group = cultural_ideas
 	}
 		
-	advisor_cost = -0.20
+	advisor_cost = -0.15
 	female_advisor_chance = 0.33
 		
 	ai_will_do = {
@@ -112,7 +112,7 @@ private_investors_in_government_projects = {
 }
 
 traditional_officer_families = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = plutocracy_ideas
@@ -144,7 +144,7 @@ traditional_officer_families = {
 }
 
 devolved_government = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = plutocracy_ideas
@@ -191,7 +191,7 @@ encourage_meritocracy = {
 }
 
 promote_influential_family_claims_abroad = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = plutocracy_ideas

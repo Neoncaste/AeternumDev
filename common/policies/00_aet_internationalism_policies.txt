@@ -50,7 +50,7 @@ tolerance_act = {
 }
 
 establish_economic_footholds_abroad = { 
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = internationalism_ideas
@@ -70,7 +70,7 @@ establish_economic_footholds_abroad = {
 }
 
 global_reach = { 
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = internationalism_ideas
@@ -90,7 +90,7 @@ global_reach = {
 
 
 copy_legislation_from_abroad = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = internationalism_ideas
@@ -114,7 +114,7 @@ copy_legislation_from_abroad = {
 }
 
 diplomatic_rights = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = internationalism_ideas
@@ -137,7 +137,7 @@ diplomatic_rights = {
 }
 
 stake_our_claims = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = internationalism_ideas
@@ -156,7 +156,7 @@ stake_our_claims = {
 }
 
 foreign_aid = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = internationalism_ideas
@@ -194,7 +194,7 @@ global_culture_shift = {
 }
 
 international_development = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = internationalism_ideas

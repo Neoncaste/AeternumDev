@@ -1,5 +1,5 @@
 claim_resurgence = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = imperial_ideas
@@ -27,7 +27,7 @@ claim_resurgence = {
 }
 
 establish_imperial_inquisition = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = imperial_ideas
@@ -58,7 +58,7 @@ establish_imperial_inquisition = {
 }
 
 establish_economic_forum = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = imperial_ideas
@@ -78,7 +78,7 @@ establish_economic_forum = {
 }
 
 enlargement_policies = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = imperial_ideas
@@ -148,7 +148,7 @@ imperial_citizenship = {
 }
 
 dominion_act = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = imperial_ideas
@@ -168,7 +168,7 @@ dominion_act = {
 }
 
 nationalised_foundries = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = imperial_ideas
@@ -188,7 +188,7 @@ nationalised_foundries = {
 }
 
 bolster_act = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = imperial_ideas

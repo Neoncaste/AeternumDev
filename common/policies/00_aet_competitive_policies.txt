@@ -19,7 +19,7 @@ school_of_economics = {
 }
 
 sanction_church_seizures_of_wealth = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = competitive_ideas
@@ -93,7 +93,7 @@ subsidise_private_ventures = {
 }
 
 crush_government_nepotism = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = competitive_ideas
@@ -119,7 +119,7 @@ crush_government_nepotism = {
 }
 
 patrol_trade_routes = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = competitive_ideas
@@ -182,7 +182,7 @@ living_wage = {
 }
 
 tax_relief_for_immigrants = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = competitive_ideas
@@ -202,7 +202,7 @@ tax_relief_for_immigrants = {
 }
 
 tenant_rights = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = competitive_ideas

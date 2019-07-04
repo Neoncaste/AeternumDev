@@ -19,7 +19,7 @@ expand_tithe_to_nobles = {
 }
 
 family_patronage = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = aristocracy_ideas
@@ -39,7 +39,7 @@ family_patronage = {
 }
 
 foreign_court_connections = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = aristocracy_ideas
@@ -63,7 +63,7 @@ foreign_court_connections = {
 }
 
 bursarys = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = aristocracy_ideas
@@ -83,7 +83,7 @@ bursarys = {
 }
 
 hereditary_peers = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = aristocracy_ideas
@@ -103,7 +103,7 @@ hereditary_peers = {
 }
 
 adapt_to_the_monarch = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = aristocracy_ideas
@@ -143,7 +143,7 @@ compete_for_government_contracts = {
 }
 
 family_alliances = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = aristocracy_ideas

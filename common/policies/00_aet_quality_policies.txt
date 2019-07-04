@@ -1,5 +1,5 @@
 splendid_court = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = quality_ideas
@@ -74,7 +74,7 @@ expanded_legal_code = {
 }
 
 defence_of_vital_cities = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = quality_ideas
@@ -98,7 +98,7 @@ defence_of_vital_cities = {
 }
 
 learn_from_the_conquered = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = quality_ideas
@@ -130,7 +130,7 @@ learn_from_the_conquered = {
 }
 
 the_cohesion_act = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = quality_ideas

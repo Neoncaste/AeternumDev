@@ -1,5 +1,5 @@
 scorched_earth_act = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = unity_ideas
@@ -29,7 +29,7 @@ enlarge_clergy = {
 		full_idea_group = religious_ideas
 	}
 		
-	missionaries = 1
+	missionaries = 2
 		
 	ai_will_do = {
 		factor = 1
@@ -48,7 +48,7 @@ enlarge_clergy = {
 }
 
 communion_tax = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = unity_ideas
@@ -90,7 +90,7 @@ expansion_doctrine = {
 }
 
 local_representation = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = unity_ideas
@@ -113,7 +113,7 @@ local_representation = {
 }
 
 eradicate_persecution = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = unity_ideas
@@ -136,7 +136,7 @@ eradicate_persecution = {
 }
 
 positive_discrimination = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = unity_ideas
@@ -201,7 +201,7 @@ harmonious_society = {
 }
 
 dismantle_ghettos = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = unity_ideas

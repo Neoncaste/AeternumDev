@@ -1,5 +1,5 @@
 regimental_traditions = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = professionalism_ideas
@@ -27,7 +27,7 @@ regimental_traditions = {
 }
 
 prayer_sites_in_all_camps = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = professionalism_ideas
@@ -58,7 +58,7 @@ prayer_sites_in_all_camps = {
 }
 
 vetted_officials = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = professionalism_ideas
@@ -78,7 +78,7 @@ vetted_officials = {
 }
 
 colonial_officers = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = professionalism_ideas
@@ -162,7 +162,7 @@ indiscriminate_recruitment = {
 }
 
 military_records = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = professionalism_ideas
@@ -205,7 +205,7 @@ government_certifications = {
 }
 
 multifaith_policy = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = professionalism_ideas
@@ -320,7 +320,7 @@ diplomatic_immunity = {
 }
 
 targeted_domination_of_trade = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = professionalism_ideas
@@ -348,7 +348,7 @@ targeted_domination_of_trade = {
 }
 
 native_scouts = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = professionalism_ideas
@@ -408,7 +408,7 @@ colony_missions = {
 }
 
 mandatory_lifeboats = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = professionalism_ideas
@@ -432,7 +432,7 @@ mandatory_lifeboats = {
 }
 
 imperial_fortresses = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = professionalism_ideas
@@ -452,7 +452,7 @@ imperial_fortresses = {
 }
 
 constituent_council = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = professionalism_ideas

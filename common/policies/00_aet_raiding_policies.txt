@@ -1,5 +1,5 @@
 corsair_meritocracy = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = raiding_ideas
@@ -30,7 +30,7 @@ corsair_meritocracy = {
 }
 
 code_of_honour = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = raiding_ideas
@@ -92,7 +92,7 @@ impressment_of_engineers = {
 }
 
 strategically_experienced_captains = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = raiding_ideas
@@ -123,7 +123,7 @@ strategically_experienced_captains = {
 }
 
 naval_academy = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = raiding_ideas
@@ -216,7 +216,7 @@ naval_council = {
 }
 
 economic_privateers = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = raiding_ideas
@@ -227,7 +227,7 @@ economic_privateers = {
 		full_idea_group = industrial_ideas
 	}
 		
-	production_efficiency = 0.1
+	production_efficiency = 0.15
 		
 	ai_will_do = {
 		factor = 1
@@ -247,7 +247,7 @@ economic_privateers = {
 }
 
 influence_in_global_ports = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = raiding_ideas
@@ -278,7 +278,7 @@ influence_in_global_ports = {
 }
 
 foreign_informers = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = raiding_ideas
@@ -309,7 +309,7 @@ foreign_informers = {
 }
 
 targeting_of_wagon_trains = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = raiding_ideas
@@ -320,7 +320,7 @@ targeting_of_wagon_trains = {
 		full_idea_group = spy_ideas
 	}
 		
-	hostile_attrition = 1
+	hostile_attrition = 1.5
 		
 	ai_will_do = {
 		factor = 1
@@ -371,7 +371,7 @@ smuggling_routes = {
 }
 
 tariff_avoidance = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = raiding_ideas
@@ -383,6 +383,7 @@ tariff_avoidance = {
 	}
 		
 	trade_goods_size_modifier = 0.10
+	global_tax_income = 0.10
 		
 	ai_will_do = {
 		factor = 1
@@ -433,7 +434,7 @@ crew_settlement = {
 }
 
 coastal_defence_force = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = raiding_ideas
@@ -464,7 +465,7 @@ coastal_defence_force = {
 }
 
 standardised_signals = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = raiding_ideas
@@ -507,6 +508,7 @@ state_sponsored_piracy = {
 	}
 		
 	trade_power_in_fleet_modifier = 1 #flagship fleet only
+	global_tax_income = 0.10
 		
 	ai_will_do = {
 		factor = 1
@@ -526,7 +528,7 @@ state_sponsored_piracy = {
 }
 
 false_flag_policy = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = raiding_ideas
@@ -557,7 +559,7 @@ false_flag_policy = {
 }
 
 headhunting_of_foreign_talent = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = raiding_ideas
@@ -590,7 +592,7 @@ headhunting_of_foreign_talent = {
 }
 
 seize_foreign_capital = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = raiding_ideas

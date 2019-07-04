@@ -58,7 +58,7 @@ church_funding = {
 }
 
 fieldcraft_training = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = logistics_ideas
@@ -107,7 +107,7 @@ scientific_expeditions = {
 }
 
 regular_standards_testing = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = logistics_ideas
@@ -135,7 +135,7 @@ regular_standards_testing = {
 }
 
 battle_pay = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = logistics_ideas
@@ -163,7 +163,7 @@ battle_pay = {
 }
 
 central_war_planning = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = logistics_ideas
@@ -183,7 +183,7 @@ central_war_planning = {
 }
 
 production_lines = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = logistics_ideas
@@ -207,7 +207,7 @@ production_lines = {
 }
 
 road_building_program = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = logistics_ideas
@@ -311,7 +311,7 @@ diplomatic_immunity = {
 }
 
 clippers = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = logistics_ideas
@@ -339,7 +339,7 @@ clippers = {
 }
 
 expedition_fleets = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = logistics_ideas
@@ -367,7 +367,7 @@ expedition_fleets = {
 }
 
 resupply_missions = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = logistics_ideas
@@ -398,7 +398,7 @@ resupply_missions = {
 }
 
 recruit_from_foreign_universities = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = logistics_ideas
@@ -450,7 +450,7 @@ imperial_audits = {
 }
 
 one_nation_policy = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = logistics_ideas
@@ -478,7 +478,7 @@ one_nation_policy = {
 }
 
 government_supply_contracts = {
-	monarch_power = DIP
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = logistics_ideas
