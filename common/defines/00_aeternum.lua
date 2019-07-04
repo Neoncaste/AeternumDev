@@ -65,6 +65,9 @@ NDefines.NCountry.OVEREXTENSION_FACTOR = 0.8 --Decreased from 1.0, overextension
 NDefines.NCountry.OVEREXTENSION_OVERSEAS_FACTOR = 0.4 --Decreased fron 0.5, Fewer rebels, more dangerous when they do spawn.
 NDefines.NCountry.DEVELOPMENT_CAP_BASE = 20	-- Increased from 10AI will not develop provinces that have more development than this or DEVELOPMENT_CAP_MULT*original development (whichever is bigger)
 NDefines.NCountry.DEVELOPMENT_CAP_MULT = 3 -- Increased from 2
+NDefines.NCountry.STRENGTHEN_GOVERNMENT_REPUBLICAN_TRADITION = 6 --Increased from 3
+NDefines.NCountry.NORMAL_ELECTION_CYCLE = 6 --Increased from 4
+
 
 --NMilitary
 --Changes to combat
@@ -102,3 +105,5 @@ NDefines.NAI.MISSION_PICK_CHANCE = 66 -- Increased from 33. Monthly chance of AI
 --NGraphics
 NDefines.NGraphics.MAX_TRADE_NODE_FLAGS_SHOWN = 10 --Increased from 5
 NDefines.NGraphics.DRAW_TRADEROUTES_CUTOFF = 800 --Increased from 400
+
+NDefines.NNationDesigner.RULER_MAX_SKILL = 8 --Increased from 6

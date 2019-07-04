@@ -133,13 +133,17 @@ Thank you to Arumba for pointing out several flaws in our initial release build.
 General changes:
 • Improved code efficiency & initialisation systems.
 • Added 172 new policies.
-• Doubled number of years it takes to lose great power status. #TEMPORARILY DISABLED DUE TO TESTING
+
+Gameplay changes:
+• Doubled number of years it takes to lose great power status.
 • Added dynamic systems for military events.
 • Added a new disaster type.
 • Added bonuses for gaining great power status.
 • Added debuffs for losing great power status.
 • Added dynamic systems for government & internal stability events. E.G Government Resigns
-
+• Republic election cycle increased from 4 to 6 years.
+• Strengthen government cost for republics increased from 3 to 6 republican tradition.
+• Updated the nation designer to allow for Aeternum's 8/8/8 monarch point cap.
 
 • Idea group balance changes:
 • Imperial ideas: Number of states added increased from 5 to 10.
