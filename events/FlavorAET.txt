@@ -145,6 +145,7 @@ country_event = {
 	}
 	
 	option = {
+		name = flavor_aet.EVTOPTA0001
 		add_country_modifier = {
 		name = "aet_heir_death"
 		duration = 182
