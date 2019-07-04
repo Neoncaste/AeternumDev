@@ -1,0 +1,692 @@
+spriteTypes = {	
+
+
+	spriteType = {
+		name = "GFX_advisor_chancellor"
+		texturefile = "gfx//interface//advisors//chancellor.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_chancellor"
+		texturefile = "gfx//interface//advisors//asian_chancellor.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_chancellor_female"
+		texturefile = "gfx//interface//advisors//chancellor_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_chancellor_female"
+		texturefile = "gfx//interface//advisors//asian_chancellor_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	########################################################
+	spriteType = {
+		name = "GFX_advisor_chamberlain"
+		texturefile = "gfx//interface//advisors//chamberlain.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_chamberlain"
+		texturefile = "gfx//interface//advisors//asian_chamberlain.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_chamberlain_female"
+		texturefile = "gfx//interface//advisors//chamberlain_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_chamberlain_female"
+		texturefile = "gfx//interface//advisors//asian_chamberlain_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#######################################################
+	spriteType = {
+		name = "GFX_advisor_eunuch"
+		texturefile = "gfx//interface//advisors//eunuch.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_eunuch"
+		texturefile = "gfx//interface//advisors//asian_eunuch.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_monetary_regulator_female"
+		texturefile = "gfx//interface//advisors//eunuch_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_eunuch_female"
+		texturefile = "gfx//interface//advisors//asian_eunuch_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	######################################################
+	spriteType = {
+		name = "GFX_advisor_engineer"
+		texturefile = "gfx//interface//advisors//engineer.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_engineer"
+		texturefile = "gfx//interface//advisors//engineer.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_engineer_female"
+		texturefile = "gfx//interface//advisors//engineer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_engineer_female"
+		texturefile = "gfx//interface//advisors//asian_engineer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	########################################################
+	spriteType = {
+		name = "GFX_advisor_governor"
+		texturefile = "gfx//interface//advisors//governor.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_governor"
+		texturefile = "gfx//interface//advisors//asian_governor_keeper.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_governor_female"
+		texturefile = "gfx//interface//advisors//governor_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_governor_female"
+		texturefile = "gfx//interface//advisors//asian_governor_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	########################################################
+	spriteType = {
+		name = "GFX_advisor_seneschal"
+		texturefile = "gfx//interface//advisors//seneschal.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_seneschal"
+		texturefile = "gfx//interface//advisors//asian_seneschal.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_seneschal_female"
+		texturefile = "gfx//interface//advisors//seneschal_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_seneschal_female"
+		texturefile = "gfx//interface//advisors//asian_seneschal_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#############################################################
+	spriteType = {
+		name = "GFX_advisor_intendant"
+		texturefile = "gfx//interface//advisors//intendant.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_intendant"
+		texturefile = "gfx//interface//advisors//asian_intendant.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_intendant_female"
+		texturefile = "gfx//interface//advisors//intendant_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_intendant_female"
+		texturefile = "gfx//interface//advisors//asian_intendant_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#############################################################
+	#########################DIPLOMATIC##########################
+	##########################ADVISORS###########################
+	#############################################################
+	spriteType = {
+		name = "GFX_advisor_ambassador"
+		texturefile = "gfx//interface//advisors//ambassador.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_ambassador"
+		texturefile = "gfx//interface//advisors//asian_ambassador.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_ambassador_female"
+		texturefile = "gfx//interface//advisors//ambassador_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_ambassador_female"
+		texturefile = "gfx//interface//advisors//asian_ambassador_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	########################################################
+	spriteType = {
+		name = "GFX_advisor_nautical_engineer"
+		texturefile = "gfx//interface//advisors//nautical_engineer.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_nautical_engineer"
+		texturefile = "gfx//interface//advisors//asian_nautical_engineer.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_nautical_engineer_female"
+		texturefile = "gfx//interface//advisors//nautical_engineer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_nautical_engineer_female"
+		texturefile = "gfx//interface//advisors//asian_nautical_engineer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#######################################################
+	spriteType = {
+		name = "GFX_advisor_monetary_regulator"
+		texturefile = "gfx//interface//advisors//monetary_regulator.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_monetary_regulator"
+		texturefile = "gfx//interface//advisors//asian_monetary_regulator.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_monetary_regulator_female"
+		texturefile = "gfx//interface//advisors//monetary_regulator_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_monetary_regulator_female"
+		texturefile = "gfx//interface//advisors//asian_monetary_regulator_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	######################################################
+	spriteType = {
+		name = "GFX_advisor_records_keeper"
+		texturefile = "gfx//interface//advisors//records_keeper.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_records_keeper"
+		texturefile = "gfx//interface//advisors//asian_records_keeper.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_records_keeper_female"
+		texturefile = "gfx//interface//advisors//records_keeper_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_records_keeper_female"
+		texturefile = "gfx//interface//advisors//asian_records_keeper_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	########################################################
+	spriteType = {
+		name = "GFX_advisor_colonial_representative"
+		texturefile = "gfx//interface//advisors//colonial_representative.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_colonial_representative"
+		texturefile = "gfx//interface//advisors//asian_colonial_representative.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_colonial_representative_female"
+		texturefile = "gfx//interface//advisors//colonial_representative_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_colonial_representative_female"
+		texturefile = "gfx//interface//advisors//asian_colonial_representative_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#############################################################
+	spriteType = {
+		name = "GFX_advisor_interior_minister"
+		texturefile = "gfx//interface//advisors//interior_minister.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_interior_minister"
+		texturefile = "gfx//interface//advisors//asian_interior_minister.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_interior_minister_female"
+		texturefile = "gfx//interface//advisors//interior_minister_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_interior_minister_female"
+		texturefile = "gfx//interface//advisors//asian_interior_minister_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#############################################################
+		spriteType = {
+		name = "GFX_advisor_investment_agent"
+		texturefile = "gfx//interface//advisors//investment_agent.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_investment_agent"
+		texturefile = "gfx//interface//advisors//asian_investment_agent.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_investment_agent_female"
+		texturefile = "gfx//interface//advisors//investment_agent_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_investment_agent_female"
+		texturefile = "gfx//interface//advisors//asian_investment_agent_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#############################################################
+	##########################MILITARY###########################
+	##########################ADVISORS###########################
+	#############################################################
+	spriteType = {
+		name = "GFX_advisor_veteran"
+		texturefile = "gfx//interface//advisors//veteran.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_veteran"
+		texturefile = "gfx//interface//advisors//asian_veteran.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_veteran_female"
+		texturefile = "gfx//interface//advisors//veteran_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_veteran_female"
+		texturefile = "gfx//interface//advisors//asian_veteran_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#############################################################
+	spriteType = {
+		name = "GFX_advisor_drillmaster"
+		texturefile = "gfx//interface//advisors//drillmaster.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_drillmaster"
+		texturefile = "gfx//interface//advisors//asian_drillmaster.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_drillmaster_female"
+		texturefile = "gfx//interface//advisors//drillmaster_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_drillmaster_female"
+		texturefile = "gfx//interface//advisors//asian_drillmaster_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#############################################################
+	spriteType = {
+		name = "GFX_advisor_infantry_officer"
+		texturefile = "gfx//interface//advisors//infantry_officer.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_infantry_officer"
+		texturefile = "gfx//interface//advisors//asian_infantry_officer.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_infantry_officer_female"
+		texturefile = "gfx//interface//advisors//infantry_officer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_infantry_officer_female"
+		texturefile = "gfx//interface//advisors//asian_infantry_officer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#############################################################
+	spriteType = {
+		name = "GFX_advisor_cavalry_officer"
+		texturefile = "gfx//interface//advisors//cavalry_officer.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_cavalry_officer"
+		texturefile = "gfx//interface//advisors//asian_cavalry_officer.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_cavalry_officer_female"
+		texturefile = "gfx//interface//advisors//cavalry_officer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_cavalry_officer_female"
+		texturefile = "gfx//interface//advisors//asian_cavalry_officer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#############################################################
+	spriteType = {
+		name = "GFX_advisor_artillery_officer"
+		texturefile = "gfx//interface//advisors//artillery_officer.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_artillery_officer"
+		texturefile = "gfx//interface//advisors//asian_artillery_officer.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_artillery_officer_female"
+		texturefile = "gfx//interface//advisors//artillery_officer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_artillery_officer_female"
+		texturefile = "gfx//interface//advisors//asian_artillery_officer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#############################################################
+	spriteType = {
+		name = "GFX_advisor_civilian_liaison"
+		texturefile = "gfx//interface//advisors//civilian_liaison.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_civilian_liaison"
+		texturefile = "gfx//interface//advisors//asian_civilian_liaison.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_civilian_liaison_female"
+		texturefile = "gfx//interface//advisors//civilian_liaison_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_civilian_liaison_female"
+		texturefile = "gfx//interface//advisors//asian_civilian_liaison_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	#############################################################
+	spriteType = {
+		name = "GFX_advisor_logistics_officer"
+		texturefile = "gfx//interface//advisors//logistics_officer.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_logistics_officer"
+		texturefile = "gfx//interface//advisors//asian_logistics_officer.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_logistics_officer_female"
+		texturefile = "gfx//interface//advisors//logistics_officer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_asiangfx_logistics_officer_female"
+		texturefile = "gfx//interface//advisors//asian_logistics_officer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+}

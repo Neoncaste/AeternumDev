@@ -1,0 +1,8 @@
+spriteTypes = {
+ spriteType = {
+  name = "GFX_disaster_military_collapse"
+  texturefile = "gfx//interface//disasters//military_collapse.dds"
+  noOfFrames = 3
+  loadType = "INGAME"
+ }
+}

@@ -1,0 +1,107 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_imperial_ideas"
+		texturefile = "gfx//interface//ideas//idea_imperial_ideas.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_bureaucratic_ideas"
+		texturefile = "gfx//interface//ideas//idea_bureaucratic_ideas.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_professionalism_ideas"
+		texturefile = "gfx//interface//ideas//idea_professionalism_ideas.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_industrial_ideas"
+		texturefile = "gfx//interface//ideas//idea_industrial_ideas.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_unity_ideas"
+		texturefile = "gfx//interface//ideas//idea_unity_ideas.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_logistics_ideas"
+		texturefile = "gfx//interface//ideas//idea_logistics_ideas.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+		spriteType = {
+		name = "GFX_idea_cultural_ideas"
+		texturefile = "gfx//interface//ideas//idea_cultural_ideas.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+		spriteType = {
+		name = "GFX_idea_raiding_ideas"
+		texturefile = "gfx//interface//ideas//idea_raiding_ideas.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+			spriteType = {
+		name = "GFX_idea_patronage_ideas"
+		texturefile = "gfx//interface//ideas//idea_patronage_ideas.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+				spriteType = {
+		name = "GFX_idea_expansionist_ideas"
+		texturefile = "gfx//interface//ideas//idea_expansionist_ideas.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+					spriteType = {
+		name = "GFX_idea_competitiveness_ideas"
+		texturefile = "gfx//interface//ideas//idea_competitiveness_ideas.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+						spriteType = {
+		name = "GFX_idea_strategic_ideas"
+		texturefile = "gfx//interface//ideas//idea_strategic_ideas.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+							spriteType = {
+		name = "GFX_idea_development_ideas"
+		texturefile = "gfx//interface//ideas//idea_development_ideas.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+								spriteType = {
+		name = "GFX_idea_internationalism_ideas"
+		texturefile = "gfx//interface//ideas//idea_internationalism_ideas.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+									spriteType = {
+		name = "GFX_idea_commercial_ideas"
+		texturefile = "gfx//interface//ideas//idea_commercial_ideas.tga"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+}
