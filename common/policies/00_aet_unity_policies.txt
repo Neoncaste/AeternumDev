@@ -1,0 +1,220 @@
+scorched_earth_act = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = unity_ideas
+		has_idea_group = innovativeness_ideas
+	}
+	allow = {
+		full_idea_group = unity_ideas
+		full_idea_group = innovativeness_ideas
+	}
+		
+	enemy_core_creation = 0.33
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+enlarge_clergy = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = unity_ideas
+		has_idea_group = religious_ideas
+	}
+	allow = {
+		full_idea_group = unity_ideas
+		full_idea_group = religious_ideas
+	}
+		
+	missionaries = 1
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			religious_ideas = 1
+		}
+		modifier = {
+		factor = 10
+		estate_influence = {
+		estate = estate_church
+			influence = 60
+			}
+		}
+	}
+}
+
+communion_tax = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = unity_ideas
+		has_idea_group = economic_ideas
+	}
+	allow = {
+		full_idea_group = unity_ideas
+		full_idea_group = economic_ideas
+	}
+		
+	global_tax_modifier = 0.20
+		
+	ai_will_do = {
+		factor = 2
+	}
+}
+
+expansion_doctrine = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = unity_ideas
+		has_idea_group = expansion_ideas
+	}
+	allow = {
+		full_idea_group = unity_ideas
+		full_idea_group = expansion_ideas
+	}
+		
+	core_creation = -0.15
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			great_power_rank = 1
+		}
+	}
+}
+
+local_representation = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = unity_ideas
+		has_idea_group = administrative_ideas
+	}
+	allow = {
+		full_idea_group = unity_ideas
+		full_idea_group = administrative_ideas
+	}
+		
+	global_unrest = -3
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 10
+			num_of_states = 35
+		}
+	}
+}
+
+eradicate_persecution = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = unity_ideas
+		has_idea_group = humanist_ideas
+	}
+	allow = {
+		full_idea_group = unity_ideas
+		full_idea_group = humanist_ideas
+	}
+		
+	stability_cost_modifier = -0.33
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 10
+			num_of_states = 35
+		}
+	}
+}
+
+positive_discrimination = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = unity_ideas
+		has_idea_group = bureaucratic_ideas
+	}
+	allow = {
+		full_idea_group = unity_ideas
+		full_idea_group = bureaucratic_ideas
+	}
+		
+	advisor_pool = 5
+	global_unrest = -1
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+desegregate_regiments = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = unity_ideas
+		has_idea_group = industrial_ideas
+	}
+	allow = {
+		full_idea_group = unity_ideas
+		full_idea_group = industrial_ideas
+	}
+		
+	discipline = 0.10
+	land_morale = 0.05
+		
+	ai_will_do = {
+		factor = 1.5
+	}
+}
+
+harmonious_society = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = unity_ideas
+		has_idea_group = cultural_ideas
+	}
+	allow = {
+		full_idea_group = unity_ideas
+		full_idea_group = cultural_ideas
+	}
+		
+	liberty_desire = -10
+	yearly_harmony = 1
+	monthly_piety = 0.1
+	monthly_karma = 0.1
+	papal_influence = 0.5
+	administrative_efficiency = 0.05
+		
+	ai_will_do = {
+		factor = 1
+		}
+	}
+}
+
+dismantle_ghettos = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = unity_ideas
+		has_idea_group = development_ideas
+	}
+	allow = {
+		full_idea_group = unity_ideas
+		full_idea_group = development_ideas
+	}
+		
+	idea_cost = -0.15
+		
+	ai_will_do = {
+		factor = 1
+	}
+}

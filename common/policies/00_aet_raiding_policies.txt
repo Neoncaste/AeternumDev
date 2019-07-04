@@ -1,0 +1,621 @@
+corsair_meritocracy = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = innovativeness_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = innovativeness_ideas
+	}
+		
+	admiral_skill_gain_modifier = 0.25
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.1
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+code_of_honour = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = religious_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = religious_ideas
+	}
+		
+	capture_ship_chance = 0.1 
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.1
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+impressment_of_engineers = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = economic_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = economic_ideas
+	}
+		
+	galley_cost = -0.25
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.1
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+strategically_experienced_captains = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = expansion_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = expansion_ideas
+	}
+		
+	global_naval_engagement_modifier = 0.10
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.1
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+naval_academy = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = administrative_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = administrative_ideas
+	}
+		
+	admiral_cost = -0.25
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.1
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+ransom_policy = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = humanist_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = humanist_ideas
+	}
+		
+	diplomatic_reputation = 1
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.1
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+naval_council = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = bureaucratic_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = bureaucratic_ideas
+	}
+		
+	dip_advisor_cost = -0.33
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.1
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+economic_privateers = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = industrial_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = industrial_ideas
+	}
+		
+	production_efficiency = 0.1
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.1
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+influence_in_global_ports = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = cultural_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = cultural_ideas
+	}
+		
+	naval_attrition = -0.20
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.1
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+foreign_informers = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = development_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = development_ideas
+	}
+		
+	loot_amount = 0.33
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.1
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+targeting_of_wagon_trains = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = spy_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = spy_ideas
+	}
+		
+	hostile_attrition = 1
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 1.5
+			dip = 4
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+smuggling_routes = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = diplomatic_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = diplomatic_ideas
+	}
+		
+	envoy_travel_time = -0.2 
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 1.5
+			dip = 4
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+tariff_avoidance = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = trade_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = trade_ideas
+	}
+		
+	trade_goods_size_modifier = 0.10
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 1.5
+			dip = 4
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+crew_settlement = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = exploration_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = exploration_ideas
+	}
+		
+	global_colonial_growth = 15
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 5
+			num_of_colonists = 2
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+coastal_defence_force = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = maritime_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = maritime_ideas
+	}
+		
+	own_coast_naval_combat_bonus = 1.0
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 5
+			naval_forcelimit = 33
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+standardised_signals = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = influence_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = influence_ideas
+	}
+		
+	sunk_ship_morale_hit_recieved = -0.1
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 5
+			navy_tradition = 75
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+state_sponsored_piracy = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = imperial_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = imperial_ideas
+	}
+		
+	trade_power_in_fleet_modifier = 1 #flagship fleet only
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 5
+			navy_tradition = 55
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+false_flag_policy = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = unity_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = unity_ideas
+	}
+		
+	justify_trade_conflict_cost = -0.33
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 5
+			average_effective_unrest = 1.2
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+headhunting_of_foreign_talent = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = competitiveness_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = competitiveness_ideas
+	}
+		
+	innovativeness_gain = 1
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 5
+			any_neighbor_country = {
+			tech_difference = 3
+			}
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+seize_foreign_capital = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = raiding_ideas
+		has_idea_group = internationalism_ideas
+	}
+	allow = {
+		full_idea_group = raiding_ideas
+		full_idea_group = internationalism_ideas
+	}
+		
+	interest = -1
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 5
+			tax_income_percentage = 0.25
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}

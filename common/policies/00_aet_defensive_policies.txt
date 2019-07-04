@@ -1,0 +1,186 @@
+chain_of_command = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = defensive_ideas
+		has_idea_group = bureaucratic_ideas
+	}
+	allow = {
+		full_idea_group = defensive_ideas
+		full_idea_group = bureaucratic_ideas
+	}
+		
+	advisor_pool = 1
+	mil_advisor_cost = -0.33
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+weapon_stockpiles = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = defensive_ideas
+		has_idea_group = industrial_ideas
+	}
+	allow = {
+		full_idea_group = defensive_ideas
+		full_idea_group = industrial_ideas
+	}
+		
+	infantry_cost = -0.20
+	reinforce_cost_modifier = -0.1
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+encourage_patriotism = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = defensive_ideas
+		has_idea_group = cultural_ideas
+	}
+	allow = {
+		full_idea_group = defensive_ideas
+		full_idea_group = cultural_ideas
+	}
+		
+	religious_unity = 0.25
+	global_spy_defence = 0.1
+		
+	ai_will_do = {
+		factor = 1	
+		modifier = {
+			factor = 1.5
+			num_accepted_cultures = 3
+		}
+	}
+}
+
+secret_technologies = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = defensive_ideas
+		has_idea_group = development_ideas
+	}
+	allow = {
+		full_idea_group = defensive_ideas
+		full_idea_group = development_ideas
+	}
+		
+	innovativeness_gain = 0.5
+	land_morale = 0.1
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+defence_of_the_empire = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = defensive_ideas
+		has_idea_group = imperial_ideas
+	}
+	allow = {
+		full_idea_group = defensive_ideas
+		full_idea_group = imperial_ideas
+	}
+		
+	vassal_forcelimit_bonus = 0.25
+	envoy_travel_time = -0.2
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 5
+			navy_tradition = 55
+		}
+		modifier = {
+			factor = 5
+			num_of_subjects = 1
+		}
+	}
+}
+
+sell_titles = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = defensive_ideas
+		has_idea_group = unity_ideas
+	}
+	allow = {
+		full_idea_group = defensive_ideas
+		full_idea_group = unity_ideas
+	}
+		
+	global_tax_modifier = 0.15
+	diplomatic_annexation_cost = -0.2
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+trade_protection = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = defensive_ideas
+		has_idea_group = competitiveness_ideas
+	}
+	allow = {
+		full_idea_group = defensive_ideas
+		full_idea_group = competitiveness_ideas
+	}
+		
+	ship_power_propagation = 0.15
+	global_trade_power = 0.1
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 4
+			light_ship_fraction = 0.33
+		}
+	}
+}
+
+precautionary_expansion = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = defensive_ideas
+		has_idea_group = internationalism_ideas
+	}
+	allow = {
+		full_idea_group = defensive_ideas
+		full_idea_group = internationalism_ideas
+	}
+		
+	colonists = 2
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_colonists = 1 }
+		}	
+		modifier = {
+			factor = 8
+			num_of_colonists = 1
+		}
+	}
+}

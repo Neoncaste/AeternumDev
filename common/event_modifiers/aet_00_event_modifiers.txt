@@ -1,0 +1,89 @@
+##################################################################################################
+# Aeternum Event Modifiers.
+##################################################################################################
+
+#CITY SIZE MODIFIERS
+
+#20-29 Development
+
+major_settlement = {
+	local_tax_modifier = 0.16
+	local_institution_spread = 0.25
+	local_friendly_movement_speed = 0.15
+	local_build_time = -0.05
+	local_defensiveness = 0.075
+	local_unrest = 1
+	local_manpower_modifier = 0.2
+	trade_goods_size_modifier = 0.2
+}
+
+#30+ Development
+
+enormous_settlement = {
+	local_tax_modifier = 0.32
+	institution_growth = 0.50
+	local_friendly_movement_speed = 0.20
+	local_build_time = -0.10
+	local_defensiveness = 0.15
+	local_unrest = 2
+	local_manpower_modifier = 0.3
+	province_trade_power_modifier = 0.16
+	trade_goods_size_modifier = 0.22
+}
+
+#MILITARY MODIIFERS
+
+aet_minor_troop_desertion = {
+	land_morale = -0.05
+	manpower_recovery_speed = -0.05
+	reserves_organisation = -0.05
+	discipline = -0.05
+}
+
+aet_troop_desertion = {
+	land_morale = -0.10
+	manpower_recovery_speed = -0.10
+	reserves_organisation = -0.10
+	discipline = -0.10
+}
+
+aet_large_troop_desertion = {
+	land_morale = -0.15
+	manpower_recovery_speed = -0.15
+	reserves_organisation = -0.15
+	discipline = -0.15
+}
+
+aet_massive_troop_desertion = {
+	land_morale = -0.20
+	manpower_recovery_speed = -0.20
+	reserves_organisation = -0.20
+	discipline = -0.20
+}
+
+aet_paid_off_deserters = { #reference modifier only
+}
+
+##############################
+#DIPLOMATIC MODIFIERS
+#############################
+
+aet_gain_great_power = {
+	land_morale = 0.05
+	diplomatic_reputation = 1
+}
+
+aet_lose_great_power = {
+	add_legitimacy = -25
+	add_prestige = -25
+	land_morale = -0.05
+	diplomatic_reputation = -1
+	add_unrest = 2
+}
+
+#unused modifiers for v1.2
+aet_heir_death = {
+	add_legitimacy = -10
+	land_morale = -0.05
+}
+

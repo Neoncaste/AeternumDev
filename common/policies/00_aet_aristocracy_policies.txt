@@ -1,0 +1,168 @@
+expand_tithe_to_nobles = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = aristocracy_ideas
+		has_idea_group = bureaucratic_ideas
+	}
+	allow = {
+		full_idea_group = aristocracy_ideas
+		full_idea_group = bureaucratic_ideas
+	}
+		
+	global_trade_goods_size_modifier = 0.1 
+	yearly_corruption = -0.1
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+family_patronage = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = aristocracy_ideas
+		has_idea_group = industrial_ideas
+	}
+	allow = {
+		full_idea_group = aristocracy_ideas
+		full_idea_group = industrial_ideas
+	}
+		
+	innovativeness_gain = 0.5 
+	all_power_cost = -0.02
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+foreign_court_connections = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = aristocracy_ideas
+		has_idea_group = cultural_ideas
+	}
+	allow = {
+		full_idea_group = aristocracy_ideas
+		full_idea_group = cultural_ideas
+	}
+		
+	diplomatic_reputation = 1
+	diplomats = 1
+		
+	ai_will_do = {
+		factor = 1	
+		modifier = {
+			factor = 1.5
+			num_accepted_cultures = 2
+		}
+	}
+}
+
+bursarys = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = aristocracy_ideas
+		has_idea_group = development_ideas
+	}
+	allow = {
+		full_idea_group = aristocracy_ideas
+		full_idea_group = development_ideas
+	}
+		
+	prestige = 1
+	monthly_splendor = 1
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+hereditary_peers = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = aristocracy_ideas
+		has_idea_group = imperial_ideas
+	}
+	allow = {
+		full_idea_group = aristocracy_ideas
+		full_idea_group = imperial_ideas
+	}
+		
+	army_tradition_decay = -0.1
+	monarch_admin_power = 1
+		
+	ai_will_do = {
+		factor = 2
+	}
+}
+
+adapt_to_the_monarch = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = aristocracy_ideas
+		has_idea_group = unity_ideas
+	}
+	allow = {
+		full_idea_group = aristocracy_ideas
+		full_idea_group = unity_ideas
+	}
+		
+	institution_spread_from_true_faith = 0.1 
+	culture_conversion_cost = -0.10
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+compete_for_government_contracts = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = aristocracy_ideas
+		has_idea_group = competitiveness_ideas
+	}
+	allow = {
+		full_idea_group = aristocracy_ideas
+		full_idea_group = competitiveness_ideas
+	}
+		
+	build_cost = -0.1
+	administrative_efficiency = 0.10
+		
+	ai_will_do = {		
+		factor = 2
+	}
+}
+
+family_alliances = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = aristocracy_ideas
+		has_idea_group = internationalism_ideas
+	}
+	allow = {
+		full_idea_group = aristocracy_ideas
+		full_idea_group = internationalism_ideas
+	}
+		
+	heir_chance = 0.5
+	prestige = 0.5
+	monthly_support_heir_gain = 0.1
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			num_of_diplomatic_relations = 3 
+		}
+	}
+}

@@ -1,0 +1,59 @@
+military_collapse = {
+	potential = {
+		is_at_war = yes
+	}
+
+	
+	
+	can_start = {
+		has_any_disaster = no
+		has_country_modifier = aet_massive_troop_desertion
+		NOT = { war_score = 0 }
+	}
+	
+	
+	can_stop = {
+		NOT = { has_country_modifier = aet_large_troop_desertion }
+		NOT = { has_country_modifier = aet_massive_troop_desertion }
+		NOT = { has_country_modifier = aet_troop_desertion }
+		war_score = 0
+	}	
+	
+	
+	progress = {
+		modifier = {
+			factor = 1
+			has_wartaxes = yes
+		}		
+		modifier = {
+			factor = 2
+			NOT = { war_score = 0 }
+		}
+		modifier = {
+			factor = 1
+			NOT = { manpower_percentage = 0.20 }
+		}		
+	}
+	
+	can_end = {
+		OR = {
+			is_at_war = no
+			war_score = 10
+		}
+	}
+	
+	modifier = {
+		global_manpower_modifier = -0.65
+		garrison_size = -0.50
+		defensiveness = -0.35
+		army_tradition_decay = 0.25
+		prestige_decay = 0.25
+		global_regiment_recruit_speed = 2
+		land_maintenance_modifier = 0.2
+	}	
+	
+	on_start = disasters_aet.0001
+	on_end = disasters_aet.0002
+
+}
+

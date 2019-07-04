@@ -1,0 +1,216 @@
+establish_merchant_navy = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = naval_ideas
+		has_idea_group = bureaucratic_ideas
+	}
+	allow = {
+		full_idea_group = naval_ideas
+		full_idea_group = bureaucratic_ideas
+	}
+		
+	diplomatic_annexation_cost = -0.2
+	vassal_income = 0.2
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 1.5
+			num_of_subjects = 1
+		}
+		modifier = {
+			factor = 3
+			num_of_subjects = 2
+		}
+	}
+}
+
+pax_industriam = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = naval_ideas
+		has_idea_group = industrial_ideas
+	}
+	allow = {
+		full_idea_group = naval_ideas
+		full_idea_group = industrial_ideas
+	}
+		
+	global_trade_goods_size_modifier = 0.20
+	embargo_efficiency = 0.05
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 1.5
+			production_income_percentage = 0.20
+		}
+		modifier = {
+			factor = 10
+			production_income_percentage = 0.45
+		}
+	}
+}
+
+national_pride_of_navy = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = naval_ideas
+		has_idea_group = cultural_ideas
+	}
+	allow = {
+		full_idea_group = naval_ideas
+		full_idea_group = cultural_ideas
+	}
+		
+	prestige_from_naval = 0.33
+	global_sailors_modifier = 0.33
+		
+	ai_will_do = {
+		factor = 1	
+		modifier = {
+			factor = 1.5
+			num_of_cities = 10
+		}
+	}
+}
+
+penal_colonies = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = naval_ideas
+		has_idea_group = development_ideas
+	}
+	allow = {
+		full_idea_group = naval_ideas
+		full_idea_group = development_ideas
+	}
+		
+	expel_minorities_cost = -0.20
+	treasure_fleet_income = 0.1
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { is_colonial_nation = yes }
+		}			
+		modifier = {
+			factor = 3
+			num_of_colonists = 2 
+		}
+		modifier = {
+			factor = 1.5
+			heavy_ship_fraction = 0.3
+		}
+	}
+}
+
+ships_in_every_ocean = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = naval_ideas
+		has_idea_group = imperial_ideas
+	}
+	allow = {
+		full_idea_group = naval_ideas
+		full_idea_group = imperial_ideas
+	}
+		
+	range = 0.33
+	global_tariffs = 0.25
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 5
+			navy_tradition = 55
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+free_trade_in_territories = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = naval_ideas
+		has_idea_group = unity_ideas
+	}
+	allow = {
+		full_idea_group = naval_ideas
+		full_idea_group = unity_ideas
+	}
+		
+	native_uprising_chance = -0.50
+	missionary_maintenance_cost = -0.33
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+global_crews = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = naval_ideas
+		has_idea_group = competitiveness_ideas
+	}
+	allow = {
+		full_idea_group = naval_ideas
+		full_idea_group = competitiveness_ideas
+	}
+		
+	innovativeness_gain = 0.5
+	administrative_efficiency = 0.1
+		
+	ai_will_do = {		
+		modifier = {
+			factor = 3
+			has_colonist = yes
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.10
+		}
+	}
+}
+
+symbol_of_power = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = naval_ideas
+		has_idea_group = internationalism_ideas 
+	}
+	allow = {
+		full_idea_group = naval_ideas
+		full_idea_group = internationalism_ideas
+	}
+		
+	flagship_durability = 1
+	flagship_morale = 1
+	flagship_naval_engagement_modifier = 1
+	number_of_cannons_flagship_modifier = 0.3
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 1.5
+			num_of_heavy_ship = 1
+		}
+	}
+}

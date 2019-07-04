@@ -1,0 +1,531 @@
+regimental_traditions = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = innovativeness_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = innovativeness_ideas
+	}
+		
+	yearly_absolutism = 0.15
+	prestige_from_land = 0.25
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			army_size_percentage = 0.6
+		}
+		modifier = {
+			factor = 1.5
+			num_of_cities = 24
+		}
+	}
+}
+
+prayer_sites_in_all_camps = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = religious_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = religious_ideas
+	}
+		
+	land_morale = 0.15
+	defensiveness = 0.15
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			religious_ideas = 1
+		}
+		modifier = {
+		factor = 10
+		estate_influence = {
+		estate = estate_church
+			influence = 60
+			}
+		}
+	}
+}
+
+vetted_officials = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = economic_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = economic_ideas
+	}
+		
+	yearly_corruption = -0.1
+	autonomy_change_time = -0.50
+		
+	ai_will_do = {
+		factor = 2
+	}
+}
+
+colonial_officers = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = expansion_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = expansion_ideas
+	}
+		
+	max_absolutism = 10
+	native_assimilation = 0.25
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			num_of_colonists = 1
+		}
+		modifier = {
+			factor = 1.5
+			great_power_rank = 1
+		}
+	}
+}
+
+rotational_regional_recruitment = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = administrative_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = administrative_ideas
+	}
+		
+	recover_army_morale_speed = 0.1
+	manpower_recovery_speed = 0.10
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 1.5
+			had_recent_war = 10
+		}
+		modifier = {
+			factor = 1.5
+			num_of_generals = 2
+		}
+	}
+}
+
+indiscriminate_recruitment = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = humanist_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = humanist_ideas
+	}
+		
+	possible_mercenaries = 0.5
+	land_forcelimit_modifier = 0.1 
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 3
+			num_of_mercenaries = 12
+		}
+		modifier = {
+			factor = 4
+			has_unified_culture_group = no
+		}
+	}
+}
+
+military_records = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = bureaucratic_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = bureaucratic_ideas
+	}
+		
+	reserves_organisation = 0.15
+	rival_border_fort_maintenance = -0.33
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+government_certifications = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = industrial_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = industrial_ideas
+	}
+		
+	administrative_efficiency = 0.2
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 10
+			production_income_percentage = 0.40
+		}
+	}
+}
+
+multifaith_policy = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = cultural_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = cultural_ideas
+	}
+		
+	church_power_modifier = 1
+	papal_influence = 1
+	monthly_fervor_increase = 1
+	yearly_harmony = 1
+	free_leader_pool = 2
+		
+	ai_will_do = {
+		factor = 1	
+		modifier = {
+			factor = 6
+			has_border_with_religious_enemy = yes
+		}
+	}
+}
+
+consolidation = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = development_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = development_ideas
+	}
+		
+	expel_minorities_cost = -0.50
+	establish_order_cost = -0.50
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { is_colonial_nation = yes }
+		}			
+		modifier = {
+			factor = 2
+			trade_income_percentage = 0.25
+		}
+		modifier = {
+			factor = 1.5
+			heavy_ship_fraction = 0.3
+		}
+	}
+}
+
+infiltrate_foreign_banks = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = spy_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = spy_ideas
+	}
+		
+	inflation_action_cost = -0.20
+	inflation_reduction = 0.1
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 2
+			inflation = 5
+		}
+		modifier = {
+			factor = 1.5
+			num_of_loans = 5
+		}
+	}
+}
+
+diplomatic_immunity = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = diplomatic_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = diplomatic_ideas
+	}
+		
+	reduced_liberty_desire = 10
+	discovered_relations_impact = -0.33
+		
+	ai_will_do = {
+		factor = 1	
+		modifier = {
+			factor = 1.5
+			dip = 4
+		}
+		modifier = {
+			factor = 1.5
+			num_of_diplomats = 3
+		}
+	}
+}
+
+targeted_domination_of_trade = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = trade_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = trade_ideas
+	}
+		
+	justify_trade_conflict_cost = -0.2
+	global_trade_power = 0.20
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 1.5
+			num_of_strong_trade_companies = 1
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.33
+		}
+	}
+}
+
+native_scouts = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = exploration_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = exploration_ideas
+	}
+		
+	native_uprising_chance = -0.33
+	range = 0.5 
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 1.5
+			num_of_explorers = 1 
+		}
+		modifier = {
+			factor = 1.5
+			num_of_conquistadors = 1
+		}
+	}
+}
+
+colony_missions = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = maritime_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = maritime_ideas
+	}
+		
+	colonist_placement_chance = 0.25
+	range = 0.10
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 5
+			naval_forcelimit = 33
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+mandatory_lifeboats = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = influence_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = influence_ideas
+	}
+		
+	recover_navy_morale_speed = 0.33
+	sunk_ship_morale_hit_recieved = -0.15
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 3
+			navy_size_percentage = 0.50
+		}
+	}
+}
+
+imperial_fortresses = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = imperial_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = imperial_ideas
+	}
+		
+	garrison_size = 0.33
+	fort_maintenance_modifier = -0.1
+		
+	ai_will_do = {
+		factor = 1.5	
+	}
+}
+
+constituent_council = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = unity_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = unity_ideas
+	}
+		
+	diplomatic_annexation_cost = -0.20
+	claim_duration = 0.20
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 6
+			num_of_subjects = 3
+		}
+		modifier = {
+			factor = 3
+			num_of_subjects = 2
+		}
+		modifier = {
+			factor = 1.5
+			num_of_subjects = 1
+		}
+	}
+}
+
+encourage_gold_rush = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = competitiveness_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = competitiveness_ideas
+	}
+		
+	treasure_fleet_income = 0.15
+	global_colonial_growth = 10
+		
+	ai_will_do = {		
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.25
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.33
+		}
+	}
+}
+
+diplomatic_school = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = professionalism_ideas
+		has_idea_group = internationalism_ideas
+	}
+	allow = {
+		full_idea_group = professionalism_ideas
+		full_idea_group = internationalism_ideas
+	}
+		
+	diplomats = 1
+	diplomatic_reputation = 1
+		
+	ai_will_do = {
+		factor = 1.5
+	}
+}

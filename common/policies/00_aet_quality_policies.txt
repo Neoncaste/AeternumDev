@@ -1,0 +1,204 @@
+splendid_court = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = quality_ideas
+		has_idea_group = bureaucratic_ideas
+	}
+	allow = {
+		full_idea_group = quality_ideas
+		full_idea_group = bureaucratic_ideas
+	}
+		
+	prestige = 0.5
+	prestige_decay = -0.01
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+		}
+	}
+}
+
+bread_and_steel = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = quality_ideas
+		has_idea_group = industrial_ideas
+	}
+	allow = {
+		full_idea_group = quality_ideas
+		full_idea_group = industrial_ideas
+	}
+		
+	global_unrest = -2
+	legitimacy = 1
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 1.5
+			production_income_percentage = 0.20
+		}
+		modifier = {
+			factor = 10
+			production_income_percentage = 0.45
+		}
+	}
+}
+
+expanded_legal_code = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = quality_ideas
+		has_idea_group = cultural_ideas
+	}
+	allow = {
+		full_idea_group = quality_ideas
+		full_idea_group = cultural_ideas
+	}
+		
+	possible_dip_policy = 1
+	free_dip_policy = 1
+		
+	ai_will_do = {
+		factor = 1	
+		modifier = {
+			factor = 1.5
+			num_of_cities = 10
+		}
+	}
+}
+
+defence_of_vital_cities = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = quality_ideas
+		has_idea_group = development_ideas
+	}
+	allow = {
+		full_idea_group = quality_ideas
+		full_idea_group = development_ideas
+	}
+		
+	garrison_size = 0.20
+	global_garrison_growth = 0.15
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			grown_by_development = 50
+		}
+	}
+}
+
+learn_from_the_conquered = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = quality_ideas
+		has_idea_group = imperial_ideas
+	}
+	allow = {
+		full_idea_group = quality_ideas
+		full_idea_group = imperial_ideas
+	}
+		
+	fire_damage_received = -0.1
+	siege_ability = 0.15
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { is_great_power = no }
+		}			
+		modifier = {
+			factor = 5
+			is_great_power = yes
+		}
+		modifier = {
+			factor = 10
+			num_of_continents = 3
+		}
+	}
+}
+
+the_cohesion_act = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = quality_ideas
+		has_idea_group = unity_ideas
+	}
+	allow = {
+		full_idea_group = quality_ideas
+		full_idea_group = unity_ideas
+	}
+		
+	global_heretic_missionary_strength = 0.05
+	missionaries = 1
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			religious_unity = 0.20
+		}
+	}
+}
+
+university_funding = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = quality_ideas
+		has_idea_group = competitiveness_ideas
+	}
+	allow = {
+		full_idea_group = quality_ideas
+		full_idea_group = competitiveness_ideas
+	}
+		
+	embracement_cost = -0.20
+		
+	ai_will_do = {		
+		modifier = {
+			factor = 3
+			num_of_merchants = 3
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.10
+		}
+	}
+}
+
+permanent_representative = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = quality_ideas
+		has_idea_group = internationalism_ideas
+	}
+	allow = {
+		full_idea_group = quality_ideas
+		full_idea_group = internationalism_ideas
+	}
+		
+	envoy_travel_time = -0.2 
+	diplomatic_reputation = 1
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 1.5
+			num_of_diplomatic_relations = 3
+		}
+	}
+}

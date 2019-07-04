@@ -1,0 +1,39 @@
+######################################
+# aet_extensive_war_effort
+######################################
+
+aet_extensive_war_effort = {
+	potential = {
+		num_of_cities = 1
+	}
+	trigger = {
+		is_revolution_target = no
+		has_wartaxes = yes
+		is_in_war = {
+				duration = 1825
+			}
+		}
+	land_forcelimit_modifier = 0.1 #temporary wartime expansion of military
+	global_ship_recruit_speed = -0.05 #war effort to construct ships faster
+	global_regiment_recruit_speed = -0.05 #war effort to recruit men faster
+	tolerance_heretic = -1 #war effort causes internal divisions to flare up
+	tolerance_heathen = -1 #war effort causes internal divisions to flare up
+	stability_cost_modifier = 0.1
+	trade_efficiency = -0.1
+	global_unrest = 2
+}
+
+######################################
+# aet_league_war_tolerance
+######################################
+
+aet_league_war_tolerance = {
+	potential = {
+		is_part_of_hre = yes
+	}
+	trigger = {
+		is_in_league_war = yes
+		}
+	tolerance_heretic = -3
+	tolerance_heathen = -3
+}

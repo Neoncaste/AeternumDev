@@ -1,0 +1,218 @@
+exchange_technology_for_trade_rights = { #THIS ONE IS DONE
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = internationalism_ideas
+		has_idea_group = innovativeness_ideas
+	}
+	allow = {
+		full_idea_group = internationalism_ideas
+		full_idea_group = innovativeness_ideas
+	}
+		
+	global_foreign_trade_power = 0.2
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+tolerance_act = { #THIS ONE IS DONE
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = internationalism_ideas
+		has_idea_group = religious_ideas
+	}
+	allow = {
+		full_idea_group = internationalism_ideas
+		full_idea_group = religious_ideas
+	}
+		
+	global_missionary_strength = 0.01
+	tolerance_heretic = 2
+	tolerance_heathen = 1
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			religious_ideas = 1
+		}
+		modifier = {
+		factor = 10
+		estate_influence = {
+		estate = estate_church
+			influence = 60
+			}
+		}
+	}
+}
+
+establish_economic_footholds_abroad = { #THIS ONE IS DONE
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = internationalism_ideas
+		has_idea_group = economic_ideas
+	}
+	allow = {
+		full_idea_group = internationalism_ideas
+		full_idea_group = economic_ideas
+	}
+		
+	trade_steering = 0.2
+	trade_efficiency = 0.1
+		
+	ai_will_do = {
+		factor = 2
+	}
+}
+
+global_reach = { # EVERYTHING BENEATH THIS AND INCLUDING THIS ONE NEEDS TO BE DONE (ITS JUST COPIED FROM ANOTHER FILE ATM)
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = internationalism_ideas #leave this alone
+		has_idea_group = expansion_ideas  #leave this alone
+	}
+	allow = {
+		full_idea_group = internationalism_ideas #leave this alone
+		full_idea_group = expansion_ideas #leave this alone 
+	}
+		
+	global_institution_spread = 0.1
+		
+	ai_will_do = {
+		factor = 1 #if you're feeling crazy you can add weighting for the ai so they pick and choose it better
+				   #there are examples of this on the other policies just take a look around :) <3
+	}
+}
+
+
+placeholder_name = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = internationalism_ideas
+		has_idea_group = administrative_ideas
+	}
+	allow = {
+		full_idea_group = internationalism_ideas
+		full_idea_group = administrative_ideas
+	}
+		
+	legitimacy = 1
+	devotion = 1
+	horde_unity = 1
+	republican_tradition = 0.5
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 10
+			num_of_states = 35
+		}
+	}
+}
+
+placeholder_name = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = internationalism_ideas
+		has_idea_group = humanist_ideas
+	}
+	allow = {
+		full_idea_group = internationalism_ideas
+		full_idea_group = humanist_ideas
+	}
+		
+	missionaries = 1
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 10
+			num_of_states = 35
+		}
+	}
+}
+
+placeholder_name = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = internationalism_ideas
+		has_idea_group = bureaucratic_ideas
+	}
+	allow = {
+		full_idea_group = internationalism_ideas
+		full_idea_group = bureaucratic_ideas
+	}
+		
+	technology_cost = -0.1
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+living_wage = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = internationalism_ideas
+		has_idea_group = industrial_ideas
+	}
+	allow = {
+		full_idea_group = internationalism_ideas
+		full_idea_group = industrial_ideas
+	}
+		
+	global_unrest = -1
+	yearly_corruption = -0.1
+		
+	ai_will_do = {
+		factor = 1.5
+	}
+}
+
+global_culture_shift = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = internationalism_ideas
+		has_idea_group = cultural_ideas
+	}
+	allow = {
+		full_idea_group = internationalism_ideas
+		full_idea_group = cultural_ideas
+	}
+		
+	culture_conversion_cost = -.2
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+placeholder_name = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = internationalism_ideas
+		has_idea_group = development_ideas
+	}
+	allow = {
+		full_idea_group = internationalism_ideas
+		full_idea_group = development_ideas
+	}
+		
+	yearly_corruption = -0.1
+	prestige = 0.5
+		
+	ai_will_do = {
+		factor = 1
+	}
+}

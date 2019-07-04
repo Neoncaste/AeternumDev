@@ -1,0 +1,222 @@
+school_of_economics = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = competitive_ideas
+		has_idea_group = innovativeness_ideas
+	}
+	allow = {
+		full_idea_group = competitive_ideas
+		full_idea_group = innovativeness_ideas
+	}
+		
+	production_efficiency = 0.15
+	global_trade_power = 0.1
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+sanction_church_seizures_of_wealth = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = competitive_ideas
+		has_idea_group = religious_ideas
+	}
+	allow = {
+		full_idea_group = competitive_ideas
+		full_idea_group = religious_ideas
+	}
+		
+	expel_minorities_cost = -0.15
+	missionary_maintenance_cost = -0.25
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			religious_ideas = 1
+		}
+		modifier = {
+		factor = 10
+		estate_influence = {
+		estate = estate_church
+			influence = 60
+			}
+		}
+	}
+}
+
+regulate_moneylenders = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = competitive_ideas
+		has_idea_group = economic_ideas
+	}
+	allow = {
+		full_idea_group = competitive_ideas
+		full_idea_group = economic_ideas
+	}
+		
+	interest = -1
+	global_tax_modifier = 0.10
+		
+	ai_will_do = {
+		factor = 2
+	}
+}
+
+subsidise_private_ventures = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = competitive_ideas
+		has_idea_group = expansion_ideas
+	}
+	allow = {
+		full_idea_group = competitive_ideas
+		full_idea_group = expansion_ideas
+	}
+		
+	colonists = 3
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			num_of_colonists = 2
+		}
+	}
+}
+
+crush_government_nepotism = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = competitive_ideas
+		has_idea_group = administrative_ideas
+	}
+	allow = {
+		full_idea_group = competitive_ideas
+		full_idea_group = administrative_ideas
+	}
+		
+	legitimacy = 1
+	devotion = 1
+	horde_unity = 1
+	republican_tradition = 0.5
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 10
+			num_of_states = 35
+		}
+	}
+}
+
+patrol_trade_routes = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = competitive_ideas
+		has_idea_group = humanist_ideas
+	}
+	allow = {
+		full_idea_group = competitive_ideas
+		full_idea_group = humanist_ideas
+	}
+		
+	global_autonomy = -0.10
+	prestige = 0.5
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 10
+			num_of_states = 35
+		}
+	}
+}
+
+block_monopolising_mergers = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = competitive_ideas
+		has_idea_group = bureaucratic_ideas
+	}
+	allow = {
+		full_idea_group = competitive_ideas
+		full_idea_group = bureaucratic_ideas
+	}
+		
+	technology_cost = -0.1
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+living_wage = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = competitive_ideas
+		has_idea_group = industrial_ideas
+	}
+	allow = {
+		full_idea_group = competitive_ideas
+		full_idea_group = industrial_ideas
+	}
+		
+	global_unrest = -1
+	yearly_corruption = -0.1
+		
+	ai_will_do = {
+		factor = 1.5
+	}
+}
+
+tax_relief_for_immigrants = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = competitive_ideas
+		has_idea_group = cultural_ideas
+	}
+	allow = {
+		full_idea_group = competitive_ideas
+		full_idea_group = cultural_ideas
+	}
+		
+	global_institution_spread = 0.20
+	production_efficiency = 0.05
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+tenant_rights = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = competitive_ideas
+		has_idea_group = development_ideas
+	}
+	allow = {
+		full_idea_group = competitive_ideas
+		full_idea_group = development_ideas
+	}
+		
+	yearly_corruption = -0.1
+	prestige = 0.5
+		
+	ai_will_do = {
+		factor = 1
+	}
+}

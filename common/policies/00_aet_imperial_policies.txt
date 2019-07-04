@@ -1,0 +1,230 @@
+claim_resurgence = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = imperial_ideas
+		has_idea_group = innovativeness_ideas
+	}
+	allow = {
+		full_idea_group = imperial_ideas
+		full_idea_group = innovativeness_ideas
+	}
+		
+	ae_impact = -0.2
+	prestige_from_land = 0.15
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			army_size_percentage = 0.6
+		}
+		modifier = {
+			factor = 1.5
+			num_of_cities = 24
+		}
+	}
+}
+
+establish_imperial_inquisition = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = imperial_ideas
+		has_idea_group = religious_ideas
+	}
+	allow = {
+		full_idea_group = imperial_ideas
+		full_idea_group = religious_ideas
+	}
+		
+	warscore_cost_vs_other_religion = -0.25
+	prestige_per_development_from_conversion = 0.5
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			religious_ideas = 1
+		}
+		modifier = {
+		factor = 10
+		estate_influence = {
+		estate = estate_church
+			influence = 60
+			}
+		}
+	}
+}
+
+establish_economic_forum = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = imperial_ideas
+		has_idea_group = economic_ideas
+	}
+	allow = {
+		full_idea_group = imperial_ideas
+		full_idea_group = economic_ideas
+	}
+		
+	trade_efficiency = 0.25
+	global_foreign_trade_power = 0.1
+		
+	ai_will_do = {
+		factor = 2
+	}
+}
+
+enlargement_policies = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = imperial_ideas
+		has_idea_group = expansion_ideas
+	}
+	allow = {
+		full_idea_group = imperial_ideas
+		full_idea_group = expansion_ideas
+	}
+		
+	movement_speed = 0.1
+	siege_ability = 0.1
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			great_power_rank = 1
+		}
+	}
+}
+
+no_backwaters_policy = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = imperial_ideas
+		has_idea_group = administrative_ideas
+	}
+	allow = {
+		full_idea_group = imperial_ideas
+		full_idea_group = administrative_ideas
+	}
+		
+	max_states = 8
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 10
+			num_of_states = 35
+		}
+	}
+}
+
+imperial_citizenship = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = imperial_ideas
+		has_idea_group = humanist_ideas
+	}
+	allow = {
+		full_idea_group = imperial_ideas
+		full_idea_group = humanist_ideas
+	}
+		
+	num_accepted_cultures = 5
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 10
+			num_of_states = 35
+		}
+	}
+}
+
+dominion_act = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = imperial_ideas
+		has_idea_group = bureaucratic_ideas
+	}
+	allow = {
+		full_idea_group = imperial_ideas
+		full_idea_group = bureaucratic_ideas
+	}
+		
+	naval_forcelimit_modifier = 0.33
+	land_forcelimit_modifier = 0.20
+		
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+nationalised_foundries = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = imperial_ideas
+		has_idea_group = industrial_ideas
+	}
+	allow = {
+		full_idea_group = imperial_ideas
+		full_idea_group = industrial_ideas
+	}
+		
+	artillery_cost = -0.66
+	fire_damage = 0.1
+		
+	ai_will_do = {
+		factor = 1.5
+	}
+}
+
+bolster_act = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = imperial_ideas
+		has_idea_group = cultural_ideas
+	}
+	allow = {
+		full_idea_group = imperial_ideas
+		full_idea_group = cultural_ideas
+	}
+		
+	mercenary_cost = -0.20
+	possible_mercenaries = 0.5
+		
+	ai_will_do = {
+		factor = 1	
+		modifier = {
+			factor = 0
+		}
+	}
+}
+
+inter_empire_trade = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = imperial_ideas
+		has_idea_group = development_ideas
+	}
+	allow = {
+		full_idea_group = imperial_ideas
+		full_idea_group = development_ideas
+	}
+		
+	production_efficiency = 0.20
+		
+	ai_will_do = {
+		factor = 1
+	}
+}

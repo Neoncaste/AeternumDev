@@ -1,0 +1,533 @@
+increased_fortification_budget = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = innovativeness_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = innovativeness_ideas
+	}
+		
+	fort_maintenance_modifier = -0.1
+	garrison_size = 0.1
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			army_size_percentage = 0.6
+		}
+		modifier = {
+			factor = 1.5
+			num_of_cities = 24
+		}
+	}
+}
+
+church_funding = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = religious_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = religious_ideas
+	}
+		
+	build_cost = -0.15
+	development_cost = -0.05
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			religious_ideas = 1
+		}
+		modifier = {
+		factor = 10
+		estate_influence = {
+		estate = estate_church
+			influence = 60
+			}
+		}
+	}
+}
+
+fieldcraft_training = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = economic_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = economic_ideas
+	}
+		
+	naval_maintenance_modifier = -0.1 
+	land_maintenance_modifier = -0.1
+	
+		
+	ai_will_do = {
+		factor = 2
+	}
+}
+
+scientific_expeditions = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = expansion_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = expansion_ideas
+	}
+		
+	institution_spread_from_true_faith = 0.15
+	technology_cost = -0.05
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			num_of_cities = 30
+		}
+		modifier = {
+			factor = 1.5
+			great_power_rank = 1
+		}
+	}
+}
+
+regular_standards_testing = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = administrative_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = administrative_ideas
+	}
+		
+	drill_decay_modifier = -0.25
+	army_tradition_from_battle = 0.05
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 1.5
+			had_recent_war = 10
+		}
+		modifier = {
+			factor = 1.5
+			num_of_generals = 2
+		}
+	}
+}
+
+battle_pay = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = humanist_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = humanist_ideas
+	}
+		
+	war_exhaustion = -0.15
+	recover_army_morale_speed = 0.2
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 3
+			war_exhaustion = 8
+		}
+		modifier = {
+			factor = 5
+			had_recent_war = 5
+		}
+	}
+}
+
+central_war_planning = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = bureaucratic_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = bureaucratic_ideas
+	}
+		
+	leader_land_manuever = 1
+	blockade_efficiency = 0.20
+		
+	ai_will_do = {
+		factor = 1.5
+	}
+}
+
+production_lines = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = industrial_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = industrial_ideas
+	}
+		
+	caravan_power = 0.2
+	trade_efficiency = 0.33
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 10
+			trade_income_percentage = 0.40
+		}
+	}
+}
+
+road_building_program = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = cultural_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = cultural_ideas
+	}
+		
+	culture_conversion_cost = -0.20
+	harsh_treatment_cost = -0.25
+		
+	ai_will_do = {
+		factor = 1	
+		modifier = {
+			factor = 6
+			has_unified_culture_group = no
+		}
+	}
+}
+
+hoard_ocean_riches = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = development_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = development_ideas
+	}
+		
+	global_ship_repair = 0.33
+	naval_tradition_from_trade = 0.2
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { is_colonial_nation = yes }
+		}			
+		modifier = {
+			factor = 2
+			trade_income_percentage = 0.25
+		}
+		modifier = {
+			factor = 1.5
+			heavy_ship_fraction = 0.3
+		}
+	}
+}
+
+steal_enemy_plans = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = spy_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = spy_ideas
+	}
+		
+	leader_land_shock = 1
+	infantry_shock = 1
+		
+	ai_will_do = {
+		factor = 2		
+		}
+	}
+
+diplomatic_immunity = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = diplomatic_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = diplomatic_ideas
+	}
+		
+	diplomatic_upkeep = 1
+	fabricate_claims_cost= -0.33
+		
+	ai_will_do = {
+		factor = 1	
+		modifier = {
+			factor = 1.5
+			dip = 4
+		}
+		modifier = {
+			factor = 1.5
+			num_of_diplomats = 3
+		}
+	}
+}
+
+clippers = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = trade_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = trade_ideas
+	}
+		
+	cannons_for_hunting_pirates_in_fleet = 1
+	navy_tradition = 1
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 1.5
+			num_of_strong_trade_companies = 1
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.33
+		}
+	}
+}
+
+expedition_fleets = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = exploration_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = exploration_ideas
+	}
+		
+	transport_cost = -0.50
+	transport_power = 0.25
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 1.5
+			num_of_explorers = 1 
+		}
+		modifier = {
+			factor = 1.5
+			num_of_conquistadors = 1
+		}
+	}
+}
+
+resupply_missions = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = maritime_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = maritime_ideas
+	}
+		
+	naval_maintenance_modifier = -0.33
+		
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 0 }
+		}			
+		modifier = {
+			factor = 5
+			naval_forcelimit = 33
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.3
+		}
+	}
+}
+
+recruit_from_foreign_universities = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = influence_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = influence_ideas
+	}
+		
+	advisor_cost = -0.25
+	prestige = 0.5
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 3
+			has_advisor = yes
+		}
+	}
+}
+
+imperial_audits = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = imperial_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = imperial_ideas
+	}
+		
+	yearly_corruption = -0.1
+	global_tax_modifier = 0.10
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 5
+			corruption = 5
+		}
+		modifier = {
+			factor = 1.5
+			corruption = 2
+		}
+	}
+}
+
+one_nation_policy = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = unity_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = unity_ideas
+	}
+		
+	global_missionary_strength = 0.03
+	enforce_religion_cost = -0.5
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 2
+			num_of_provinces_in_territories = 12
+		}
+		modifier = {
+			factor = 1.5
+			num_of_provinces_in_states = 12
+		}
+	}
+}
+
+government_supply_contracts = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = competitiveness_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = competitiveness_ideas
+	}
+		
+	ship_power_propagation = 0.15
+	trade_steering = 0.15
+		
+	ai_will_do = {		
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.25
+		}
+		modifier = {
+			factor = 1.5
+			light_ship_fraction = 0.33
+		}
+	}
+}
+
+study_foreign_policies = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = logistics_ideas
+		has_idea_group = internationalism_ideas
+	}
+	allow = {
+		full_idea_group = logistics_ideas
+		full_idea_group = internationalism_ideas
+	}
+		
+	global_autonomy = -0.05
+	max_states = 5
+		
+	ai_will_do = {
+		factor = 1		
+		modifier = {
+			factor = 5
+			average_home_autonomy = 5 
+		}
+		modifier = {
+			factor = 1.5
+			average_autonomy = 5
+		}
+	}
+}
