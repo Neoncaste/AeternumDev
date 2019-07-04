@@ -1,0 +1,72 @@
+country_event = {
+	id = flavor_AETtur.0001 #intended as an AI enhancement but also a boost to player expansion
+	title = "flavor_AETtur.EVTNAME0001"
+	desc = "flavor_AETtur.EVTDESC0001"
+	picture = HORSE_ON_HORSEBACK_eventPicture
+
+	trigger ={
+		tag = TUR
+		owns = 151
+		religion = sunni
+		
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = {		# 
+		name = "flavor_AETtur.EVTOPTA0001"
+		ai_chance = { factor = 90 }
+			dulkadir_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TUR
+			}
+			aleppo_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TUR
+			}
+			syria_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TUR
+			}
+			palestine_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TUR
+			}
+			bahari_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TUR
+			}
+			delta_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TUR
+			}
+			cyrenaica_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TUR
+			}
+			vostani_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TUR
+			}
+		}
+	}

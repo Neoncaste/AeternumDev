@@ -1,0 +1,210 @@
+########################################
+# Aeternum Military Events             #
+########################################
+
+namespace = military_aet
+normal_or_historical_nations = yes
+
+# Minor Troop Desertion
+country_event = {
+	id = military_aet.0001
+	title = "military_aet.EVTNAME0001"
+	desc = "military_aet.EVTDESC0001"
+	picture = MILITARY_CAMP_eventPicture
+	
+trigger = {
+		is_at_war = yes
+		is_revolution_target = no
+		war_exhaustion = 4
+		NOT = { war_score = 10 }
+		NOT = { has_country_modifier = aet_troop_desertion }
+		NOT = { has_country_modifier = aet_large_troop_desertion }
+		NOT = { has_country_modifier = aet_massive_troop_desertion }
+		NOT = { war_exhaustion = 8 }
+		NOT = { has_country_modifier = aet_paid_off_deserters }
+		}
+	
+	mean_time_to_happen = {
+	months = 24
+	}
+	
+	option = {
+		name = military_aet.EVTOPTA0001
+		remove_country_modifier = aet_troop_desertion
+		remove_country_modifier = aet_large_troop_desertion
+		remove_country_modifier = aet_massive_troop_desertion
+		add_yearly_manpower = -0.5
+		add_country_modifier = {
+			name = "aet_minor_troop_desertion"
+			duration = 365
+		}
+	}
+	
+	option = {
+		name = "military_aet.EVTOPTB0001"
+		remove_country_modifier = aet_troop_desertion
+		remove_country_modifier = aet_large_troop_desertion
+		remove_country_modifier = aet_massive_troop_desertion
+		add_yearly_manpower = -0.25
+		add_mil_power = -50
+		add_years_of_income = -1
+		add_country_modifier = {
+			name = "aet_paid_off_deserters"
+			duration = 912
+		}
+	}
+}
+
+#############################################
+
+# Troop Desertion
+country_event = {
+	id = military_aet.0002
+	title = "military_aet.EVTNAME0002"
+	desc = "military_aet.EVTDESC0002"
+	picture = MILITARY_CAMP_eventPicture
+	
+trigger = {
+		is_at_war = yes
+		is_revolution_target = no
+		war_exhaustion = 8
+		NOT = { war_score = 0 }
+		NOT = { has_country_modifier = aet_minor_troop_desertion }
+		NOT = { has_country_modifier = aet_large_troop_desertion }
+		NOT = { has_country_modifier = aet_massive_troop_desertion }
+		NOT = { has_country_modifier = aet_paid_off_deserters }
+		NOT = { war_exhaustion = 16 }
+		}
+	
+	mean_time_to_happen = {
+	months = 24
+	}
+	
+	option = {
+		name = military_aet.EVTOPTA0002
+		add_yearly_manpower = -1
+		remove_country_modifier = aet_minor_troop_desertion
+		remove_country_modifier = aet_large_troop_desertion
+		remove_country_modifier = aet_massive_troop_desertion
+		add_country_modifier = {
+			name = "aet_troop_desertion"
+			duration = 730
+		}
+	}
+	
+	option = {
+		name = "military_aet.EVTOPTB0002"
+		remove_country_modifier = aet_minor_troop_desertion
+		remove_country_modifier = aet_large_troop_desertion
+		remove_country_modifier = aet_massive_troop_desertion
+		add_yearly_manpower = -0.5
+		add_mil_power = -100
+		add_years_of_income = -2
+		add_country_modifier = {
+			name = "aet_paid_off_deserters"
+			duration = 912
+		}
+	}
+}
+
+#############################################
+
+# Large Troop Desertion
+country_event = {
+	id = military_aet.0003
+	title = "military_aet.EVTNAME0003"
+	desc = "military_aet.EVTDESC0003"
+	picture = MILITARY_CAMP_eventPicture
+	
+trigger = {
+		is_at_war = yes
+		is_revolution_target = no
+		war_exhaustion = 16
+		NOT = { war_score = 0 }
+		NOT = { has_country_modifier = aet_minor_troop_desertion }
+		NOT = { has_country_modifier = aet_troop_desertion }
+		NOT = { has_country_modifier = aet_massive_troop_desertion }
+		NOT = { war_exhaustion = 25 }
+		NOT = { has_country_modifier = aet_paid_off_deserters }
+		}
+	
+	mean_time_to_happen = {
+	months = 24
+	}
+	
+	option = {
+		name = military_aet.EVTOPTA0003
+		add_yearly_manpower = -2
+		remove_country_modifier = aet_minor_troop_desertion
+		remove_country_modifier = aet_troop_desertion
+		remove_country_modifier = aet_massive_troop_desertion
+		add_country_modifier = {
+			name = "aet_large_troop_desertion"
+			duration = 1095
+		}
+	}
+	
+	option = {
+		name = "military_aet.EVTOPTB0003"
+		remove_country_modifier = aet_minor_troop_desertion
+		remove_country_modifier = aet_troop_desertion
+		remove_country_modifier = aet_massive_troop_desertion
+		add_yearly_manpower = -1
+		add_mil_power = -200
+		add_years_of_income = -3
+		add_country_modifier = {
+			name = "aet_paid_off_deserters"
+			duration = 912
+		}
+	}
+}
+#############################################
+
+# Massive Troop Desertion
+country_event = {
+	id = military_aet.0004
+	title = "military_aet.EVTNAME0004"
+	desc = "military_aet.EVTDESC0004"
+	picture = MILITARY_CAMP_eventPicture
+	
+trigger = {
+		is_at_war = yes
+		is_revolution_target = no
+		war_exhaustion = 25
+		NOT = { war_score = 0 }
+		NOT = { has_country_modifier = aet_minor_troop_desertion }
+		NOT = { has_country_modifier = aet_large_troop_desertion }
+		NOT = { has_country_modifier = aet_troop_desertion }
+		NOT = { has_country_modifier = aet_paid_off_deserters }
+		}
+	
+	mean_time_to_happen = {
+	months = 24
+	}
+	
+	option = {
+		name = military_aet.EVTOPTA0004
+		add_yearly_manpower = -4
+		remove_country_modifier = aet_minor_troop_desertion
+		remove_country_modifier = aet_troop_desertion
+		remove_country_modifier = aet_large_troop_desertion
+		add_country_modifier = {
+			name = "aet_massive_troop_desertion"
+			duration = 1460
+		}
+	}
+	
+	option = {
+		name = "military_aet.EVTOPTB0004"
+		remove_country_modifier = aet_minor_troop_desertion
+		remove_country_modifier = aet_troop_desertion
+		remove_country_modifier = aet_large_troop_desertion
+		add_yearly_manpower = -2
+		add_mil_power = -400
+		add_years_of_income = -4
+		add_country_modifier = {
+			name = "aet_paid_off_deserters"
+			duration = 912
+		}
+	}
+}

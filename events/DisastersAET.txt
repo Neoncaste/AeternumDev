@@ -1,0 +1,38 @@
+########################################
+# Aeternum Military Events             #
+########################################
+
+namespace = disasters_aet
+normal_or_historical_nations = yes
+
+# Military Collapse Start
+country_event = {
+	id = disasters_aet.0001
+	title = "disasters_aet.EVTNAME0001"
+	desc = "disasters_aet.EVTDESC0001"
+	picture = MILITARY_CAMP_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = disasters_aet.EVTOPTA0001
+	}
+}
+
+#############################################
+
+# Military Collapse End
+country_event = {
+	id = disasters_aet.0002
+	title = "disasters_aet.EVTNAME0002"
+	desc = "disasters_aet.EVTDESC0002"
+	picture = MILITARY_CAMP_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = disasters_aet.EVTOPTA0002
+	}
+}
+
+#############################################

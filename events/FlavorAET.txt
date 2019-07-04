@@ -1,0 +1,153 @@
+########################################
+# Aeternum Initialisation              #
+########################################
+
+namespace = flavor_aet
+normal_or_historical_nations = yes
+
+# Aeternum Initialisation 
+country_event = {
+	id = flavor_aet.0001
+	title = "flavor_aet.EVTNAME0001"
+	desc = "flavor_aet.EVTDESC0001"
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		ai = no
+	}
+
+	is_triggered_only = yes
+	
+	option = {
+		name = flavor_aet.EVTOPTA0001
+	}
+}
+
+# Giant Among Nations GAIN GREAT POWER STATUS
+country_event = {
+	id = flavor_aet.0002
+	title = "flavor_aet.EVTNAME0002"
+	desc = "flavor_aet.EVTDESC0002"
+	picture = DIPLOMACY_eventPicture
+	
+	trigger = {
+		is_great_power = yes 
+	}
+
+	is_triggered_only = yes
+	
+	option = {
+		name = flavor_aet.EVTOPTA0002
+		add_adm_power = 150
+		add_dip_power = 150
+		add_mil_power = 150
+		remove_country_modifier = aet_lose_great_power
+		add_country_modifier = {
+			name = "aet_gain_great_power"
+			duration = -1
+		}
+	}
+}
+
+# The Giant Falls LOSE GREAT POWER STATUS
+country_event = {
+	id = flavor_aet.0003
+	title = "flavor_aet.EVTNAME0003"
+	desc = "flavor_aet.EVTDESC0003"
+	picture = DIPLOMACY_eventPicture
+	
+	trigger = {
+		is_great_power = no
+	}
+
+	is_triggered_only = yes
+	
+	option = {
+		name = flavor_aet.EVTOPTA0003
+		add_adm_power = -200
+		add_dip_power = -200
+		add_mil_power = -200
+		remove_country_modifier = aet_gain_great_power
+		add_country_modifier = {
+			name = "aet_lose_great_power"
+			duration = 3650
+		}
+	}
+}
+
+# Aeternum Great Power Initialisation Player
+country_event = {
+	id = flavor_aet.0004
+	title = "flavor_aet.EVTNAME0004"
+	desc = "flavor_aet.EVTDESC0004"
+	picture = DIPLOMACY_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		is_great_power = yes
+		NOT = { has_country_modifier = aet_gain_great_power }
+	}
+
+	is_triggered_only = yes
+	
+	option = {
+		add_country_modifier = {
+		name = "aet_gain_great_power"
+		duration = -1
+		}
+	}
+}
+
+# Aeternum Great Power Initialisation AI
+country_event = {
+	id = flavor_aet.0005
+	title = "flavor_aet.EVTNAME0005"
+	desc = "flavor_aet.EVTDESC0005"
+	picture = DIPLOMACY_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		is_great_power = yes
+		NOT = { has_country_modifier = aet_gain_great_power }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		add_country_modifier = {
+		name = "aet_gain_great_power"
+		duration = -1
+		}
+	}
+}
+
+# Aeternum On Heir Death Event CURRENTLY BROKEN 
+country_event = {
+	id = flavor_aet.0006
+	title = "flavor_aet.EVTNAME0006"
+	desc = "flavor_aet.EVTDESC0006"
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		num_of_cities = 1
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		add_country_modifier = {
+		name = "aet_heir_death"
+		duration = 182
+		}
+	}
+}

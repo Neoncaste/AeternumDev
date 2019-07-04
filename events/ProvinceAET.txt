@@ -1,0 +1,83 @@
+########################################
+# Aeternum Province Events            #
+########################################
+
+namespace = province_aet
+normal_or_historical_nations = yes
+
+# Aeternum City Growth 5
+province_event = {
+	id = province_aet.0005
+	title = "province_aet.EVTNAME0001"
+	desc = "province_aet.EVTDESC0001"
+	picture = CITY_VIEW_eventPicture
+	
+	
+	hidden = yes
+
+	trigger = {
+		development = 20
+		NOT = { development = 30 }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			remove_province_modifier = tiny_settlement
+			remove_province_modifier = minor_settlement
+			remove_province_modifier = average_settlement
+			remove_province_modifier = large_settlement
+			remove_province_modifier = enormous_settlement
+			add_province_modifier = {
+				name = major_settlement
+				duration = -1
+			}
+		}
+	}
+	
+	option = {
+		name = province_aet.EVTOPTA0001
+	}
+}
+
+
+
+# Aeternum City Growth 6
+province_event = {
+	id = province_aet.0006
+	title = "province_aet.EVTNAME0001"
+	desc = "province_aet.EVTDESC0001"
+	picture = CITY_VIEW_eventPicture
+	
+	
+	hidden = yes
+
+	trigger = {
+		development = 30
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			remove_province_modifier = tiny_settlement
+			remove_province_modifier = minor_settlement
+			remove_province_modifier = average_settlement
+			remove_province_modifier = large_settlement
+			remove_province_modifier = major_settlement
+			add_province_modifier = {
+				name = enormous_settlement
+				duration = -1
+			}
+		}
+	}
+	
+	option = {
+		name = province_aet.EVTOPTA0001
+	}
+}
