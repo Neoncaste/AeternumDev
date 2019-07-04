@@ -141,8 +141,7 @@ Gameplay changes:
 • Added bonuses for gaining great power status.
 • Added debuffs for losing great power status.
 • Added dynamic systems for government & internal stability events. E.G Government Resigns #####NOT COMPLETE
-• Republic election cycle increased from 4 to 6 years.
-
+• Republican election events changed to avoid abuse of high level rulers.
 • Updated the nation designer to allow for Aeternum's 8/8/8 monarch point cap.
 
 • Idea group balance changes:
