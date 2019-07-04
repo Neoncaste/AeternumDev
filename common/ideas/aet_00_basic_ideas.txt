@@ -15,23 +15,23 @@ imperial_ideas = {
 	}
 
 	place_in_the_sun = {
-		range = 0.25
+		range = 0.33
 	}
 	military_growth = {
-		global_regiment_cost = -0.1
+		global_regiment_cost = -0.15
 	}
 	administrative_expansion = {
-		max_states = 5
+		max_states = 10
 	}
 	propaganda = {
-		global_manpower_modifier = 0.10
+		global_manpower_modifier = 0.20
 	}
 	colonial_elite = {
 		advisor_cost = -0.10
 	}
 	foreign_office = {
 		diplomats = 1
-		spy_offence = 0.250
+		spy_offence = 0.25
 	}
 	colonial_garrison = {
 		land_maintenance_modifier = -0.15
@@ -159,16 +159,16 @@ professionalism_ideas = {
 		movement_speed = 0.05
 	}
 	comissioned_officers = {
-		free_leader_pool = 2
+		free_leader_pool = 3
 	}
 	oath_of_allegiance = {
 		discipline = 0.05
 	}
 	troop_rotation = {
-		reserves_organisation = 0.1
+		reserves_organisation = 0.25
 	}
 	military_academies = {
-		general_cost =-0.2
+		general_cost = -0.33
 	}
 	border_fortifications = {
 		rival_border_fort_maintenance = -0.50
@@ -195,16 +195,16 @@ bureaucratic_ideas = {
 	}
 
 	government_grants = {
-		build_time = -0.15
+		build_time = -0.25
 	}
 	regional_governors = {
-		min_autonomy_in_territories = -0.1
+		min_autonomy_in_territories = -0.15
 	}
 	political_class = {
-		adm_advisor_cost = -0.1
+		adm_advisor_cost = -0.25
 	}
 	splendid_court = {
-	 	advisor_pool = 2
+	 	advisor_pool = 4
 	}
 	local_councils = {
 		development_cost = -0.05
@@ -213,7 +213,7 @@ bureaucratic_ideas = {
 		inflation_action_cost = -0.5
 	}
 	adaptive_administration = {
-		embracement_cost = -0.2
+		embracement_cost = -0.33
 	}
 
 	ai_will_do = {
@@ -244,7 +244,7 @@ industrial_ideas = {
 		embargo_efficiency = 0.15
 	}
 	businessmen = {
-		merchants = 1
+		merchants = 2
 	}
 	corporate_espionage = {
 		spy_offence = 0.2
@@ -254,10 +254,10 @@ industrial_ideas = {
 		stability_cost_modifier = 0.10
 	}
 	large_scale_industry = {
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.33
 	}
 	machinery = {
-		production_efficiency = 0.1
+		production_efficiency = 0.25
 	}
 	rapid_industrialisation = {
 		build_cost = -0.1
@@ -285,25 +285,25 @@ unity_ideas = {
 	}
 	
 	national_spirit = {
-		global_spy_defence = 0.1
+		global_spy_defence = 0.50
 	}
 	homogeneous_beliefs = {
 		warscore_cost_vs_other_religion = -0.25 
 	}
 	language_standardisation = {
-		global_institution_spread = 0.1
+		global_institution_spread = 0.20
 	}
 	internal_talent = {
-	 	same_culture_advisor_cost = -0.5
+	 	same_culture_advisor_cost = -0.15
 	}
 	official_religion = {
 		religious_unity = 0.25
 	}
 	import_tax = {
-		global_own_trade_power = 0.1
+		global_own_trade_power = 0.15
 	}
 	assimiliation = {
-		years_of_nationalism = -3 
+		years_of_nationalism = -10
 	}
 
 	ai_will_do = {
@@ -323,25 +323,25 @@ logistics_ideas = {
 	}
 
 	military_granaries = {
-		global_supply_limit_modifier = 0.2
+		global_supply_limit_modifier = 0.33
 	}
 	unrestricted_warfare = {
-		loot_amount = 0.33
+		loot_amount = 0.75
 	}
 	regional_levies = {
-		land_forcelimit_modifier = 0.1
+		land_forcelimit_modifier = 0.20
 	}
 	quality_rations = {
 		recover_army_morale_speed = 0.15
 	}
 	general_staff = {
-		mil_advisor_cost = -0.1
+		mil_advisor_cost = -0.25
 	}
 	reserves = {
-		garrison_size = 0.2
+		garrison_size = 0.75
 	}
 	supply_ships = {
-		naval_attrition = -0.10
+		naval_attrition = -0.20
 	}
 
 	ai_will_do = {
@@ -357,25 +357,25 @@ cultural_ideas = {
 	}
 
 	open_leadership = {
-		general_cost = -0.1
+		general_cost = -0.25
 	}
 	international_influence = {
-		rebel_support_efficiency = 0.2
+		rebel_support_efficiency = 0.33
 	}
 	public_service = {
-		autonomy_change_time = -0.25
+		autonomy_change_time = -0.33
 	}
 	multi_ethnic_bureaucrats = {
 		free_dip_policy = 1
 	}
 	tolerant_society = {
-		num_accepted_cultures = 3
+		num_accepted_cultures = 5
 	}
 	guaranteed_rights = {
-		years_of_nationalism = -3
+		years_of_nationalism = -5
 	}
 	integrationist_policies = {
-		promote_culture_cost = -0.25 
+		promote_culture_cost = -0.33
 	}
 
 	ai_will_do = {
@@ -611,10 +611,10 @@ strategic_ideas = {
 	}
 
 	striking_force = {
-		cavalry_flanking = 0.1
+		cavalry_flanking = 0.75
 	}
 	militas = {
-		reinforce_cost_modifier = -0.15
+		reinforce_cost_modifier = -0.50
 	}
 	unrelenting_fire = {
 		artillery_bonus_vs_fort = 1
@@ -660,7 +660,7 @@ raiding_ideas = {
 		global_ship_cost = -0.15
 	}
 	raiding_parties = {
-		movement_speed_onto_off_boat_modifier = -0.75
+		movement_speed_onto_off_boat_modifier = -0.40
 	}
 	mortar_ships = {
 		global_naval_barrage_cost = -0.33

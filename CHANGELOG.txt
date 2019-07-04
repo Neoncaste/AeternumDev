@@ -121,14 +121,72 @@ Peace Deal Changes:
 
 ############################################################
 
-VERSION 1.1
+VERSION 1.1 "Arumba" Patch
 
+Thank you to Arumba for pointing out several flaws in our initial release build.
+
+General changes:
 Improved code efficiency & initialisation systems.
 Added 172 new policies.
+Doubled number of years it takes to lose great power status. #TEMPORARILY DISABLED DUE TO TESTING
 Added dynamic systems for military events.
 Added a new disaster type.
 Added bonuses for gaining great power status.
 Added debuffs for losing great power status.
 Added dynamic systems for government & internal stability events. E.G Government Resigns
-Doubled number of years it takes to lose great power status. #TEMPORARILY DISABLED DUE TO TESTING
-Increased graphical resolution of the trade routes.
+
+
+Idea group balance changes:
+Imperial ideas: Number of states added increased from 5 to 10.
+Imperial ideas: Colonial range increased from 25% to 33%.
+Imperial ideas: Regiment cost bonus increased from -10% to -15%.
+Imperial ideas: Manpower bonus increased from 10% to 20%.
+
+Professionalism ideas: Free leader pool bonus increased from 2 to 3.
+Professionalism ideas: Morale damage taken by reserves bonus increased from -10% to -25%.
+Professionalism ideas: General cost bonus increased from -20% to -33%.
+
+Bureaucratic ideas: Build time bonus increased from -15% to -25%.
+Bureaucratic ideas: Minimum autonomy in territory bonus increased from -10% to -15%.
+Bureaucratic ideas: Admin Advisor cost bonus increased from -10% to -25%.
+Bureaucratic ideas: Advisor pool bonus increased from 2 to 4.
+Bureaucratic ideas: Institution embracement cost bonus increased from -20% to -33%.
+
+Industrial ideas: Trade good size bonus increased from 10% to 33%
+Industrial ideas: Production efficiency bonus increased from 10% to 25%.
+Industrial ideas: Number of merchants added increased from 1 to 2.
+
+Unity ideas: Same culture advisor cost reduced from -50% to -15%.
+Unity ideas: Institution spread bonus increased from 10% to 20%.
+Unity ideas: Spy defence bonus increased from 10% to 50%.
+Unity ideas: Trade power bonus increased from 10% to 15%.
+Unity ideas: Nationalism years reduction increased from -3 to -10.
+
+Logistics ideas: Supply limit modifier increased from 20% to 33%.
+Logistics ideas: Loot amount bonus increased from 33% to 75%.
+Logistics ideas: Land forcelimit modifier bonus increased from 10% to 20%.
+Logistics ideas: Garrison size bonus increased from 20% to 75%.
+Logistics ideas: Military advisor cost bonus increased from -10% to -25%.
+Logistics ideas: Naval attrition bonus increased from -10% to -20%.
+
+Cultural ideas: General cost bonus increased from -10% to -25%.
+Cultural ideas: Rebel support efficiency bonus increased from 20% to 33%.
+Cultural ideas: Autonomy change time bonus increased from -25% to -33%.
+Cultural ideas: Number of accepted cultures bonus increased from 3 to 5.
+Cultural ideas: Nationalism years reduction increased from -3 to -5.
+Cultural ideas: Promote culture cost bonus increased from -25% to -33%.
+
+
+Raiding ideas: Movement speed on and off boats reduced from +75% to +40%.
+Strategic ideas: Cavalry flanking bonus increased from 10% to 75%.
+Strategic ideas: Reinforcement cost bonus increased from -15% to -50%.
+
+
+AI changes:
+AI ideal artillery fraction decreased from 0.50 to 0.40 to reduce issues in the early game.
+
+Graphical changes:
+Removed the minor graphical changes in Aeternum to increase compatibility.
+
+
+

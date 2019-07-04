@@ -84,7 +84,7 @@ NDefines.NAI.DIPLOMATIC_ACTION_TAKE_ON_DEBT_ALLY_FACTOR = 40 --AI additional sco
 NDefines.NAI.AGGRESSIVENESS = 300 --Increased from 200. 
 NDefines.NAI.AGGRESSIVENESS_BONUS_EASY_WAR = 500 --Increased from 300
 NDefines.NAI.INVADING_MAX_AWAY_RATIO = 0.60 --Increased from 0.45
-NDefines.NAI.ARTILLERY_FRACTION = 0.50 --Increased from 0.35
+NDefines.NAI.ARTILLERY_FRACTION = 0.40 --Increased from 0.35
 NDefines.NAI.OVER_FORCELIMIT_AVOIDANCE_FACTOR = 15 --Increased from 10
 NDefines.NAI.PURSUE_DISTANCE = 150 --Increased from 100
 NDefines.NAI.REGIMENTS_PER_GENERAL = 30 --Increased from 15. This was increased after extensive testing saw the AI regularly exceeding their leader limit by upwards of 5.
@@ -100,6 +100,5 @@ NDefines.NAI.MAX_SAVINGS = 100 --Increased from 60. AI will keep a maximum of th
 NDefines.NAI.MISSION_PICK_CHANCE = 66 -- Increased from 33. Monthly chance of AI picking a mission if it lacks one (of 100)
 
 --NGraphics
-NDefines.NGraphics.BORDER_WIDTH = 0.5 --Reduced Border Width
 NDefines.NGraphics.MAX_TRADE_NODE_FLAGS_SHOWN = 10 --Increased from 5
 NDefines.NGraphics.DRAW_TRADEROUTES_CUTOFF = 800 --Increased from 400
