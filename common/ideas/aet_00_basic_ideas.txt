@@ -649,6 +649,7 @@ raiding_ideas = {
 	}
 	scourge_of_the_coast = {
 		may_perform_slave_raid = yes
+		global_tax_modifier = 0.05
 	}
 	rationing = {
 		naval_attrition = -0.15
