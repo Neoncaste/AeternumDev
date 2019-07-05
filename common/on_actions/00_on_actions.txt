@@ -15,6 +15,12 @@ on_startup = {
 		remove_country_modifier = tur_janissary
 	}
 	initialize_schools_effect = yes #This is only used here but is used for readability of on_action file.
+
+	#Aeternum Modding Support
+	if = {
+		limit = { NOT = { has_global_flag = aeternum_mod_enabled } }
+		set_global_flag = aeternum_mod_enabled
+	}
 }
 
 # country
