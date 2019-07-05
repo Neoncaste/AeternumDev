@@ -254,10 +254,10 @@ industrial_ideas = {
 		stability_cost_modifier = 0.10
 	}
 	large_scale_industry = {
-		global_trade_goods_size_modifier = 0.33
+		global_trade_goods_size_modifier = 0.20
 	}
 	machinery = {
-		production_efficiency = 0.25
+		production_efficiency = 0.20
 	}
 	rapid_industrialisation = {
 		build_cost = -0.1
