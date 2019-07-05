@@ -22,10 +22,10 @@ country_event = {
 	
 	option = {
 		name = flavor_aet.EVTOPTA0001
-		set_global_flag = aeternum_mod_enabled
+		set_global_flag = aeternum
 		}
 	}
-}
+
 
 # Giant Among Nations GAIN GREAT POWER STATUS
 country_event = {
