@@ -120,7 +120,7 @@ foundation_of_occupational_administration = {
 		full_idea_group = administrative_ideas
 	}
 		
-	ae_impact = -0.2
+	ae_impact = -0.15
 		
 	ai_will_do = {
 		factor = 1		

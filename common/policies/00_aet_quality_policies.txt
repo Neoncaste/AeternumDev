@@ -109,8 +109,8 @@ learn_from_the_conquered = {
 		full_idea_group = imperial_ideas
 	}
 		
-	fire_damage_received = -0.1
-	siege_ability = 0.15
+	fire_damage_received = -0.05
+	siege_ability = 0.10
 		
 	ai_will_do = {
 		factor = 1

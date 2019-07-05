@@ -179,7 +179,7 @@ nationalised_foundries = {
 		full_idea_group = industrial_ideas
 	}
 		
-	artillery_cost = -0.66
+	artillery_cost = -0.25
 	fire_damage = 0.1
 		
 	ai_will_do = {

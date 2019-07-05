@@ -135,7 +135,7 @@ compete_for_government_contracts = {
 	}
 		
 	build_cost = -0.1
-	administrative_efficiency = 0.10
+	administrative_efficiency = 0.05
 		
 	ai_will_do = {		
 		factor = 2

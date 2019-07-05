@@ -195,7 +195,7 @@ production_lines = {
 	}
 		
 	caravan_power = 0.2
-	trade_efficiency = 0.33
+	trade_efficiency = 0.15
 		
 	ai_will_do = {
 		factor = 1		
@@ -275,7 +275,6 @@ steal_enemy_plans = {
 	}
 		
 	leader_land_shock = 1
-	infantry_shock = 1
 		
 	ai_will_do = {
 		factor = 2		
@@ -461,7 +460,7 @@ one_nation_policy = {
 		full_idea_group = unity_ideas
 	}
 		
-	global_missionary_strength = 0.03
+	global_missionary_strength = 0.02
 	enforce_religion_cost = -0.5
 		
 	ai_will_do = {

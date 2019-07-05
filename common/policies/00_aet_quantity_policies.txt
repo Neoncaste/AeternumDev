@@ -11,7 +11,7 @@ veterans_must_serve = {
 	}
 		
 	land_attrition = -0.15
-	global_regiment_cost = -0.20
+	global_regiment_cost = -0.10
 		
 	ai_will_do = {
 		factor = 1
@@ -164,7 +164,7 @@ establish_stock_exchange = {
 		full_idea_group = competitiveness_ideas
 	}
 		
-	merchants = 2
+	merchants = 1
 	caravan_power = 0.2
 		
 	ai_will_do = {		
