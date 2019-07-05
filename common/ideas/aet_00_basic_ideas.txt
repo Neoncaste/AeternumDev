@@ -338,7 +338,7 @@ logistics_ideas = {
 		mil_advisor_cost = -0.25
 	}
 	reserves = {
-		garrison_size = 0.75
+		garrison_size = 0.33
 	}
 	supply_ships = {
 		naval_attrition = -0.20

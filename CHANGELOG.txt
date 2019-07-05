@@ -229,7 +229,7 @@ VERSION 1.2
 Added // new state edicts.
 Army Drill Gain Advisor bonus increased from 10% to -20%.
 Culture Conversion Cost Advisor bonus decreased from -25% to -15%.
-
+• Logistics ideas: Garrison size bonus decreased from 75% to 33%.
 
 
 
