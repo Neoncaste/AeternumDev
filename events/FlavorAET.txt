@@ -22,9 +22,7 @@ country_event = {
 	
 	option = {
 		name = flavor_aet.EVTOPTA0001
-		if = {
-			limit = { NOT = { has_global_flag = aeternum_mod_enabled } }
-			set_global_flag = aeternum_mod_enabled
+		set_global_flag = aeternum_mod_enabled
 		}
 	}
 }
