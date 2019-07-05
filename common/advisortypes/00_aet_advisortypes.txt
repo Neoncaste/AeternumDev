@@ -118,7 +118,7 @@ intendant = {
 	monarch_power = ADM
 	
 	# Bonus
-	culture_conversion_cost = -0.25
+	culture_conversion_cost = -0.15
 	
 	skill_scaled_modifier = { meritocracy = 0.5 }
 
@@ -311,7 +311,7 @@ drillmaster = {
 	monarch_power = MIL
 	
 	# Bonus
-	drill_gain_modifier = 0.1
+	drill_gain_modifier = 0.20
 	
 	skill_scaled_modifier = { meritocracy = 0.5 }
 

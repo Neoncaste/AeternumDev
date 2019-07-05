@@ -1,0 +1,28 @@
+edict_scorched_earth = {
+	potential = {
+		always = yes		#we support "potential" if modders want to have lots and just show some.
+	}
+	
+	allow = {
+		always = yes
+	}
+	
+	modifier = {
+		local_hostile_attrition = 1
+	}
+	
+	color = {  220 178 155 }
+	
+	
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			is_at_war = no
+			}
+		}
+		modifier = {
+			factor = 3
+			is_at_war = yes
+	}
+}

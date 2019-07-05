@@ -217,6 +217,20 @@ Graphical changes:
 • Removed province border edit to remove very minor incompatabilities.
 • Removed trade wind arrow resolution increase to ensure stable compatibility.
 
+############################################################
+############################################################
+############################################################
+############################################################
+############################################################
+############################################################
+
+VERSION 1.2
+
+Added // new state edicts.
+Army Drill Gain Advisor bonus increased from 10% to -20%.
+Culture Conversion Cost Advisor bonus decreased from -25% to -15%.
+
+
 
 
 
