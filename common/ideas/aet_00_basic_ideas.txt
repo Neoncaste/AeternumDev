@@ -290,7 +290,7 @@ unity_ideas = {
 		warscore_cost_vs_other_religion = -0.20 
 	}
 	language_standardisation = {
-		global_institution_spread = 0.20
+		global_institution_spread = 0.10
 	}
 	internal_talent = {
 	 	same_culture_advisor_cost = -0.15
@@ -325,7 +325,7 @@ logistics_ideas = {
 		global_supply_limit_modifier = 0.25
 	}
 	unrestricted_warfare = {
-		loot_amount = 0.66
+		loot_amount = 0.33
 	}
 	regional_levies = {
 		land_forcelimit_modifier = 0.20
@@ -547,7 +547,7 @@ development_ideas = {
 		max_absolutism = 15
 	}
 	ministries = {
-		global_institution_spread = 0.05
+		global_institution_spread = 0.10
 	}
 
 	ai_will_do = {
@@ -628,7 +628,7 @@ strategic_ideas = {
 		global_naval_engagement_modifier = 0.25
 	}
 	field_hospitals = {
-		shock_damage_received = -0.20
+		shock_damage_received = -0.10
 	}
 
 	ai_will_do = {
@@ -646,12 +646,12 @@ raiding_ideas = {
 	impressment = {
 		capture_ship_chance = 0.25
 	}
-	scourge_of_the_coast = {
-		may_perform_slave_raid = yes
-		global_tax_modifier = 0.05
-	}
 	rationing = {
 		naval_attrition = -0.15
+	}
+	scourge_of_the_coast = {
+		global_tax_modifier = 0.05
+		may_perform_slave_raid = yes
 	}
 	patrol_ships = {
 		blockade_efficiency = 0.20
