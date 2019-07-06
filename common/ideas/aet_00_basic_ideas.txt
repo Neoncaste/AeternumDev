@@ -159,7 +159,7 @@ professionalism_ideas = {
 		movement_speed = 0.05
 	}
 	comissioned_officers = {
-		free_leader_pool = 3
+		free_leader_pool = 2
 	}
 	oath_of_allegiance = {
 		discipline = 0.05
@@ -168,7 +168,7 @@ professionalism_ideas = {
 		reserves_organisation = 0.25
 	}
 	military_academies = {
-		general_cost = -0.33
+		general_cost = -0.25
 	}
 	border_fortifications = {
 		rival_border_fort_maintenance = -0.50
@@ -195,7 +195,7 @@ bureaucratic_ideas = {
 	}
 
 	government_grants = {
-		build_time = -0.25
+		build_time = -0.33
 	}
 	regional_governors = {
 		min_autonomy_in_territories = -0.15
@@ -204,7 +204,7 @@ bureaucratic_ideas = {
 		adm_advisor_cost = -0.25
 	}
 	splendid_court = {
-	 	advisor_pool = 4
+	 	advisor_pool = 2
 	}
 	local_councils = {
 		development_cost = -0.05
@@ -267,7 +267,6 @@ industrial_ideas = {
 		factor = 2
 		modifier = {
 			factor = 10
-			tag = ENG
 			tag = GBR
 		}
 		modifier = {
@@ -288,7 +287,7 @@ unity_ideas = {
 		global_spy_defence = 0.50
 	}
 	homogeneous_beliefs = {
-		warscore_cost_vs_other_religion = -0.25 
+		warscore_cost_vs_other_religion = -0.20 
 	}
 	language_standardisation = {
 		global_institution_spread = 0.20
@@ -323,10 +322,10 @@ logistics_ideas = {
 	}
 
 	military_granaries = {
-		global_supply_limit_modifier = 0.33
+		global_supply_limit_modifier = 0.25
 	}
 	unrestricted_warfare = {
-		loot_amount = 0.75
+		loot_amount = 0.66
 	}
 	regional_levies = {
 		land_forcelimit_modifier = 0.20
@@ -357,7 +356,7 @@ cultural_ideas = {
 	}
 
 	open_leadership = {
-		general_cost = -0.25
+		general_cost = -0.20
 	}
 	international_influence = {
 		rebel_support_efficiency = 0.33
@@ -535,7 +534,7 @@ development_ideas = {
 		development_cost = -0.10
 	}
 	flexible_policies = {
-		state_maintenance_modifier = -0.10
+		state_maintenance_modifier = -0.15
 	}
 	marketplace_of_ideas = {
 		innovativeness_gain = 0.5
@@ -579,10 +578,10 @@ internationalism_ideas = {
 		liberty_desire = -15
 	}
 	double_agents = {
-		spy_offence = 0.25
+		spy_offence = 0.33
 	}
 	expanded_court = {
-		diplomatic_upkeep = 4
+		diplomatic_upkeep = 3
 	}
 
 	ai_will_do = {
@@ -614,13 +613,13 @@ strategic_ideas = {
 		cavalry_flanking = 0.75
 	}
 	militas = {
-		reinforce_cost_modifier = -0.50
+		reinforce_cost_modifier = -0.33
 	}
 	unrelenting_fire = {
 		artillery_bonus_vs_fort = 1
 	}
 	storehouses = {
-		defensiveness = 0.33
+		defensiveness = 0.25
 	}
 	doubled_watch = {
 		siege_blockade_progress = 1
@@ -661,7 +660,7 @@ raiding_ideas = {
 		global_ship_cost = -0.15
 	}
 	raiding_parties = {
-		movement_speed_onto_off_boat_modifier = -0.40
+		movement_speed_onto_off_boat_modifier = -0.50
 	}
 	mortar_ships = {
 		global_naval_barrage_cost = -0.33
