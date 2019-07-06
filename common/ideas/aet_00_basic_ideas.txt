@@ -610,7 +610,7 @@ strategic_ideas = {
 	}
 
 	striking_force = {
-		cavalry_flanking = 0.75
+		cavalry_flanking = 0.25
 	}
 	militas = {
 		reinforce_cost_modifier = -0.33
