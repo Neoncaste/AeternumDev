@@ -1,5 +1,5 @@
 ############################################################
-VERSION 1.0
+VERSION 1.0.0 09/06/19
 
 Gameplay changes: 
 
@@ -126,7 +126,7 @@ Peace Deal Changes:
 ############################################################
 ############################################################
 
-VERSION 1.1 "Arumba" Patch
+VERSION 1.1 "Arumba" Patch 05/07/2019
 
 Thank you to Arumba for pointing out several flaws in our initial release build.
 
@@ -224,12 +224,38 @@ Graphical changes:
 ############################################################
 ############################################################
 
-VERSION 1.2
 
-Added // new state edicts.
-Army Drill Gain Advisor bonus increased from 10% to -20%.
-Culture Conversion Cost Advisor bonus decreased from -25% to -15%.
-• Logistics ideas: Garrison size bonus decreased from 75% to 33%.
+VERSION 1.1.1 05/07/2019
+
+• Policy Balance Changes - Thanks to Fly_Pepper
+• Added a modifier to Scourge of the coast to add functionality to non-dlc users.
+• Added a global flag for increased modding compatability potential.
+• Reduced industrial ideas bonuses.
+
+VERSION 1.1.2 06/07/2019
+
+Idea Group Balance changes:
+• Logistics ideas garrison size bonus decreased from 75% to 33%.
+• Professionalism ideas free leader pool bonus decreased from 3 to 2.
+• Professionalism ideas general cost bonus decreased from -33% to -25%.
+• Professionalism ideas reserves organisation bonus decreased from 25% to 15%.
+• Bureaucratic ideas build time bonus increased from -25% to -33%.
+• Bureaucratic ideas advisor pool bonus decreased from 4 to 2.
+• Unity ideas warscore cost vs other religions bonus decreased from 25% to 20%.
+• Unity ideas global institution spread bonus decreased from 20% to 10%.
+• Logistics ideas global supply limit bonus decreased from 33% to 25%.
+• Logistics ideas loot amount bonus decreased from 75% to 33%.
+• Cultural ideas general cost bonus reduced from -25% to -20%.
+• Development ideas state maintenance modifier bonus increased from -10% to -15%.
+• Development ideas global institution spread bonus increased from 5% to 10%.
+• Internationalism ideas spy offence bonus increased from 25% to 33%.
+• Internationalism ideas diplomatic slots bonus decreased from 4 to 2.
+• Strategic ideas cavalry flanking bonus reduced from 75% to 25%
+• Strategic ideas reinforce cost modifier decreased from 50% to 33%.
+• Strategic ideas defensiveness bonus decreased from 33% to 25%.
+• Strategic ideas shock damage received bonus decreased from -20% to -10%.
+• Raiding ideas ordering altered. Scourage of the coast swapped with Rationing.
+• Raiding idea movement speed onto and off boats increased from 40% to 50%.
 
 
 
