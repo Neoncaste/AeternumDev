@@ -581,7 +581,7 @@ internationalism_ideas = {
 		spy_offence = 0.33
 	}
 	expanded_court = {
-		diplomatic_upkeep = 3
+		diplomatic_upkeep = 2
 	}
 
 	ai_will_do = {
