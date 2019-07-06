@@ -165,7 +165,7 @@ professionalism_ideas = {
 		discipline = 0.05
 	}
 	troop_rotation = {
-		reserves_organisation = 0.25
+		reserves_organisation = 0.15
 	}
 	military_academies = {
 		general_cost = -0.25
