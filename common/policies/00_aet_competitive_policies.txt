@@ -2,11 +2,11 @@ school_of_economics = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = competitive_ideas
+		has_idea_group = competitiveness_ideas
 		has_idea_group = innovativeness_ideas
 	}
 	allow = {
-		full_idea_group = competitive_ideas
+		full_idea_group = competitiveness_ideas
 		full_idea_group = innovativeness_ideas
 	}
 		
@@ -22,11 +22,11 @@ sanction_church_seizures_of_wealth = {
 	monarch_power = DIP
 
 	potential = {
-		has_idea_group = competitive_ideas
+		has_idea_group = competitiveness_ideas
 		has_idea_group = religious_ideas
 	}
 	allow = {
-		full_idea_group = competitive_ideas
+		full_idea_group = competitiveness_ideas
 		full_idea_group = religious_ideas
 	}
 		
@@ -53,11 +53,11 @@ regulate_moneylenders = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = competitive_ideas
+		has_idea_group = competitiveness_ideas
 		has_idea_group = economic_ideas
 	}
 	allow = {
-		full_idea_group = competitive_ideas
+		full_idea_group = competitiveness_ideas
 		full_idea_group = economic_ideas
 	}
 		
@@ -73,11 +73,11 @@ subsidise_private_ventures = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = competitive_ideas
+		has_idea_group = competitiveness_ideas
 		has_idea_group = expansion_ideas
 	}
 	allow = {
-		full_idea_group = competitive_ideas
+		full_idea_group = competitiveness_ideas
 		full_idea_group = expansion_ideas
 	}
 		
@@ -96,11 +96,11 @@ crush_government_nepotism = {
 	monarch_power = MIL
 
 	potential = {
-		has_idea_group = competitive_ideas
+		has_idea_group = competitiveness_ideas
 		has_idea_group = administrative_ideas
 	}
 	allow = {
-		full_idea_group = competitive_ideas
+		full_idea_group = competitiveness_ideas
 		full_idea_group = administrative_ideas
 	}
 		
@@ -122,11 +122,11 @@ patrol_trade_routes = {
 	monarch_power = DIP
 
 	potential = {
-		has_idea_group = competitive_ideas
+		has_idea_group = competitiveness_ideas
 		has_idea_group = humanist_ideas
 	}
 	allow = {
-		full_idea_group = competitive_ideas
+		full_idea_group = competitiveness_ideas
 		full_idea_group = humanist_ideas
 	}
 		
@@ -146,11 +146,11 @@ block_monopolising_mergers = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = competitive_ideas
+		has_idea_group = competitiveness_ideas
 		has_idea_group = bureaucratic_ideas
 	}
 	allow = {
-		full_idea_group = competitive_ideas
+		full_idea_group = competitiveness_ideas
 		full_idea_group = bureaucratic_ideas
 	}
 		
@@ -165,11 +165,11 @@ living_wage = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = competitive_ideas
+		has_idea_group = competitiveness_ideas
 		has_idea_group = industrial_ideas
 	}
 	allow = {
-		full_idea_group = competitive_ideas
+		full_idea_group = competitiveness_ideas
 		full_idea_group = industrial_ideas
 	}
 		
@@ -185,11 +185,11 @@ tax_relief_for_immigrants = {
 	monarch_power = DIP
 
 	potential = {
-		has_idea_group = competitive_ideas
+		has_idea_group = competitiveness_ideas
 		has_idea_group = cultural_ideas
 	}
 	allow = {
-		full_idea_group = competitive_ideas
+		full_idea_group = competitiveness_ideas
 		full_idea_group = cultural_ideas
 	}
 		
@@ -205,11 +205,11 @@ tenant_rights = {
 	monarch_power = MIL
 
 	potential = {
-		has_idea_group = competitive_ideas
+		has_idea_group = competitiveness_ideas
 		has_idea_group = development_ideas
 	}
 	allow = {
-		full_idea_group = competitive_ideas
+		full_idea_group = competitiveness_ideas
 		full_idea_group = development_ideas
 	}
 		

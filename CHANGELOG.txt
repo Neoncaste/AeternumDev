@@ -264,6 +264,11 @@ Idea Group Balance changes:
 • Raiding ideas ordering altered. Scourage of the coast swapped with Rationing.
 • Raiding idea movement speed onto and off boats increased from 40% to 50%.
 
+VERSION 1.1.2 hotfix 08/07/2019
+
+• Policies associated with Competitive ideas now function correctly.
+• Republican Tradition re-election cost reverted back to a base 10.
+
 
 
 
