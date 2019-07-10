@@ -310,5 +310,5 @@ Military Changes:
 • Base cavalry speed increased from 7 to 8.
 • Maximum ducats able to be looted per month increased from 5 to 6.
 • Warscore bonus upon completion of the wargoal increased from 5 to 8.
-• Province occupation status flipped by fort time increased from 30 to 60.
+• Province occupation status flipped by fort time increased from 30 days to 60.
 
