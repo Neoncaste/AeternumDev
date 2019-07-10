@@ -269,6 +269,46 @@ VERSION 1.1.2 hotfix 08/07/2019
 • Policies associated with Competitive ideas now function correctly.
 • Republican Tradition re-election cost reverted back to a base 10.
 
+VERSION 1.1.3
+
+Gameplay Changes:
+• Added [?] new state edicts.
+• States with an unaccepted culture now cost more to maintain. 
+• No longer able to convert culture in territories.
+• Corruption increase from debasing currency increased from 2 to 2.5.
+• Army Drill Gain Advisor bonus increased from 10% to -20%.
+• Culture Conversion Cost Advisor bonus decreased from -25% to -15%.
+• Logistics ideas: Garrison size bonus decreased from 75% to 33%.
+• Reducing war exhaustion now decreases it by 2.5 up from 2.
+• Advisor cost increase per year slightly boosted from 0.005 to 0.006.
+• Advisor promotion cost increased from 60 months salary to 70.
+• Merchant republic size limit increased from 20 to 22.
+• Cost to remove accepted culture increased from 10 to 25.
+• Liberty desire from historical rival modifier decreased from 50 to 40.
+• Liberty desire from having over 300 development increased from 50 to 55.
+• Liberty desire lost from losing an independance war increased from -50 to -65.
+• Max colonies before forming a colonial nation increased from 4 to 6.
+• Default autonomy after diplo-annex decreased from 60 to 30.
+• Default autonomy after conquest increased from 50 to 75.
+• Default autonomy after conquest of a core increased from 0 to 10.
+
+Economic Changes:
+• Devastation level in provinces after bankruptcy declaration increased from 10 to 15.
+• Maximum price a province can be sold for increased from 100 to 200.
+• Merchant speed decreased from 20 to 15.
+• Base embargo efficiency decreased from 0.50 to 0.33
+• Maximum mercantilism embargo efficiency boost decreased from 50% to 33%.
+• Maximum build progress percentage to recover full cost when cancelling increased from 10% to 15%. 
+• Prestige cost to downgrade a centre of trade increased from -10 to -20.
 
 
+Military Changes:
+• Combat dice limited to a maximum roll of 6.
+• Base siege attrition further reduced from 0.95 to 0.80.
+• Deaths upon a disease during a siege increased from 5% to 8%.
+• Base defender loss rate during a siege assault increased from 5% to 12%.
+• Base cavalry speed increased from 7 to 8.
+• Maximum ducats able to be looted per month increased from 5 to 6.
+• Warscore bonus upon completion of the wargoal increased from 5 to 8.
+• Province occupation status flipped by fort time increased from 30 to 60.
 
