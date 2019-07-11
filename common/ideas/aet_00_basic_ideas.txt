@@ -575,7 +575,7 @@ internationalism_ideas = {
 		power_projection_from_insults = 0.15
 	}
 	integrated_governments = {
-		liberty_desire = -15
+		reduced_liberty_desire = 15
 	}
 	double_agents = {
 		spy_offence = 0.33
