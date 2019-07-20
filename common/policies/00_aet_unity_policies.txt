@@ -29,7 +29,7 @@ enlarge_clergy = {
 		full_idea_group = religious_ideas
 	}
 		
-	missionaries = 2
+	missionaries = 1
 		
 	ai_will_do = {
 		factor = 1
@@ -59,7 +59,7 @@ communion_tax = {
 		full_idea_group = economic_ideas
 	}
 		
-	global_tax_modifier = 0.20
+	missionary_maintenance_cost = -0.20
 		
 	ai_will_do = {
 		factor = 2
@@ -78,7 +78,7 @@ expansion_doctrine = {
 		full_idea_group = expansion_ideas
 	}
 		
-	core_creation = -0.15
+	native_assimilation = 0.33
 		
 	ai_will_do = {
 		factor = 1
@@ -101,7 +101,7 @@ local_representation = {
 		full_idea_group = administrative_ideas
 	}
 		
-	global_unrest = -3
+	global_unrest = -1
 		
 	ai_will_do = {
 		factor = 1		
@@ -124,7 +124,7 @@ eradicate_persecution = {
 		full_idea_group = humanist_ideas
 	}
 		
-	stability_cost_modifier = -0.33
+	development_cost = -0.05
 		
 	ai_will_do = {
 		factor = 1		
@@ -148,7 +148,7 @@ positive_discrimination = {
 	}
 		
 	advisor_pool = 1
-	global_unrest = -1
+	free_leader_pool = 1
 		
 	ai_will_do = {
 		factor = 1
@@ -167,8 +167,7 @@ desegregate_regiments = {
 		full_idea_group = industrial_ideas
 	}
 		
-	discipline = 0.03
-	land_morale = 0.05
+	discipline = 0.025
 		
 	ai_will_do = {
 		factor = 1.5
@@ -192,7 +191,6 @@ harmonious_society = {
 	monthly_piety = 0.1
 	monthly_karma = 0.1
 	papal_influence = 0.5
-	administrative_efficiency = 0.05
 		
 	ai_will_do = {
 		factor = 1
@@ -211,7 +209,7 @@ dismantle_ghettos = {
 		full_idea_group = development_ideas
 	}
 		
-	idea_cost = -0.15
+	idea_cost = -0.10
 		
 	ai_will_do = {
 		factor = 1

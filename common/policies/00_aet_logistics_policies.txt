@@ -10,8 +10,8 @@ increased_fortification_budget = {
 		full_idea_group = innovativeness_ideas
 	}
 		
-	fort_maintenance_modifier = -0.1
-	garrison_size = 0.1
+	garrison_size = 0.33
+	harsh_treatment_cost = -0.33
 		
 	ai_will_do = {
 		factor = 1
@@ -38,8 +38,8 @@ church_funding = {
 		full_idea_group = religious_ideas
 	}
 		
-	build_cost = -0.15
-	development_cost = -0.05
+	missionaries = 1
+	land_morale = 0.05
 		
 	ai_will_do = {
 		factor = 1
@@ -91,7 +91,7 @@ scientific_expeditions = {
 	}
 		
 	institution_spread_from_true_faith = 0.15
-	technology_cost = -0.05
+	idea_cost = -0.05
 		
 	ai_will_do = {
 		factor = 1
@@ -118,8 +118,8 @@ regular_standards_testing = {
 		full_idea_group = administrative_ideas
 	}
 		
-	drill_decay_modifier = -0.25
-	army_tradition_from_battle = 0.05
+	drill_gain_modifier = 0.20
+	movement_speed = 0.025
 		
 	ai_will_do = {
 		factor = 1		
@@ -175,7 +175,7 @@ central_war_planning = {
 	}
 		
 	leader_land_manuever = 1
-	blockade_efficiency = 0.20
+	movement_speed = 0.025
 		
 	ai_will_do = {
 		factor = 1.5
@@ -194,8 +194,8 @@ production_lines = {
 		full_idea_group = industrial_ideas
 	}
 		
-	caravan_power = 0.2
-	trade_efficiency = 0.15
+	trade_efficiency = 0.10
+	artillery_cost = -0.20
 		
 	ai_will_do = {
 		factor = 1		
@@ -218,7 +218,7 @@ road_building_program = {
 		full_idea_group = cultural_ideas
 	}
 		
-	culture_conversion_cost = -0.20
+	global_autonomy = -0.05
 	harsh_treatment_cost = -0.25
 		
 	ai_will_do = {
@@ -243,7 +243,7 @@ hoard_ocean_riches = {
 	}
 		
 	global_ship_repair = 0.33
-	naval_tradition_from_trade = 0.2
+	naval_tradition_from_trade = 0.20
 		
 	ai_will_do = {
 		factor = 1
@@ -275,13 +275,14 @@ steal_enemy_plans = {
 	}
 		
 	leader_land_shock = 1
+	hostile_attrition = 0.5
 		
 	ai_will_do = {
 		factor = 2		
 		}
 	}
 
-diplomatic_immunity = {
+diplomatic_channels = {
 	monarch_power = DIP
 
 	potential = {
@@ -293,8 +294,8 @@ diplomatic_immunity = {
 		full_idea_group = diplomatic_ideas
 	}
 		
-	diplomatic_upkeep = 1
-	fabricate_claims_cost= -0.33
+	discovered_relations_impact = -0.50
+	fabricate_claims_cost= -0.20
 		
 	ai_will_do = {
 		factor = 1	
@@ -349,8 +350,8 @@ expedition_fleets = {
 		full_idea_group = exploration_ideas
 	}
 		
-	transport_cost = -0.50
-	transport_power = 0.25
+	movement_speed_onto_off_boat_modifier = -0.25
+	transport_power = 0.50
 		
 	ai_will_do = {
 		factor = 1		
@@ -407,9 +408,9 @@ recruit_from_foreign_universities = {
 		full_idea_group = logistics_ideas
 		full_idea_group = influence_ideas
 	}
-		
-	advisor_cost = -0.25
-	prestige = 0.5
+	
+	envoy_travel_time = -0.33
+	advisor_cost = -0.10
 		
 	ai_will_do = {
 		factor = 1		
@@ -461,7 +462,7 @@ one_nation_policy = {
 	}
 		
 	global_missionary_strength = 0.02
-	enforce_religion_cost = -0.5
+	enforce_religion_cost = -0.25
 		
 	ai_will_do = {
 		factor = 1		
@@ -516,7 +517,7 @@ study_foreign_policies = {
 	}
 		
 	global_autonomy = -0.05
-	max_states = 5
+	max_states = 3
 		
 	ai_will_do = {
 		factor = 1		

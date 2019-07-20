@@ -10,7 +10,6 @@ protectionist_policy = {
 		full_idea_group = bureaucratic_ideas
 	}
 		
-	technology_cost = -0.05
 	merchants = 1
 		
 	ai_will_do = {
@@ -38,8 +37,8 @@ employ_foreign_troops = {
 		full_idea_group = industrial_ideas
 	}
 		
-	mercenary_discipline = 0.10
-	possible_mercenaries = 0.5
+	mercenary_discipline = 0.05
+	possible_mercenaries = 0.33
 		
 	ai_will_do = {
 		factor = 1		
@@ -66,7 +65,7 @@ empower_influential_families = {
 		full_idea_group = cultural_ideas
 	}
 		
-	advisor_cost = -0.15
+	heir_chance = 0.50
 	female_advisor_chance = 0.33
 		
 	ai_will_do = {
@@ -90,9 +89,8 @@ private_investors_in_government_projects = {
 		full_idea_group = development_ideas
 	}
 		
-	build_cost = -0.1
-	build_time = -0.1
-	state_maintenance_modifier = -0.05
+	build_cost = -0.10
+	build_time = -0.15
 		
 	ai_will_do = {
 		factor = 1
@@ -124,7 +122,7 @@ traditional_officer_families = {
 	}
 		
 	cavalry_cost = -0.15
-	cavalry_flanking = 0.15
+	cavalry_flanking = 0.25
 		
 	ai_will_do = {
 		factor = 1
@@ -155,8 +153,8 @@ devolved_government = {
 		full_idea_group = unity_ideas
 	}
 		
-	advisor_pool = 3
-	stability_cost_modifier = -0.1
+	advisor_pool = 2
+	stability_cost_modifier = -0.10
 		
 	ai_will_do = {
 		factor = 1

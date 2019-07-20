@@ -10,8 +10,8 @@ church_grants = {
 		full_idea_group = bureaucratic_ideas
 	}
 		
-	state_maintenance_modifier = -0.15
-	global_missionary_strength = 0.03
+	state_maintenance_modifier = -0.20
+	culture_conversion_cost = -0.15
 		
 	ai_will_do = {
 		factor = 1
@@ -30,7 +30,7 @@ seize_resource_stockpiles = {
 		full_idea_group = industrial_ideas
 	}
 		
-	raze_power_gain = 0.33
+	artillery_power = 0.10
 	leader_siege = 1
 		
 	ai_will_do = {
@@ -50,7 +50,7 @@ standardise_communication = {
 		full_idea_group = cultural_ideas
 	}
 		
-	culture_conversion_cost = -0.25
+	prestige = 1
 	legitimacy = 1
 	republican_tradition = 0.5
 	devotion = 1
@@ -78,8 +78,7 @@ recruitment_drive = {
 		full_idea_group = development_ideas
 	}
 		
-	free_mil_policy = 1
-	global_manpower_modifier = 0.1
+	global_manpower_modifier = 0.33
 		
 	ai_will_do = {
 		factor = 1
@@ -98,8 +97,8 @@ foreign_legion = {
 		full_idea_group = imperial_ideas
 	}
 		
-	discipline = 0.05
-	siege_ability = 0.05
+	merc_maintenance_modifier = -0.20
+	mercenary_discipline = 0.05
 		
 	ai_will_do = {
 		factor = 2
@@ -119,7 +118,7 @@ declare_free_trade = {
 	}
 		
 	global_tax_modifier = 0.10
-	production_efficiency = 0.10
+	production_efficiency = 0.05
 		
 	ai_will_do = {
 		factor = 1
@@ -138,7 +137,7 @@ blackmail_foreign_scientists = {
 		full_idea_group = competitiveness_ideas
 	}
 		
-	technology_cost = -0.1 
+	technology_cost = -0.10
 		
 	ai_will_do = {		
 		factor = 2
@@ -157,8 +156,8 @@ diversify_sphere_of_influence_economy = {
 		full_idea_group = internationalism_ideas
 	}
 		
-	vassal_income = 0.2
-	diplomatic_upkeep = 1
+	vassal_income = 0.20
+	vassal_forcelimit_bonus = 0.10
 		
 	ai_will_do = {
 		factor = 1

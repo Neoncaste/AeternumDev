@@ -72,7 +72,7 @@ impressment_of_engineers = {
 		full_idea_group = economic_ideas
 	}
 		
-	galley_cost = -0.25
+	sailor_maintenance_modifer = -0.15
 		
 	ai_will_do = {
 		factor = 1
@@ -135,6 +135,7 @@ naval_academy = {
 	}
 		
 	admiral_cost = -0.25
+	free_leader_pool = 1
 		
 	ai_will_do = {
 		factor = 1
@@ -196,7 +197,8 @@ naval_council = {
 		full_idea_group = bureaucratic_ideas
 	}
 		
-	dip_advisor_cost = -0.33
+	dip_advisor_cost = -0.10
+	naval_forcelimit_modifier = 0.05
 		
 	ai_will_do = {
 		factor = 1
@@ -227,7 +229,7 @@ economic_privateers = {
 		full_idea_group = industrial_ideas
 	}
 		
-	production_efficiency = 0.15
+	global_foreign_trade_power = 0.15
 		
 	ai_will_do = {
 		factor = 1
@@ -277,7 +279,7 @@ influence_in_global_ports = {
 	}
 }
 
-foreign_informers = {
+foreign_sabotage = {
 	monarch_power = MIL
 
 	potential = {
@@ -289,7 +291,8 @@ foreign_informers = {
 		full_idea_group = development_ideas
 	}
 		
-	loot_amount = 0.33
+	spy_offence = 0.25
+	global_spy_defence = 0.25
 		
 	ai_will_do = {
 		factor = 1
@@ -320,7 +323,7 @@ targeting_of_wagon_trains = {
 		full_idea_group = spy_ideas
 	}
 		
-	hostile_attrition = 1.5
+	hostile_attrition = 1.0
 		
 	ai_will_do = {
 		factor = 1
@@ -351,7 +354,8 @@ smuggling_routes = {
 		full_idea_group = diplomatic_ideas
 	}
 		
-	envoy_travel_time = -0.2 
+	envoy_travel_time = -0.20
+	global_tax_modifier = 0.10
 		
 	ai_will_do = {
 		factor = 1
@@ -383,7 +387,6 @@ tariff_avoidance = {
 	}
 		
 	trade_goods_size_modifier = 0.10
-	global_tax_income = 0.10
 		
 	ai_will_do = {
 		factor = 1
@@ -476,7 +479,7 @@ standardised_signals = {
 		full_idea_group = influence_ideas
 	}
 		
-	sunk_ship_morale_hit_recieved = -0.1
+	sunk_ship_morale_hit_recieved = -0.25
 		
 	ai_will_do = {
 		factor = 1
@@ -508,7 +511,6 @@ state_sponsored_piracy = {
 	}
 		
 	trade_power_in_fleet_modifier = 1 #flagship fleet only
-	global_tax_income = 0.10
 		
 	ai_will_do = {
 		factor = 1
@@ -539,7 +541,7 @@ false_flag_policy = {
 		full_idea_group = unity_ideas
 	}
 		
-	justify_trade_conflict_cost = -0.33
+	justify_trade_conflict_cost = -0.75
 		
 	ai_will_do = {
 		factor = 1
@@ -570,7 +572,7 @@ headhunting_of_foreign_talent = {
 		full_idea_group = competitiveness_ideas
 	}
 		
-	innovativeness_gain = 1
+	innovativeness_gain = 0.50
 		
 	ai_will_do = {
 		factor = 1

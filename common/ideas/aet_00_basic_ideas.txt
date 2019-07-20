@@ -11,30 +11,32 @@ imperial_ideas = {
 	category = DIP
 
 	bonus = {
-		reduced_liberty_desire = 25
+		state_maintenance_modifier = -0.15
+		global_autonomy = -0.05
 	}
 
 	place_in_the_sun = {
-		range = 0.33
-	}
-	military_growth = {
-		global_regiment_cost = -0.15
-	}
-	administrative_expansion = {
-		max_states = 10
-	}
-	propaganda = {
-		global_manpower_modifier = 0.20
-	}
-	colonial_elite = {
-		advisor_cost = -0.10
-	}
-	foreign_office = {
-		diplomats = 1
-		spy_offence = 0.25
+		prestige = 0.5
 	}
 	colonial_garrison = {
-		land_maintenance_modifier = -0.15
+		land_maintenance_modifier = -0.05
+		army_tradition_decay = -0.01
+	}
+	imperial_household = {
+		prestige_decay = -0.01
+	}
+	foreign_office = {
+		global_regiment_cost = -0.1
+	}
+	administrative_expansion = {
+		core_creation = -0.1
+	}
+	intelligence_services = {
+		discovered_relations_impact = -0.50
+		spy_offence = 0.2
+	}
+	propaganda = {
+		max_states = 5
 	}
 
 	ai_will_do = {
@@ -127,7 +129,7 @@ imperial_ideas = {
 			num_of_ports = 20
 		}
 		modifier = {
-			factor = 1000
+			factor = 20
 			OR = {
 				tag = POR
 				tag = CAS
@@ -147,34 +149,37 @@ imperial_ideas = {
 	}
 }
 
-
 professionalism_ideas = {
 	category = MIL
 
 	bonus = {
-		yearly_army_professionalism = 0.01
+		drill_decay_modifier = -0.33
 	}
 
-	baggage_trains = {
-		movement_speed = 0.05
-	}
-	comissioned_officers = {
-		free_leader_pool = 2
-	}
 	oath_of_allegiance = {
-		discipline = 0.05
+		discipline = 0.025
+		army_tradition_decay = -0.1
+	}
+	baggage_trains = {
+		movement_speed = 0.10
 	}
 	troop_rotation = {
-		reserves_organisation = 0.15
+		land_morale = 0.1
 	}
 	military_academies = {
-		general_cost = -0.25
+		general_cost = -0.10
+		leader_siege = 1
+	}
+	comissioned_officers = {
+		yearly_army_professionalism = 0.005
+		army_tradition = 0.25
 	}
 	border_fortifications = {
-		rival_border_fort_maintenance = -0.50
+		
+		fort_maintenance_modifier = -0.10
 	}
 	martial_tradition = {
-		drill_decay_modifier = -0.33
+		free_leader_pool = 1
 	}
 
 	ai_will_do = {
@@ -191,37 +196,36 @@ bureaucratic_ideas = {
 	category = ADM
 
 	bonus = {
-		war_taxes_cost_modifier = -1.0
+		war_taxes_cost_modifier = -0.80
 	}
 
-	government_grants = {
-		build_time = -0.33
-	}
 	regional_governors = {
-		min_autonomy_in_territories = -0.15
+		global_autonomy = -0.05
+		min_autonomy_in_territories = -0.25
 	}
 	political_class = {
-		adm_advisor_cost = -0.25
-	}
-	splendid_court = {
-	 	advisor_pool = 2
-	}
-	local_councils = {
-		development_cost = -0.05
-	}
-	contraction_economics = {
-		inflation_action_cost = -0.5
+		advisor_cost = -0.15
+		advisor_pool = 2
 	}
 	adaptive_administration = {
-		embracement_cost = -0.33
+		claim_duration = 0.33
+	}
+	government_grants = {
+		administrative_efficiency = 0.05
+	}
+	contraction_economics = {
+		build_time = -0.25
+	}
+	local_councils = {
+		global_tax_modifier = 0.05
+		idea_cost = -0.05
+	}
+	splendid_court = {
+		yearly_corruption = -0.10
 	}
 
 	ai_will_do = {
 		factor = 1
-		modifier = {
-			factor = 2
-			is_part_of_hre = yes
-		}
 		modifier = {
 			factor = 2
 			num_of_cities = 20
@@ -240,38 +244,63 @@ industrial_ideas = {
 	 	caravan_power = 0.25
 	}
 
-	competitive_economy = {
-		embargo_efficiency = 0.15
+	rapid_industrialisation = {
+		build_cost = -0.20
 	}
-	businessmen = {
-		merchants = 2
+	competitive_economy = {
+		ship_power_propagation = 0.2
 	}
 	corporate_espionage = {
 		spy_offence = 0.2
 	}
 	workhouses = {
-	 	global_unrest = 2
-		stability_cost_modifier = 0.10
+	 	global_unrest = -1
 	}
 	large_scale_industry = {
-		global_trade_goods_size_modifier = 0.20
+		global_trade_goods_size_modifier = 0.15
 	}
 	machinery = {
-		production_efficiency = 0.20
+		production_efficiency = 0.10
 	}
-	rapid_industrialisation = {
-		build_cost = -0.1
+	businessmen = {
+		merchants = 1
+		trade_steering = 0.05
 	}
 
 	ai_will_do = {
-		factor = 2
+		factor = 1
 		modifier = {
 			factor = 10
-			tag = GBR
+			OR = {
+				tag = GER
+				tag = ENG
+				tag = GBR
+				tag = NED
+				tag = PRU
+				tag = BRA
+			}
 		}
 		modifier = {
-			factor = 2
-			num_of_cities = 50
+			factor = 7
+			OR = {
+				tag = NED
+				tag = HAM
+				tag = FLA
+				tag = HOL
+				tag = BRB
+				tag = UTR
+				tag = FRI
+				tag = GEL
+			}
+		}
+		modifier = {
+			factor = 4
+			OR = {
+				tag = FRA
+				tag = HAB
+				tag = BOH
+				tag = SCA
+			}
 		}
 	}
 }
@@ -280,26 +309,31 @@ unity_ideas = {
 	category = DIP
 	
 	bonus = {
-	 	global_autonomy = -0.05
+	 	innovativeness_gain = 0.5
 	}
 	
 	national_spirit = {
-		global_spy_defence = 0.50
+		global_unrest = -1
+		global_autonomy = -0.025
 	}
 	homogeneous_beliefs = {
 		warscore_cost_vs_other_religion = -0.20 
 	}
 	language_standardisation = {
-		global_institution_spread = 0.10
+		embracement_cost = -0.05
+		diplomatic_annexation_cost = -0.15
 	}
 	internal_talent = {
-	 	same_culture_advisor_cost = -0.15
+		same_culture_advisor_cost = -0.15
+		promote_culture_cost = -0.15
 	}
 	official_religion = {
-		religious_unity = 0.25
+		religious_unity = 0.15
+		global_missionary_strength = 0.01
 	}
-	import_tax = {
-		global_own_trade_power = 0.15
+	aggressive_conversion = {
+		institution_spread_from_true_faith = 0.10
+		enforce_religion_cost = -0.25
 	}
 	assimiliation = {
 		years_of_nationalism = -10
@@ -318,112 +352,158 @@ logistics_ideas = {
 	category = MIL
 	
 	bonus = {
-	 	fort_maintenance_modifier = -0.33
+        infantry_power = 0.1
 	}
 
 	military_granaries = {
-		global_supply_limit_modifier = 0.25
+		global_supply_limit_modifier = 0.33
 	}
-	unrestricted_warfare = {
-		loot_amount = 0.33
+	conscription = {
+		manpower_recovery_speed = 0.15
 	}
 	regional_levies = {
 		land_forcelimit_modifier = 0.20
 	}
 	quality_rations = {
-		recover_army_morale_speed = 0.15
+		land_attrition = -0.20
 	}
 	general_staff = {
-		mil_advisor_cost = -0.25
+		siege_ability = 0.1
 	}
 	reserves = {
-		garrison_size = 0.33
+		defensiveness = 0.15
 	}
-	supply_ships = {
-		naval_attrition = -0.20
+	ministry_of_defence = {
+		fort_maintenance_modifier = -0.25
 	}
 
 	ai_will_do = {
 		factor = 2
+		modifier = {
+			factor = 4
+			capital_scope = {
+					region = bengal_region
+					region = coromandel_region
+					region = deccan_region
+					region = hindustan_region
+					region = western_india_region
+					region = persia_region
+					region = khoransan_region
+					region = anatolia_region
+					region = arabia_region
+					region = caucasia_region
+					region = mashriq_region
+				}
+			}
+		}
 	}
-}
 
 cultural_ideas = {
 	category = ADM
 	
 	bonus = {
-	 	religious_unity = 0.33
+	 	religious_unity = 0.25
 	}
-
 	open_leadership = {
-		general_cost = -0.20
+		advisor_pool = 2
 	}
-	international_influence = {
-		rebel_support_efficiency = 0.33
+	integration_policies = {
+		culture_conversion_cost = -0.25
+	}
+	one_culture = {
+		stability_cost_modifier = -0.10
 	}
 	public_service = {
-		autonomy_change_time = -0.33
+		prestige_decay = -0.01
+		monthly_splendor = 1
 	}
 	multi_ethnic_bureaucrats = {
-		free_dip_policy = 1
+		embracement_cost = -0.10
+		global_institution_spread = 0.10
 	}
 	tolerant_society = {
-		num_accepted_cultures = 5
+		num_accepted_cultures = 3
+		tolerance_heretic = 1
 	}
-	guaranteed_rights = {
-		years_of_nationalism = -5
-	}
-	integrationist_policies = {
-		promote_culture_cost = -0.33
+	international_influence= {
+		ae_impact = -0.15
 	}
 
 	ai_will_do = {
 		factor = 2
+		modifier = {
+			factor = 4
+			OR = {
+				tag = TUR #ottomans
+				tag = TIM
+				tag = RUS
+				tag = MOS
+				tag = LIT
+				tag = POL
+				tag = PLC
+				tag = ROM
+				tag = MNG
+				tag = QNG
+				tag = MAM
+			}
+		}
+		modifier = {
+			factor = 4
+			capital_scope = {
+					region = bengal_region
+					region = coromandel_region
+					region = deccan_region
+					region = hindustan_region
+					region = western_india_region
+					region = persia_region
+					region = khoransan_region
+					region = anatolia_region
+				}
+			}
+		}
 	}
-}
 
 competitiveness_ideas = {
 	category = DIP
 	
 	bonus = {
-	 	inflation_reduction = 0.1
+	 	production_efficiency = 0.10
 	}
 
-	undercutting = {
-		trade_steering = 0.33
-	}
-	targeted_boycotting = {
-		embargo_efficiency = 0.25
+	ship_money = {
+		light_ship_cost = -0.33
 	}
 	nationalised_trade_corporation = {
 		center_of_trade_upgrade_cost = -0.33
+		colonists = 1
 	}
-	pax_commercium = {
-		justify_trade_conflict_cost = -0.75
+	prestige_of_trade = {
+		prestige = 0.5
+		monthly_splendor = 1
 	}
 	maritime_patrols = {
-		own_coast_naval_combat_bonus = 1.0
+		global_ship_trade_power = 0.2
 	}
 	legal_codes = {
 		diplomatic_reputation = 1
+		merchants = 1
 	}
 	nation_of_opportunity = {
 		global_colonial_growth = 15 
+	}
+	undercutting = {
+		trade_steering = 0.33
 	}
 
 	ai_will_do = {
 		factor = 2
 		modifier = {
-			factor = 0
+			factor = 2
 			is_colonial_nation = yes
 		}
 		modifier = {
 			factor = 0
 			is_tribal = yes
-		}
-		modifier = {
-			factor = 0
-			is_subject = yes
 		}		
 		modifier = {
 			factor = 0
@@ -457,18 +537,6 @@ competitiveness_ideas = {
 		}
 		modifier = {
 			factor = 0.1
-			capital_scope = {
-				NOT = {
-					region = france_region
-					region = iberia_region
-					region = british_isles_region
-					region = low_countries_region
-				}
-			}
-			NOT = { technology_group = high_american }
-		}
-		modifier = {
-			factor = 0.1
 			NOT = { is_year = 1490 }
 			capital_scope = {
 				NOT = {
@@ -497,61 +565,37 @@ competitiveness_ideas = {
 			num_of_ports = 20
 		}
 		modifier = {
-			factor = 2
+			factor = 4
 			OR = {
-				tag = GBR
-				tag = NED
-				tag = ENG
-				tag = FRA
-				tag = POR
-				tag = CAS
-				tag = SPA
+				tag = MAM
+				tag = TUR
 				tag = MNG
 				tag = MLC
 				tag = BEI
 				tag = ZAN
 				tag = DEN
+				tag = SWE
+				tag = NOR
+				tag = ICE
 				tag = JAP
 				tag = AYU
+				tag = HOL
+				tag = BRI
+				tag = SAV
+				tag = KOR
+				tag = NOV
+				tag = POM
+				tag = TUS
+				tag = PER
+				tag = HSA
+				tag = GER
+				tag = HLR
+				tag = ITA
+				tag = GEN
 				tag = VEN
-				
+				tag = TER
 			}
 		}
-	}
-}
-
-development_ideas = {
-	category = ADM
-	
-	bonus = {
-	administrative_efficiency = 0.05
-	}
-
-	school_of_architecture = {
-		build_cost = -0.10
-	}
-	maintained_roads = {
-		development_cost = -0.10
-	}
-	flexible_policies = {
-		state_maintenance_modifier = -0.15
-	}
-	marketplace_of_ideas = {
-		innovativeness_gain = 0.5
-	}
-	non_discriminatory_trade_practices = {
-		trade_company_investment_cost = -0.25
-		native_assimilation = 0.25
-	}
-	bailouts = {
-		max_absolutism = 15
-	}
-	ministries = {
-		global_institution_spread = 0.10
-	}
-
-	ai_will_do = {
-		factor = 2
 	}
 }
 
@@ -564,24 +608,30 @@ internationalism_ideas = {
 
 	socialites = {
 		diplomats = 2
+		envoy_travel_time = -0.2
 	}
 	national_archives = {
-		claim_duration = 0.33
+		ae_impact = -0.10
+		core_creation = -0.05
 	}
 	adaptive_foreign_policy = {
-		rival_change_cost = -0.75
+		improve_relation_modifier = 0.25
+		diplomatic_annexation_cost = -0.10
 	}
-	deliberate_leaks = {
-		power_projection_from_insults = 0.15
+	mercenary_captains= {
+		merc_maintenance_modifier = -0.20
+		possible_condottieri = 0.33
 	}
 	integrated_governments = {
 		reduced_liberty_desire = 15
 	}
-	double_agents = {
-		spy_offence = 0.33
+	house_of_wisdom = {
+		technology_cost = -0.05
+		prestige_decay = -0.01
 	}
 	expanded_court = {
 		diplomatic_upkeep = 2
+		vassal_income = 0.15
 	}
 
 	ai_will_do = {
@@ -606,29 +656,31 @@ strategic_ideas = {
 	category = MIL
 	
 	bonus = {
-	 	leader_land_manuever = 1
+		leader_land_manuever = 1
+		movement_speed = 0.05
 	}
 
 	striking_force = {
-		cavalry_flanking = 0.25
+		cavalry_flanking = 0.50
 	}
 	militas = {
-		reinforce_cost_modifier = -0.33
+		manpower_recovery_speed = 0.20
 	}
-	unrelenting_fire = {
-		artillery_bonus_vs_fort = 1
+	field_hospitals = {
+		shock_damage_received = -0.10
 	}
 	storehouses = {
 		defensiveness = 0.25
 	}
-	doubled_watch = {
-		siege_blockade_progress = 1
+	attrition_warfare= {
+		hostile_attrition = 1
 	}
 	line_of_battle = {
-		global_naval_engagement_modifier = 0.25
+		global_naval_engagement_modifier = 0.20
+		siege_blockade_progress = 1
 	}
-	field_hospitals = {
-		shock_damage_received = -0.10
+	unrelenting_fire = {
+		artillery_bonus_vs_fort = 1
 	}
 
 	ai_will_do = {
@@ -640,21 +692,22 @@ raiding_ideas = {
 	category = MIL
 	
 	bonus = {
-	 	privateer_efficiency = 0.33
+	 	trade_steering = 0.10
 	}
 
 	impressment = {
 		capture_ship_chance = 0.25
+		global_tax_modifier = 0.05
 	}
 	rationing = {
-		naval_attrition = -0.15
+		naval_attrition = -0.20
 	}
 	scourge_of_the_coast = {
-		global_tax_modifier = 0.05
+		privateer_efficiency = 0.33
 		may_perform_slave_raid = yes
 	}
-	patrol_ships = {
-		blockade_efficiency = 0.20
+	pillage_and_plunder = {
+		loot_amount = 0.25
 	}
 	dedicated_drydocks = {
 		global_ship_cost = -0.15
@@ -663,6 +716,7 @@ raiding_ideas = {
 		movement_speed_onto_off_boat_modifier = -0.50
 	}
 	mortar_ships = {
+		siege_blockade_progress = 1
 		global_naval_barrage_cost = -0.33
 	}
 
@@ -689,7 +743,6 @@ raiding_ideas = {
 			factor = 0.31
 			num_of_cities = 50
 		}
-
 		modifier = {
 			factor = 10
 			OR = {
@@ -697,6 +750,98 @@ raiding_ideas = {
 				has_reform = pirate_kingdom
 				has_reform = war_against_the_world_government
 				has_reform = black_market_consortium_government
+				tag = MAM
+				tag = TUR
+				tag = MLC
+				tag = BEI
+				tag = ZAN
+				tag = NOR
+				tag = ICE
+				tag = VEN
+				tag = KNI
+				tag = NAX
+				tag = CYP
+				tag = MAL
+				tag = CRI
+				tag = TUN
+				tag = EGY
+				tag = TRP
+				tag = MOR
+				tag = FEZ
+				tag = ALG
+				tag = TLC
+				tag = AJU
+				tag = MKS
+				tag = MTR
+				tag = MSA
+				tag = TER
+			}
+		}
+	}
+}
+
+development_ideas = {
+	category = ADM
+	
+	bonus = {
+	administrative_efficiency = 0.05
+	}
+
+	school_of_architecture = {
+		build_cost = -0.10
+	}
+	public_services = {
+		development_cost = -0.20
+	}
+	flexible_policies = {
+		state_maintenance_modifier = -0.20
+	}
+	marketplace_of_ideas = {
+		technology_cost = -0.05
+	}
+	non_discriminatory_trade_practices = {
+		trade_company_investment_cost = -0.25
+		native_assimilation = 0.25
+	}
+	bailouts = {
+		prestige = 1
+	}
+	ministries = {
+		global_institution_spread = 0.10
+	}
+
+	ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 2
+			OR = {
+				tag = MAM
+				tag = TUR
+				tag = MNG
+				tag = MLC
+				tag = BEI
+				tag = ZAN
+				tag = DEN
+				tag = SWE
+				tag = NOR
+				tag = ICE
+				tag = JAP
+				tag = AYU
+				tag = HOL
+				tag = BRI
+				tag = SAV
+				tag = KOR
+				tag = NOV
+				tag = POM
+				tag = TUS
+				tag = PER
+				tag = HSA
+				tag = GER
+				tag = HLR
+				tag = ITA
+				tag = GEN
+				tag = VEN
+				tag = TER
 			}
 		}
 	}

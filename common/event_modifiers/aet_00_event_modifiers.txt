@@ -7,28 +7,25 @@
 #20-29 Development
 
 major_settlement = {
-	local_tax_modifier = 0.16
-	local_institution_spread = 0.25
-	local_friendly_movement_speed = 0.15
+	local_tax_modifier = 0.05
+	local_institution_spread = 0.10
 	local_build_time = -0.05
-	local_defensiveness = 0.075
-	local_unrest = 1
-	local_manpower_modifier = 0.2
-	trade_goods_size_modifier = 0.2
+	local_defensiveness = 0.05
+	local_unrest = 0.5
+	local_manpower_modifier = 0.10
+	trade_goods_size_modifier = 0.05
 }
 
 #30+ Development
 
 enormous_settlement = {
-	local_tax_modifier = 0.32
-	institution_growth = 0.50
-	local_friendly_movement_speed = 0.20
+	local_tax_modifier = 0.10
+	local_institution_spread = 0.20
 	local_build_time = -0.10
-	local_defensiveness = 0.15
-	local_unrest = 2
-	local_manpower_modifier = 0.3
-	province_trade_power_modifier = 0.16
-	trade_goods_size_modifier = 0.22
+	local_defensiveness = 0.10
+	local_unrest = 1
+	local_manpower_modifier = 0.20
+	trade_goods_size_modifier = 0.10
 }
 
 #MILITARY MODIIFERS

@@ -33,8 +33,7 @@ bread_and_steel = {
 		full_idea_group = industrial_ideas
 	}
 		
-	global_unrest = -2
-	legitimacy = 1
+	global_tax_modifier = 0.15
 		
 	ai_will_do = {
 		factor = 1		
@@ -61,8 +60,8 @@ expanded_legal_code = {
 		full_idea_group = cultural_ideas
 	}
 		
-	possible_dip_policy = 1
-	free_dip_policy = 1
+	global_unrest = -1
+	global_manpower_modifier = 0.05
 		
 	ai_will_do = {
 		factor = 1	
@@ -85,8 +84,8 @@ defence_of_vital_cities = {
 		full_idea_group = development_ideas
 	}
 		
-	garrison_size = 0.20
-	global_garrison_growth = 0.15
+	garrison_size = 0.33
+	global_garrison_growth = 0.50
 		
 	ai_will_do = {
 		factor = 1
@@ -110,7 +109,6 @@ learn_from_the_conquered = {
 	}
 		
 	fire_damage_received = -0.05
-	siege_ability = 0.10
 		
 	ai_will_do = {
 		factor = 1
@@ -142,7 +140,6 @@ the_cohesion_act = {
 	}
 		
 	global_heretic_missionary_strength = 0.05
-	missionaries = 1
 		
 	ai_will_do = {
 		factor = 1
@@ -192,7 +189,7 @@ permanent_representative = {
 	}
 		
 	envoy_travel_time = -0.2 
-	diplomatic_reputation = 1
+	prestige_decay = -0.01
 		
 	ai_will_do = {
 		factor = 1		

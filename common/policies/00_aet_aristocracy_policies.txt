@@ -29,9 +29,8 @@ family_patronage = {
 		full_idea_group = aristocracy_ideas
 		full_idea_group = industrial_ideas
 	}
-		
-	innovativeness_gain = 0.5 
-	all_power_cost = -0.02
+
+	innovativeness_gain = 0.5
 		
 	ai_will_do = {
 		factor = 1
@@ -51,7 +50,7 @@ foreign_court_connections = {
 	}
 		
 	diplomatic_reputation = 1
-	diplomats = 1
+	prestige_from_land = 1.0
 		
 	ai_will_do = {
 		factor = 1	
@@ -74,7 +73,7 @@ bursarys = {
 		full_idea_group = development_ideas
 	}
 		
-	prestige = 1
+	advisor_cost = -0.10
 	monthly_splendor = 1
 		
 	ai_will_do = {
@@ -94,9 +93,9 @@ hereditary_peers = {
 		full_idea_group = imperial_ideas
 	}
 		
-	army_tradition_decay = -0.1
-	monarch_admin_power = 1
-		
+	army_tradition_decay = -0.01
+	heir_chance = 1.00
+
 	ai_will_do = {
 		factor = 2
 	}
@@ -114,7 +113,7 @@ adapt_to_the_monarch = {
 		full_idea_group = unity_ideas
 	}
 		
-	institution_spread_from_true_faith = 0.1 
+	missionary_maintenance_cost = -0.25
 	culture_conversion_cost = -0.10
 		
 	ai_will_do = {
@@ -154,9 +153,13 @@ family_alliances = {
 		full_idea_group = internationalism_ideas
 	}
 		
-	heir_chance = 0.5
-	prestige = 0.5
-	monthly_support_heir_gain = 0.1
+	legitimacy = 1
+	republican_tradition = 0.5
+	devotion = 1
+	horde_unity = 1
+	meritocracy = 1
+	yearly_absolutism = 0.1
+
 		
 	ai_will_do = {
 		factor = 1

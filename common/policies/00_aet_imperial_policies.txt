@@ -10,8 +10,7 @@ claim_resurgence = {
 		full_idea_group = innovativeness_ideas
 	}
 		
-	ae_impact = -0.2
-	prestige_from_land = 0.15
+	prestige_from_land = 1
 		
 	ai_will_do = {
 		factor = 1
@@ -38,8 +37,7 @@ establish_imperial_inquisition = {
 		full_idea_group = religious_ideas
 	}
 		
-	warscore_cost_vs_other_religion = -0.25
-	prestige_per_development_from_conversion = 0.5
+	prestige_per_development_from_conversion = 0.50
 		
 	ai_will_do = {
 		factor = 1
@@ -69,8 +67,7 @@ establish_economic_forum = {
 		full_idea_group = economic_ideas
 	}
 		
-	trade_efficiency = 0.25
-	global_foreign_trade_power = 0.1
+	global_foreign_trade_power = 0.10
 		
 	ai_will_do = {
 		factor = 2
@@ -89,8 +86,7 @@ enlargement_policies = {
 		full_idea_group = expansion_ideas
 	}
 		
-	movement_speed = 0.1
-	siege_ability = 0.1
+	naval_morale = 0.20
 		
 	ai_will_do = {
 		factor = 1
@@ -113,7 +109,7 @@ no_backwaters_policy = {
 		full_idea_group = administrative_ideas
 	}
 		
-	max_states = 8
+	max_states = 2
 		
 	ai_will_do = {
 		factor = 1		
@@ -136,7 +132,7 @@ imperial_citizenship = {
 		full_idea_group = humanist_ideas
 	}
 		
-	num_accepted_cultures = 5
+	num_accepted_cultures = 2
 		
 	ai_will_do = {
 		factor = 1		
@@ -160,7 +156,6 @@ dominion_act = {
 	}
 		
 	naval_forcelimit_modifier = 0.33
-	land_forcelimit_modifier = 0.20
 		
 	ai_will_do = {
 		factor = 1
@@ -179,8 +174,7 @@ nationalised_foundries = {
 		full_idea_group = industrial_ideas
 	}
 		
-	artillery_cost = -0.25
-	fire_damage = 0.1
+	cavalry_cost = -0.20
 		
 	ai_will_do = {
 		factor = 1.5
@@ -199,8 +193,7 @@ bolster_act = {
 		full_idea_group = cultural_ideas
 	}
 		
-	mercenary_cost = -0.20
-	possible_mercenaries = 0.5
+	possible_mercenaries = 0.20
 		
 	ai_will_do = {
 		factor = 1	
@@ -222,7 +215,7 @@ inter_empire_trade = {
 		full_idea_group = development_ideas
 	}
 		
-	production_efficiency = 0.20
+	global_own_trade_power = 0.10 
 		
 	ai_will_do = {
 		factor = 1

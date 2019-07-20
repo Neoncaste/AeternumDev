@@ -10,7 +10,6 @@ modern_preservatives = {
 		full_idea_group = innovativeness_ideas
 	}
 		
-	movement_speed = 0.10
 	land_attrition = -0.10
 		
 	ai_will_do = {
@@ -66,7 +65,7 @@ assignment_of_war_loot = {
 		full_idea_group = economic_ideas
 	}
 		
-	war_exhaustion_cost = -0.20
+	war_exhaustion_cost = -0.25
 		
 	ai_will_do = {
 		factor = 1		
@@ -94,6 +93,7 @@ rapid_advancement_policy = {
 	}
 		
 	province_warscore_cost = -0.15
+	unjustified_demands = -0.05
 		
 	ai_will_do = {
 		factor = 1
@@ -120,7 +120,7 @@ foundation_of_occupational_administration = {
 		full_idea_group = administrative_ideas
 	}
 		
-	ae_impact = -0.15
+	ae_impact = -0.10
 		
 	ai_will_do = {
 		factor = 1		
@@ -147,7 +147,7 @@ autonomous_governments = {
 		full_idea_group = humanist_ideas
 	}
 		
-	vassal_forcelimit_bonus = 0.25
+	stability_cost_modifier = -0.10
 		
 	ai_will_do = {
 		factor = 1		
@@ -174,7 +174,7 @@ military_governors = {
 		full_idea_group = bureaucratic_ideas
 	}
 		
-	core_creation = -0.1
+	core_creation = -0.05
 		
 	ai_will_do = {
 		factor = 1		
@@ -201,8 +201,7 @@ artillery_foundries = {
 		full_idea_group = industrial_ideas
 	}
 		
-	backrow_artillery_damage = 0.1
-	artillery_cost = -0.1
+	backrow_artillery_damage = 0.10
 		
 	ai_will_do = {
 		factor = 1		
@@ -225,8 +224,7 @@ cultural_influence = {
 		full_idea_group = cultural_ideas
 	}
 		
-	monthly_support_heir_gain = 0.1
-	power_projection_from_insults = 0.33
+	power_projection_from_insults = 0.50
 		
 	ai_will_do = {
 		factor = 1	
@@ -249,7 +247,7 @@ foreign_informers = {
 		full_idea_group = development_ideas
 	}
 		
-	liberty_desire_from_subject_development = -0.10
+	liberty_desire_from_subject_development = -0.20
 		
 	ai_will_do = {
 		factor = 1
@@ -281,6 +279,7 @@ espionage_corps = {
 	}
 		
 	spy_offence = 0.25
+	global_spy_defence = 0.25
 		
 	ai_will_do = {
 		factor = 1			
@@ -307,7 +306,7 @@ continuity_of_military_council = {
 		full_idea_group = diplomatic_ideas
 	}
 		
-	stability_cost_modifier = -0.20
+	stability_cost_modifier = -0.10
 		
 	ai_will_do = {
 		factor = 1	
@@ -361,7 +360,7 @@ exploration_corps = {
 		full_idea_group = exploration_ideas
 	}
 		
-	army_tradition = 0.70
+	army_tradition = 1
 		
 	ai_will_do = {
 		factor = 1		
@@ -388,8 +387,8 @@ trade_escorts = {
 		full_idea_group = maritime_ideas
 	}
 		
-	light_ship_power = 0.2
-	naval_attrition = -0.1
+	light_ship_power = 0.20
+	naval_attrition = -0.10
 		
 	ai_will_do = {
 		factor = 1
@@ -439,7 +438,7 @@ recruitment_from_international_ports = {
 	}
 }
 
-state_sponsored_piracy = {
+contracted_privateers = {
 	monarch_power = DIP
 
 	potential = {
@@ -482,7 +481,7 @@ hearts_and_minds = {
 		full_idea_group = unity_ideas
 	}
 		
-	min_autonomy_in_territories = -0.15
+	min_autonomy_in_territories = -0.25
 		
 	ai_will_do = {
 		factor = 1		
@@ -509,7 +508,6 @@ trade_grants = {
 		full_idea_group = competitiveness_ideas
 	}
 		
-	merchants = 1
 	placed_merchant_power = 3
 		
 	ai_will_do = {		
@@ -537,7 +535,6 @@ seize_foreign_capital = {
 	}
 		
 	warscore_cost_vs_other_religion = -0.10
-	religious_unity = 0.20
 		
 	ai_will_do = {
 		factor = 1		
