@@ -1,6 +1,6 @@
 ﻿l_english:
- flavor_aet.EVTNAME0001:0 "Aeternum Alpha V1.1.2"
- flavor_aet.EVTDESC0001:0 "Thank you for playing Aeternum Alpha V1.1.2 - This latest update adds 180 additional policies to complement the 12 new idea groups. There are also many balance changes, code improvements & much more."
+ flavor_aet.EVTNAME0001:0 "Aeternum Alpha V1.1.3"
+ flavor_aet.EVTDESC0001:0 "Thank you for playing Aeternum Alpha V1.1.3 - This update includes a total rework of ideas and policies, alongside dozens of gameplay changes, improvements & new content."
  flavor_aet.EVTOPTA0001:0 "Continue."
  flavor_aet.EVTNAME0002:0 "Giant Among Nations"
  flavor_aet.EVTDESC0002:0 "Across the known world the nation is renowned for our strength and capabilities. With this newfound reputation, we can influence lesser states and bend them to our will."
@@ -17,3 +17,4 @@
  flavor_AETtur.EVTNAME0001:0 "We are victorious!"
  flavor_AETtur.EVTDESC0001:0 "With the capture of our primary goal, Konstantiyye, we can finally claim our place as the chosen followers of Allah. The false Caliphs to the south currently hold our rightful title of protectors of Islam. We must remedy this."
  flavor_AETtur.EVTOPTA0001:0 "We must turn our attention to the decaying false Caliphate in the south."
+ AET_CAN_MAKE_STATE:0 "All provinces must be an accepted culture to create a state."
