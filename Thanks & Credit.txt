@@ -1,7 +1,7 @@
 MOD TEAM:
 
 Lead Developer: Neoncaste
-Developer: Tommy9512
-Testing & Suggestions: Chav, Sholux, Liggo, Nophux1453.
+Developer: Sholux
+Testing & Suggestions: Chav, Liggo, Nophux1453, and Tommy9512.
 
 A huge thanks to wraithdt & ethicallychallenged for their incredible artwork that comprises the loading screens in Aeternum. Check out their work here: https://www.deviantart.com/wraithdt | https://www.deviantart.com/ethicallychallenged

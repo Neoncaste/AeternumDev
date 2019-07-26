@@ -1,4 +1,14 @@
 ############################################################
+
+
+
+
+FOR THE LATEST PATCH NOTES SEE THE BOTTOM OF THIS DOCUMENT.
+
+
+
+
+############################################################
 VERSION 1.0.0 09/06/19
 
 Gameplay changes: 
@@ -269,6 +279,65 @@ VERSION 1.1.2 hotfix 08/07/2019
 • Policies associated with Competitive ideas now function correctly.
 • Republican Tradition re-election cost reverted back to a base 10.
 
+############################################################
+############################################################
+############################################################
+############################################################
+############################################################
+############################################################
 
+VERSON 1.1.3 21/07/2019
+
+GAMEPLAY CHANGES:
+•Totally reworked & balanced the Aeternum idea groups.
+•Totally reworked & balanced the Aeternum policies.
+•Rebalanced development related province modifiers.
+•State maintenance unaccepted culture modifier increased from 0.25 to 0.33.
+•Reduce war exhaustion interaction impact increased from 2 to 3.
+•Advisor cost increase per year increased from 0.005 to 0.006
+•Cost to promote advisor increased from 60 months of salary to 70.
+•Merchant republic size limit increased from 20 to 22.
+•Cost to remove an accepted culture increased from 10 DIP to 25.
+•Number of colonies required to form a colonial nation increased from 5 to 7.
+
+DIPLOMATIC CHANGES:
+•Liberty desire modifier for being a historical rival decreased from 50 to 40.
+•Liberty desire for subjects with 300 development or more increased from 50 to 55.
+•Liberty desire modifier for losing an independence war increased from -50 to -65.
+•Autonomy in provinces upon diplo-annexing a nation decreased from 60 to 50.
+
+ECONOMIC CHANGES:
+•You are no longer able to debase your currency above 6 corruption.
+•Province devastation upon bankruptcy increased from 10 to 15.
+•Maximum province sale price increased from 100 to 200 ducats.
+•Merchant speed decreased from 20 to 15.
+•Base embargo efficiency decreased from 50 to 33.
+•Mercantilism embargo efficiency modifier decreased from 50 to 33.
+•Percent build progress able to cancel and recoup money increased from 10% to 15%
+•Prestige hit for downgrading a centre of trade increased from 10 to 20.
+
+MILITARY CHANGES:
+•Number of sides the combat dice has reduced from 10 to 9.
+•Base siege attrition reduced from 0.95 to 0.80.
+•Siege disease impact increased from 0.05 to 0.07.
+•Native ferocity impact increased from 0.05 to 0.06
+•Professionalism interactions balance tweaks.
+•Siege assault attacker loss decreased from 1.00 to 0.75.
+•Siege assault defender loss increased from 0.05 to 0.10.
+•Base cavalry movement speed increased from 0.7 to 0.75.
+•Number of days taken to flip a province’s control via fort increased from 30 to 60.
+•Autonomy in conquered provinces increased from 50 to 60.
+•Autonomy in conquered core provinces increased from 0 to 10.
+
+AI CHANGES:
+•AI scoring to give subsidies to nations fighting a threat increased from 40 to 60.
+•AI scoring to enforce peace increased from 1 to 1.20.
+•AI scoring to give subsidies to % occupied countries increased from 50% to 55%.
+•AI scoring to avoid going over their force limit increased from 10 to 20.
+•AI threshold for high war exhaustion increased from 10 to 15.
+•AI balance scoring for joining a battle decreased from 1.7 to 1.6.
+•AI balance scoring for joining an ally in combat decreased from 0.75 to 0.70.
+•AI scoring for developing a subject’s provinces decreased from 0.75 to 0.65.
+•AI balance scoring for calling in allies to a war decreased from 4.0 to 3.5.
 
 
