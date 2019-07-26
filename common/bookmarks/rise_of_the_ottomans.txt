@@ -9,8 +9,8 @@ bookmark =
 	
 	country = TUR
 	country = CAS
+	country = FRA	
 	country = POR	
-	country = FRA
 	country = ENG
 	country = HAB
 	country = BRA	
@@ -20,6 +20,6 @@ bookmark =
 	country = POL
 	
 	easy_country = CAS
-	easy_country = POR
+	easy_country = FRA
 	easy_country = TUR
 }

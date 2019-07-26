@@ -40,7 +40,7 @@ imperial_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 0.7
 		modifier = {
 			factor = 0
 			is_colonial_nation = yes
@@ -183,7 +183,7 @@ professionalism_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 0.7
 		modifier = {
 			factor = 2
 			technology_group = western
@@ -225,7 +225,7 @@ bureaucratic_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 0.7
 		modifier = {
 			factor = 2
 			num_of_cities = 20
@@ -268,7 +268,7 @@ industrial_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 0.7
 		modifier = {
 			factor = 10
 			OR = {
@@ -340,7 +340,7 @@ unity_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 2
+		factor = 0.7
 		modifier = {
 			factor = 2
 			num_of_cities = 50
@@ -378,7 +378,7 @@ logistics_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 2
+		factor = 0.7
 		modifier = {
 			factor = 4
 			capital_scope = {
@@ -430,7 +430,7 @@ cultural_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 2
+		factor = 0.7
 		modifier = {
 			factor = 4
 			OR = {
@@ -496,7 +496,7 @@ competitiveness_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 2
+		factor = 0.7
 		modifier = {
 			factor = 2
 			is_colonial_nation = yes
@@ -635,7 +635,7 @@ internationalism_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 0.7
 		modifier = {
 			factor = 2
 			is_part_of_hre = yes
@@ -684,7 +684,7 @@ strategic_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 2
+		factor = 0.7
 	}
 }
 
@@ -721,7 +721,7 @@ raiding_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 2
+		factor = 0.7
 		modifier = {
 			factor = 0
 			is_tribal = yes
@@ -811,7 +811,7 @@ development_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 2
+		factor = 0.7
 		modifier = {
 			factor = 2
 			OR = {
