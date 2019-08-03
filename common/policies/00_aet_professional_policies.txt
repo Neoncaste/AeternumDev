@@ -460,7 +460,7 @@ constituent_council = {
 		full_idea_group = unity_ideas
 	}
 		
-	reduced_liberty_desire = 0.20
+	reduced_liberty_desire = 20
 	claim_duration = 0.20
 		
 	ai_will_do = {
