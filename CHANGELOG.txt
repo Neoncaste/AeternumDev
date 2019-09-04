@@ -279,65 +279,46 @@ VERSION 1.1.2 hotfix 08/07/2019
 • Policies associated with Competitive ideas now function correctly.
 • Republican Tradition re-election cost reverted back to a base 10.
 
-############################################################
-############################################################
-############################################################
-############################################################
-############################################################
-############################################################
+VERSION 1.1.3
 
-VERSON 1.1.3 21/07/2019
+Gameplay Changes:
+• Added [?] new state edicts.
+• States with an unaccepted culture now cost more to maintain. 
+• No longer able to convert culture in territories.
+• Corruption increase from debasing currency increased from 2 to 2.5.
+• Army Drill Gain Advisor bonus increased from 10% to -20%.
+• Culture Conversion Cost Advisor bonus decreased from -25% to -15%.
+• Logistics ideas: Garrison size bonus decreased from 75% to 33%.
+• Reducing war exhaustion now decreases it by 2.5 up from 2.
+• Advisor cost increase per year slightly boosted from 0.005 to 0.006.
+• Advisor promotion cost increased from 60 months salary to 70.
+• Merchant republic size limit increased from 20 to 22.
+• Cost to remove accepted culture increased from 10 to 25.
+• Liberty desire from historical rival modifier decreased from 50 to 40.
+• Liberty desire from having over 300 development increased from 50 to 55.
+• Liberty desire lost from losing an independance war increased from -50 to -65.
+• Max colonies before forming a colonial nation increased from 4 to 6.
+• Default autonomy after diplo-annex decreased from 60 to 30.
+• Default autonomy after conquest increased from 50 to 75.
+• Default autonomy after conquest of a core increased from 0 to 10.
 
-GAMEPLAY CHANGES:
-•Totally reworked & balanced the Aeternum idea groups.
-•Totally reworked & balanced the Aeternum policies.
-•Rebalanced development related province modifiers.
-•State maintenance unaccepted culture modifier increased from 0.25 to 0.33.
-•Reduce war exhaustion interaction impact increased from 2 to 3.
-•Advisor cost increase per year increased from 0.005 to 0.006
-•Cost to promote advisor increased from 60 months of salary to 70.
-•Merchant republic size limit increased from 20 to 22.
-•Cost to remove an accepted culture increased from 10 DIP to 25.
-•Number of colonies required to form a colonial nation increased from 5 to 7.
+Economic Changes:
+• Devastation level in provinces after bankruptcy declaration increased from 10 to 15.
+• Maximum price a province can be sold for increased from 100 to 200.
+• Merchant speed decreased from 20 to 15.
+• Base embargo efficiency decreased from 0.50 to 0.33
+• Maximum mercantilism embargo efficiency boost decreased from 50% to 33%.
+• Maximum build progress percentage to recover full cost when cancelling increased from 10% to 15%. 
+• Prestige cost to downgrade a centre of trade increased from -10 to -20.
 
-DIPLOMATIC CHANGES:
-•Liberty desire modifier for being a historical rival decreased from 50 to 40.
-•Liberty desire for subjects with 300 development or more increased from 50 to 55.
-•Liberty desire modifier for losing an independence war increased from -50 to -65.
-•Autonomy in provinces upon diplo-annexing a nation decreased from 60 to 50.
 
-ECONOMIC CHANGES:
-•You are no longer able to debase your currency above 6 corruption.
-•Province devastation upon bankruptcy increased from 10 to 15.
-•Maximum province sale price increased from 100 to 200 ducats.
-•Merchant speed decreased from 20 to 15.
-•Base embargo efficiency decreased from 50 to 33.
-•Mercantilism embargo efficiency modifier decreased from 50 to 33.
-•Percent build progress able to cancel and recoup money increased from 10% to 15%
-•Prestige hit for downgrading a centre of trade increased from 10 to 20.
-
-MILITARY CHANGES:
-•Number of sides the combat dice has reduced from 10 to 9.
-•Base siege attrition reduced from 0.95 to 0.80.
-•Siege disease impact increased from 0.05 to 0.07.
-•Native ferocity impact increased from 0.05 to 0.06
-•Professionalism interactions balance tweaks.
-•Siege assault attacker loss decreased from 1.00 to 0.75.
-•Siege assault defender loss increased from 0.05 to 0.10.
-•Base cavalry movement speed increased from 0.7 to 0.75.
-•Number of days taken to flip a province’s control via fort increased from 30 to 60.
-•Autonomy in conquered provinces increased from 50 to 60.
-•Autonomy in conquered core provinces increased from 0 to 10.
-
-AI CHANGES:
-•AI scoring to give subsidies to nations fighting a threat increased from 40 to 60.
-•AI scoring to enforce peace increased from 1 to 1.20.
-•AI scoring to give subsidies to % occupied countries increased from 50% to 55%.
-•AI scoring to avoid going over their force limit increased from 10 to 20.
-•AI threshold for high war exhaustion increased from 10 to 15.
-•AI balance scoring for joining a battle decreased from 1.7 to 1.6.
-•AI balance scoring for joining an ally in combat decreased from 0.75 to 0.70.
-•AI scoring for developing a subject’s provinces decreased from 0.75 to 0.65.
-•AI balance scoring for calling in allies to a war decreased from 4.0 to 3.5.
-
+Military Changes:
+• Combat dice limited to a maximum roll of 6.
+• Base siege attrition further reduced from 0.95 to 0.80.
+• Deaths upon a disease during a siege increased from 5% to 8%.
+• Base defender loss rate during a siege assault increased from 5% to 12%.
+• Base cavalry speed increased from 7 to 8.
+• Maximum ducats able to be looted per month increased from 5 to 6.
+• Warscore bonus upon completion of the wargoal increased from 5 to 8.
+• Province occupation status flipped by fort time increased from 30 days to 60.
 
